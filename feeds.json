@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792880326909,
+ "updatedAt": 1792883806176,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】大型FATEはソロで倒せる？「完全ソロのワイにはFATEがエンドコンテンツ」「キャンサーはコツがあって良い位置に立てばソロできる」「レジーローレンスをソロしてきてほしい」",
+   "link": "https://yan-flash.com/articles/big-fate-solo-possible-or-not",
+   "date": 1792882842000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】FLで挟撃されたら「逃げる」か「敵中突破」か。「下がるんじゃなく三つ巴になる場所へ移動」「完全に挟まれたら壊滅するか突っ込むかしかない」",
    "link": "https://yan-flash.com/articles/fl-pincered-retreat-or-break-through",
    "date": 1792821600000,
@@ -675,13 +682,6 @@
    "title": "【FF14】フロントラインの「別働隊」と「リスキル」の境目はどこ？「追いかけて拠点に行く→問題ない 拠点に張り付く→通報」「個人的には単なる囮程度だと思ってる」",
    "link": "https://yan-flash.com/articles/ff14-frontline-flanking-vs-spawn-camping",
    "date": 1792119812000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「即シャキ」って何分まで？「1分以内は即シャキ 10分以上は待った」「CF入れた瞬間にシャキるのだけが即シャキだよなぁ？」",
-   "link": "https://yan-flash.com/articles/ff14-what-counts-as-instant-queue",
-   "date": 1792105403000,
    "img": ""
   }
  ]
