@@ -1,0 +1,16 @@
+{
+  "name": "エオルゼア便り",
+  "short_name": "エオルゼア便り",
+  "description": "FF14のまとめ記事と、公式・YouTube・X・5ch・Redditへの入口",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#141a2e",
+  "theme_color": "#141a2e",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
