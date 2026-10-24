@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>エオルゼア便り</title>
+<meta name="description" content="FF14の公式ニュース・動画・まとめ・攻略ブログを新しい順にまとめて読めるアプリ">
+<meta name="theme-color" content="#141a2e" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#eef1f7" media="(prefers-color-scheme: light)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* 片手操作の縦一列。上に見出し、下にタブ。記事は1行ずつのリスト */
+:root {
+  --bg: #eef1f7;
+  --surface: #ffffff;
+  --ink: #1b2236;
+  --muted: #5d6680;
+  --line: #d6dbe7;
+  --aether: #1f7a8c;      /* エーテル色：操作できるもの */
+  --gold: #a07a2c;        /* 新着の印・公式 */
+  --chip: #e2e8f2;
+  --video: #b0413e;       /* 動画の印 */
+  --font-display: "Cinzel", "Times New Roman", serif;
+  --font-body: "Zen Kaku Gothic New", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141a2e; --surface: #1c2440; --ink: #e6e9f2; --muted: #9aa3bd;
+    --line: #2c3657; --aether: #5fc7d6; --gold: #d8b25e; --chip: #263051; --video: #e07a72;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #141a2e; --surface: #1c2440; --ink: #e6e9f2; --muted: #9aa3bd;
+  --line: #2c3657; --aether: #5fc7d6; --gold: #d8b25e; --chip: #263051; --video: #e07a72;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 15px; line-height: 1.6;
+  -webkit-tap-highlight-color: transparent;
+  padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px));
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 10; background: var(--bg);
+}
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--aether); outline-offset: 2px; }
+
+.wrap {
+  max-width: 680px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+header.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--bg); border-bottom: 1px solid var(--line);
+}
+header.top .wrap { display: flex; align-items: center; gap: 12px; padding-block: 12px; }
+.brand { flex: 1; min-width: 0; }
+.brand h1 { margin: 0; font-size: 20px; font-weight: 700; letter-spacing: .02em; line-height: 1.3; }
+.brand .sub { font-family: var(--font-display); font-size: 11px; letter-spacing: .18em; color: var(--muted); }
+.refresh {
+  display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid var(--line); background: var(--surface); border-radius: 999px;
+  padding: 7px 14px; font-size: 13px; cursor: pointer; color: var(--aether); font-weight: 500;
+}
+.refresh svg { width: 16px; height: 16px; }
+.refresh.busy svg { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.status { font-size: 12px; color: var(--muted); padding-block: 10px 0; display: flex; gap: 4px 8px; flex-wrap: wrap; }
+.status .err { color: var(--gold); }
+
+.chips { display: flex; gap: 8px; overflow-x: auto; padding-block: 10px; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; border: 0; background: var(--chip); border-radius: 999px;
+  padding: 5px 14px; font-size: 13px; cursor: pointer; white-space: nowrap;
+}
+.chip[aria-pressed="true"] { background: var(--aether); color: var(--bg); font-weight: 500; }
+
+.list { list-style: none; margin: 0; padding: 0; }
+.item a {
+  display: grid; grid-template-columns: 96px 1fr; gap: 12px;
+  padding-block: 12px; border-bottom: 1px solid var(--line);
+}
+.thumb {
+  width: 96px; aspect-ratio: 16 / 9; max-width: 100%; border-radius: 6px;
+  background: var(--chip); object-fit: cover; display: grid; place-items: center;
+  color: var(--muted); font-size: 12px; overflow: hidden;
+}
+.item .body { min-width: 0; display: flex; flex-direction: column; gap: 4px; }
+.item .title {
+  font-size: 14.5px; font-weight: 500; line-height: 1.5;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.item.read .title { color: var(--muted); font-weight: 400; }
+.meta { font-size: 12px; color: var(--muted); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-variant-numeric: tabular-nums; }
+.new { color: var(--gold); font-weight: 700; letter-spacing: .06em; font-size: 11px; }
+.src { border: 1px solid var(--line); border-radius: 4px; padding: 0 6px; }
+.src.k-official { border-color: var(--gold); color: var(--gold); }
+.src.k-video { border-color: var(--video); color: var(--video); }
+
+.empty { color: var(--muted); padding-block: 40px; text-align: center; }
+
+section.links h2 {
+  font-size: 13px; color: var(--muted); font-weight: 500; letter-spacing: .08em;
+  margin: 20px 0 8px;
+}
+.linkgrid { display: grid; gap: 8px; }
+.link {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  padding: 12px 14px;
+}
+.link .ic {
+  flex: none; width: 34px; height: 34px; border-radius: 8px; display: grid; place-items: center;
+  background: var(--chip); color: var(--aether); font-weight: 700; font-size: 13px;
+}
+.link .tx { min-width: 0; flex: 1; }
+.link .tx b { display: block; font-weight: 500; font-size: 14.5px; }
+.link .tx span { display: block; font-size: 12px; color: var(--muted); }
+.link .arrow { color: var(--muted); }
+
+nav.tabs {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 6;
+  background: var(--surface); border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+nav.tabs .wrap { display: grid; grid-template-columns: 1fr 1fr; }
+nav.tabs button {
+  border: 0; background: none; padding: 10px 0 12px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 2px; font-size: 12px; color: var(--muted);
+}
+nav.tabs button svg { width: 22px; height: 22px; }
+nav.tabs button[aria-selected="true"] { color: var(--aether); font-weight: 700; }
+
+@media (prefers-reduced-motion: reduce) { .refresh.busy svg { animation: none; } }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>エオルゼア便り</h1>
+      <div class="sub">EORZEA DISPATCH</div>
+    </div>
+    <button class="refresh" id="refresh" type="button" aria-label="記事を読み込み直す">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg>
+      更新
+    </button>
+  </div>
+</header>
+
+<main>
+  <div class="wrap" id="view-feed">
+    <div class="status" id="status">読み込み中…</div>
+    <div class="chips" id="chips" role="group" aria-label="種類で絞り込む"></div>
+    <ul class="list" id="list"></ul>
+  </div>
+
+  <div class="wrap" id="view-links" hidden>
+    <section class="links">
+      <h2>公式ニュース（Lodestone）</h2>
+      <div class="linkgrid">
+        <a class="link" href="https://jp.finalfantasyxiv.com/lodestone/news/" target="_blank" rel="noopener">
+          <span class="ic">JP</span><span class="tx"><b>お知らせ・メンテナンス・障害情報</b><span>日本語版 Lodestone</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://na.finalfantasyxiv.com/lodestone/news/" target="_blank" rel="noopener">
+          <span class="ic">EN</span><span class="tx"><b>Topics &amp; News</b><span>北米版 Lodestone（英語）</span></span><span class="arrow">›</span></a>
+      </div>
+
+      <h2>YouTube</h2>
+      <div class="linkgrid">
+        <a class="link" href="https://www.youtube.com/channel/UCpx2BZg8ABgaDV50sGJtWAg/videos" target="_blank" rel="noopener">
+          <span class="ic">▶</span><span class="tx"><b>公式チャンネル</b><span>FINAL FANTASY XIV</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://www.youtube.com/@NHLala/search?query=FF14" target="_blank" rel="noopener">
+          <span class="ic">▶</span><span class="tx"><b>家無しララ</b><span>チャンネル内のFF14動画</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://www.youtube.com/@nukemarugames/videos" target="_blank" rel="noopener">
+          <span class="ic">▶</span><span class="tx"><b>ぬけまるG</b><span>討滅戦・絶の解説動画</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://www.youtube.com/results?search_query=FF14&amp;sp=CAI%253D" target="_blank" rel="noopener">
+          <span class="ic">▶</span><span class="tx"><b>「FF14」の最新動画</b><span>アップロードが新しい順</span></span><span class="arrow">›</span></a>
+      </div>
+
+      <h2>X（旧Twitter）</h2>
+      <div class="linkgrid">
+        <a class="link" href="https://x.com/search?q=%23FF14&amp;f=top" target="_blank" rel="noopener">
+          <span class="ic">X</span><span class="tx"><b>#FF14 の話題</b><span>反応が多い投稿</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://x.com/search?q=%23FF14&amp;f=live" target="_blank" rel="noopener">
+          <span class="ic">X</span><span class="tx"><b>#FF14 の最新</b><span>新しい順</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://x.com/search?q=%23FFXIV&amp;f=top" target="_blank" rel="noopener">
+          <span class="ic">X</span><span class="tx"><b>#FFXIV の話題</b><span>海外の投稿</span></span><span class="arrow">›</span></a>
+      </div>
+
+      <h2>まとめ・ブログ</h2>
+      <div class="linkgrid">
+        <a class="link" href="https://umadori-ff14.com/" target="_blank" rel="noopener">
+          <span class="ic">馬</span><span class="tx"><b>馬鳥速報</b><span>サイトを開く</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://ff14hikasensokuhou.com/" target="_blank" rel="noopener">
+          <span class="ic">ひ</span><span class="tx"><b>FF14ひかせん速報</b><span>サイトを開く</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://yan-flash.com/" target="_blank" rel="noopener">
+          <span class="ic">ヤ</span><span class="tx"><b>ヤーン速報</b><span>サイトを開く</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://kanatan.info/" target="_blank" rel="noopener">
+          <span class="ic">イ</span><span class="tx"><b>イディルシャイア居住区</b><span>レイド攻略ブログ</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://www.eorzean.info/" target="_blank" rel="noopener">
+          <span class="ic">E</span><span class="tx"><b>Eorzean</b><span>装備・FCなどの情報ブログ</span></span><span class="arrow">›</span></a>
+      </div>
+
+      <h2>掲示板</h2>
+      <div class="linkgrid">
+        <a class="link" href="https://find.5ch.io/search?q=FF14" target="_blank" rel="noopener">
+          <span class="ic">5</span><span class="tx"><b>5ch の FF14 スレッド</b><span>スレッド検索</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://www.reddit.com/r/ffxiv/hot/" target="_blank" rel="noopener">
+          <span class="ic">r/</span><span class="tx"><b>Reddit r/ffxiv</b><span>海外コミュニティの人気投稿（英語）</span></span><span class="arrow">›</span></a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<nav class="tabs" aria-label="画面の切り替え">
+  <div class="wrap" role="tablist">
+    <button type="button" role="tab" id="tab-feed" aria-selected="true" aria-controls="view-feed">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 6h14M5 12h14M5 18h9"/></svg>
+      新着
+    </button>
+    <button type="button" role="tab" id="tab-links" aria-selected="false" aria-controls="view-links">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l7 9-7 9-7-9z"/></svg>
+      リンク集
+    </button>
+  </div>
+</nav>
+
+<script>
+// 情報源。direct はアプリから直接読む。それ以外は GitHub の自動実行が feeds.json に集めたものを読む
+const SOURCES = {
+  "lodestone":   { name: "公式ニュース", kind: "公式" },
+  "yt-official": { name: "公式YouTube", kind: "動画" },
+  "umadori":     { name: "馬鳥速報", kind: "まとめ", direct: "https://umadori-ff14.com/index.rdf" },
+  "hikasen":     { name: "ひかせん速報", kind: "まとめ" },
+  "yan":         { name: "ヤーン速報", kind: "まとめ" },
+  "idyll":       { name: "イディルシャイア居住区", kind: "ブログ", direct: "https://kanatan.info/index.rdf" },
+  "eorzean":     { name: "Eorzean", kind: "ブログ", direct: "https://www.eorzean.info/index.rdf" }
+};
+const KINDS = ["すべて", "公式", "動画", "まとめ", "ブログ"];
+const KIND_CLASS = { "公式": "k-official", "動画": "k-video" };
+// 公開ページの作り直しを待たずに読めるよう、GitHub に保存されたファイルを直接読む
+const RELAY_URL = "https://raw.githubusercontent.com/sunquestin-dot/ff14-app/main/feeds.json";
+const MAX_SHOWN = 200;
+
+const NS = {
+  rss: "http://purl.org/rss/1.0/",
+  dc: "http://purl.org/dc/elements/1.1/",
+  content: "http://purl.org/rss/1.0/modules/content/"
+};
+const KEY_CACHE = "feedCache.v2";
+const KEY_SEEN = "lastSeenAt.v1";
+const KEY_READ = "readLinks.v1";
+const KEY_TAB = "tab.v1";
+const KEY_KIND = "kind.v1";
+
+const $ = (id) => document.getElementById(id);
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+
+let items = [];
+let activeKind = store.get(KEY_KIND, "すべて");
+let seenAt = store.get(KEY_SEEN, 0);
+const read = new Set(store.get(KEY_READ, []));
+
+// 直接読むサイトはどれも RSS 1.0 形式
+function parseRdf(xmlText, src) {
+  const doc = new DOMParser().parseFromString(xmlText, "application/xml");
+  if (doc.querySelector("parsererror")) throw new Error("形式が読み取れません");
+  return [...doc.getElementsByTagNameNS(NS.rss, "item")].map((el) => {
+    const text = (ns, name) => el.getElementsByTagNameNS(ns, name)[0]?.textContent?.trim() ?? "";
+    const img = text(NS.content, "encoded").match(/<img[^>]+src="([^"]+)"/i)?.[1] ?? "";
+    return {
+      src,
+      title: text(NS.rss, "title"),
+      link: text(NS.rss, "link"),
+      date: Date.parse(text(NS.dc, "date")) || 0,
+      img: img.startsWith("https://") ? img : ""
+    };
+  }).filter((it) => it.title && it.link.startsWith("https://"));
+}
+
+async function fetchDirect(src) {
+  const res = await fetch(SOURCES[src].direct, { cache: "no-store" });
+  if (!res.ok) throw new Error("HTTP " + res.status);
+  return parseRdf(await res.text(), src);
+}
+
+async function fetchRelay() {
+  const res = await fetch(RELAY_URL, { cache: "no-store" });
+  if (!res.ok) throw new Error("HTTP " + res.status);
+  const data = await res.json();
+  const failed = Object.entries(data.sources || {}).filter(([, s]) => !s.ok).map(([id]) => id);
+  return { items: (data.items || []).filter((it) => SOURCES[it.src]), failed };
+}
+
+function timeAgo(t) {
+  const m = Math.round((Date.now() - t) / 60000);
+  if (m < 1) return "たった今";
+  if (m < 60) return m + "分前";
+  const h = Math.round(m / 60);
+  if (h < 24) return h + "時間前";
+  const d = new Date(t);
+  const md = (d.getMonth() + 1) + "/" + d.getDate();
+  return d.getFullYear() === new Date().getFullYear() ? md : d.getFullYear() + "/" + md;
+}
+
+function scheduled(t) {
+  const d = new Date(t);
+  return (d.getMonth() + 1) + "/" + d.getDate() + " " + d.getHours() + ":" + String(d.getMinutes()).padStart(2, "0") + " 配信予定";
+}
+
+function renderChips() {
+  if (!KINDS.includes(activeKind)) activeKind = "すべて";
+  $("chips").replaceChildren(...KINDS.map((k) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.textContent = k;
+    b.setAttribute("aria-pressed", String(k === activeKind));
+    b.addEventListener("click", () => {
+      activeKind = k; store.set(KEY_KIND, k); renderChips(); renderList(); window.scrollTo(0, 0);
+    });
+    return b;
+  }));
+}
+
+function renderList() {
+  const list = $("list");
+  const shown = items
+    .filter((it) => activeKind === "すべて" || SOURCES[it.src].kind === activeKind)
+    .slice(0, MAX_SHOWN);
+  if (!shown.length) {
+    list.innerHTML = '<li class="empty">表示できる記事がありません。右上の「更新」を押してください。</li>';
+    return;
+  }
+  list.replaceChildren(...shown.map((it) => {
+    const s = SOURCES[it.src];
+    const li = document.createElement("li");
+    li.className = "item" + (read.has(it.link) ? " read" : "");
+    const a = document.createElement("a");
+    a.href = it.link; a.target = "_blank"; a.rel = "noopener";
+    let thumb;
+    if (it.img) {
+      thumb = document.createElement("img");
+      thumb.src = it.img; thumb.alt = ""; thumb.loading = "lazy"; thumb.referrerPolicy = "no-referrer";
+    } else {
+      thumb = document.createElement("div");
+      thumb.textContent = s.kind;
+    }
+    thumb.className = "thumb";
+    const body = document.createElement("div"); body.className = "body";
+    const title = document.createElement("div"); title.className = "title"; title.textContent = it.title;
+    const meta = document.createElement("div"); meta.className = "meta";
+    if (seenAt && it.date > seenAt && !it.upcoming && !read.has(it.link)) {
+      const n = document.createElement("span"); n.className = "new"; n.textContent = "NEW"; meta.append(n);
+    }
+    const t = document.createElement("time"); t.dateTime = new Date(it.date).toISOString();
+    t.textContent = it.upcoming ? scheduled(it.date) : timeAgo(it.date);
+    const c = document.createElement("span"); c.className = "src " + (KIND_CLASS[s.kind] || ""); c.textContent = s.name;
+    meta.append(t, c);
+    body.append(title, meta);
+    a.append(thumb, body);
+    a.addEventListener("click", () => {
+      read.add(it.link); store.set(KEY_READ, [...read].slice(-500)); li.classList.add("read");
+      li.querySelector(".new")?.remove();
+    });
+    li.append(a);
+    return li;
+  }));
+}
+
+function setStatus(parts, failedNames) {
+  const s = $("status");
+  s.replaceChildren(...parts.map((p) => { const e = document.createElement("span"); e.textContent = p; return e; }));
+  if (failedNames.length) {
+    const e = document.createElement("span"); e.className = "err";
+    e.textContent = "読み込めなかった：" + failedNames.join("、");
+    s.append(e);
+  }
+}
+
+async function load() {
+  const btn = $("refresh");
+  btn.classList.add("busy"); btn.disabled = true;
+  const jobs = [
+    fetchRelay().then((r) => ({ items: r.items, failed: r.failed }))
+      .catch(() => ({ items: [], failed: Object.keys(SOURCES).filter((id) => !SOURCES[id].direct) })),
+    ...Object.keys(SOURCES).filter((id) => SOURCES[id].direct).map((id) =>
+      fetchDirect(id).then((list) => ({ items: list, failed: [] })).catch(() => ({ items: [], failed: [id] })))
+  ];
+  const results = await Promise.all(jobs);
+  const failed = results.flatMap((r) => r.failed);
+  const fresh = results.flatMap((r) => r.items);
+
+  // 読めなかった情報源は、前回の内容を残す
+  const cache = store.get(KEY_CACHE, null);
+  const kept = (cache?.items || []).filter((it) => failed.includes(it.src) && SOURCES[it.src]);
+  const seen = new Set();
+  items = [...fresh, ...kept]
+    .filter((it) => (seen.has(it.link) ? false : seen.add(it.link)))
+    .sort((a, b) => b.date - a.date);
+
+  const prevSeen = store.get(KEY_SEEN, 0);
+  seenAt = prevSeen;
+  if (items.length) {
+    store.set(KEY_CACHE, { at: Date.now(), items });
+    const now = Date.now();
+    store.set(KEY_SEEN, Math.max(prevSeen, ...fresh.map((it) => Math.min(it.date, now))));
+  }
+  renderChips(); renderList();
+  const newCount = prevSeen ? fresh.filter((it) => it.date > prevSeen && !it.upcoming).length : 0;
+  setStatus(
+    ["更新 " + new Date().toLocaleTimeString("ja-JP", { hour: "2-digit", minute: "2-digit" }) + (newCount ? " · 新着" + newCount + "件" : "")],
+    failed.map((id) => SOURCES[id].name)
+  );
+  btn.classList.remove("busy"); btn.disabled = false;
+}
+
+function showTab(name) {
+  const feed = name === "feed";
+  $("view-feed").hidden = !feed;
+  $("view-links").hidden = feed;
+  $("tab-feed").setAttribute("aria-selected", String(feed));
+  $("tab-links").setAttribute("aria-selected", String(!feed));
+  $("refresh").hidden = !feed;
+  store.set(KEY_TAB, name);
+  window.scrollTo(0, 0);
+}
+
+$("refresh").addEventListener("click", load);
+$("tab-feed").addEventListener("click", () => showTab("feed"));
+$("tab-links").addEventListener("click", () => showTab("links"));
+document.addEventListener("visibilitychange", () => {
+  const c = store.get(KEY_CACHE, null);
+  if (document.visibilityState === "visible" && (!c || Date.now() - c.at > 10 * 60000)) load();
+});
+
+const cached = store.get(KEY_CACHE, null);
+if (cached?.items?.length) {
+  items = cached.items.filter((it) => SOURCES[it.src]);
+  renderChips(); renderList(); setStatus(["前回の内容"], []);
+} else {
+  renderChips();
+}
+showTab(store.get(KEY_TAB, "feed"));
+load();
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+# 30分ごとに各サイトの新着を集めて feeds.json を更新する
+# （GitHub上では .github/workflows/feeds.yml に置く）
+name: 新着を集める
+
+on:
+  schedule:
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: feeds
+  cancel-in-progress: true
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node fetch-feeds.mjs
+      - name: 変わっていれば保存する
+        run: |
+          # 更新時刻だけが変わった場合は保存しない
+          if git diff --quiet -I '"updatedAt"' -- feeds.json && git ls-files --error-unmatch feeds.json >/dev/null 2>&1; then
+            echo "新着なし"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add feeds.json
+          git commit -m "新着を更新"
+          git push
