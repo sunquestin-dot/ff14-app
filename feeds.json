@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792918691997,
+ "updatedAt": 1792920444705,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】「殴り合いだけのステージも作ってくれ」→「ずーっと昔あったんですよ」。FLに攻城戦や非対称PvPは来る？",
+   "link": "https://yan-flash.com/articles/fl-brawl-only-stage-siege-asymmetric-pvp",
+   "date": 1792918867000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】発表から実装まで長すぎ問題。「まだ武器の壁掛け待ってるんやで」「だんまりがストレス、経過報告ぐらいして」「いつ実装とも仕様確定とも言ってない」",
    "link": "https://yan-flash.com/articles/announced-features-long-wait-weapon-wall-mount",
    "date": 1792908060000,
@@ -675,13 +682,6 @@
    "title": "【FF14】マッチング統合後のアラルレ、変な人が増えた？「今までたまに遭遇してた変な人を全部統合のせいにしてない？」「総数は増えるけど、結局確率は変わらない」",
    "link": "https://yan-flash.com/articles/ff14-alliance-raid-after-region-matching",
    "date": 1792206219000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】ファントムウェポンの「デミアートマ」、5%が出なさすぎる。「ようこんなん皆やったな」「外FATEだけでアートマ3個は病むよ」",
-   "link": "https://yan-flash.com/articles/ff14-phantom-weapon-demi-atma-drop-rate",
-   "date": 1792195711000,
    "img": ""
   }
  ]
