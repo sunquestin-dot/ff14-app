@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792970270918,
+ "updatedAt": 1792972208389,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "yt-official": {
    "ok": true,
-   "count": 15
+   "count": 30
   },
   "hikasen": {
    "ok": true,
@@ -161,108 +161,215 @@
   },
   {
    "src": "yt-official",
-   "title": "第48回 FFXIVコミュニティ放送",
-   "link": "https://www.youtube.com/watch?v=PdgjNUsuI9c",
-   "date": 1792764076000,
-   "img": "https://i1.ytimg.com/vi/PdgjNUsuI9c/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "Duty Commenced - North American Community Team Stream (October 21, 2026)",
-   "link": "https://www.youtube.com/watch?v=5nMDPRJwhk0",
-   "date": 1792624075000,
-   "img": "https://i2.ytimg.com/vi/5nMDPRJwhk0/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "Piano Collections: Till Dawn My Tears Flow - Promises to Keep Music Video (by Keiko)",
-   "link": "https://www.youtube.com/watch?v=g2sU-UzoV14",
-   "date": 1791860845000,
-   "img": "https://i4.ytimg.com/vi/g2sU-UzoV14/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
    "title": "[Day 2] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
    "link": "https://www.youtube.com/watch?v=ZN5682sEIrY",
-   "date": 1791429739000,
-   "img": "https://i3.ytimg.com/vi/ZN5682sEIrY/hqdefault.jpg"
+   "date": 1793437200000,
+   "img": "https://i.ytimg.com/vi/ZN5682sEIrY/hqdefault.jpg",
+   "upcoming": true
   },
   {
    "src": "yt-official",
    "title": "[Day 1] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
    "link": "https://www.youtube.com/watch?v=IUtPVmCtltY",
-   "date": 1791429324000,
-   "img": "https://i2.ytimg.com/vi/IUtPVmCtltY/hqdefault.jpg"
+   "date": 1793354400000,
+   "img": "https://i.ytimg.com/vi/IUtPVmCtltY/hqdefault.jpg",
+   "upcoming": true
+  },
+  {
+   "src": "yt-official",
+   "title": "第48回 FFXIVコミュニティ放送",
+   "link": "https://www.youtube.com/watch?v=PdgjNUsuI9c",
+   "date": 1792799409632,
+   "img": "https://i.ytimg.com/vi/PdgjNUsuI9c/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "Duty Commenced - North American Community Team Stream (October 21, 2026)",
+   "link": "https://www.youtube.com/watch?v=5nMDPRJwhk0",
+   "date": 1792626609632,
+   "img": "https://i.ytimg.com/vi/5nMDPRJwhk0/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "Piano Collections: Till Dawn My Tears Flow - Promises to Keep Music Video (by Keiko)",
+   "link": "https://www.youtube.com/watch?v=g2sU-UzoV14",
+   "date": 1791935409632,
+   "img": "https://i.ytimg.com/vi/g2sU-UzoV14/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Duty Commenced - North American Community Team Stream (October 7, 2026)",
    "link": "https://www.youtube.com/watch?v=mXU4gIn1Bmo",
-   "date": 1791414313000,
-   "img": "https://i2.ytimg.com/vi/mXU4gIn1Bmo/hqdefault.jpg"
+   "date": 1791762609632,
+   "img": "https://i.ytimg.com/vi/mXU4gIn1Bmo/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV @ Otakon 2026",
    "link": "https://www.youtube.com/watch?v=RQ4h5G80wFY",
-   "date": 1790640972000,
-   "img": "https://i3.ytimg.com/vi/RQ4h5G80wFY/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "第47回 FFXIVコミュニティ放送",
-   "link": "https://www.youtube.com/watch?v=tyl3k1l4Q9M",
-   "date": 1790256116000,
-   "img": "https://i1.ytimg.com/vi/tyl3k1l4Q9M/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV - The Unending Journey - EU Community Stream",
-   "link": "https://www.youtube.com/watch?v=jLMMm83wwQ0",
-   "date": 1790187207000,
-   "img": "https://i3.ytimg.com/vi/jLMMm83wwQ0/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV - Le Carnet de Voyage - French Community Stream",
-   "link": "https://www.youtube.com/watch?v=0hVJCYVDDok",
-   "date": 1790101599000,
-   "img": "https://i1.ytimg.com/vi/0hVJCYVDDok/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "Rise of the Wolves - North American Community Team PvP Stream (September 2026)",
-   "link": "https://www.youtube.com/watch?v=QAi1kckbMK0",
-   "date": 1789604564000,
-   "img": "https://i2.ytimg.com/vi/QAi1kckbMK0/hqdefault.jpg"
+   "date": 1791157809632,
+   "img": "https://i.ytimg.com/vi/RQ4h5G80wFY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "gamescom 2026 - Recap Video",
    "link": "https://www.youtube.com/watch?v=ex5hfbzA9is",
-   "date": 1789052420000,
-   "img": "https://i2.ytimg.com/vi/ex5hfbzA9is/hqdefault.jpg"
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/ex5hfbzA9is/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV Letter from the Producer LIVE Part XCIII",
    "link": "https://www.youtube.com/watch?v=5xraioACduM",
-   "date": 1788501992000,
-   "img": "https://i2.ytimg.com/vi/5xraioACduM/hqdefault.jpg"
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/5xraioACduM/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "開発パネル - Development Panel ｜FINAL FANTASY XIV Fan Festival 2026 in  Berlin",
    "link": "https://www.youtube.com/watch?v=UkEiGejYC3Q",
-   "date": 1788405999000,
-   "img": "https://i2.ytimg.com/vi/UkEiGejYC3Q/hqdefault.jpg"
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/UkEiGejYC3Q/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：予選トーナメントD】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=4TU_49auAs4",
-   "date": 1788090055000,
-   "img": "https://i1.ytimg.com/vi/4TU_49auAs4/hqdefault.jpg"
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/4TU_49auAs4/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "【ハイライト：予選トーナメントC】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
+   "link": "https://www.youtube.com/watch?v=666D3uXbAaw",
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/666D3uXbAaw/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "基調講演まとめ - FINAL FANTASY XIV Fan Festival 2026 in  Berlin",
+   "link": "https://www.youtube.com/watch?v=84x_nrekEBA",
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/84x_nrekEBA/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "基調講演 - Keynote｜FINAL FANTASY XIV Fan Festival 2026 in  Berlin",
+   "link": "https://www.youtube.com/watch?v=-OcvXUVQDRI",
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/-OcvXUVQDRI/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "第47回 FFXIVコミュニティ放送",
+   "link": "https://www.youtube.com/watch?v=tyl3k1l4Q9M",
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/tyl3k1l4Q9M/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV - The Unending Journey - EU Community Stream",
+   "link": "https://www.youtube.com/watch?v=jLMMm83wwQ0",
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/jLMMm83wwQ0/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV - Le Carnet de Voyage - French Community Stream",
+   "link": "https://www.youtube.com/watch?v=0hVJCYVDDok",
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/0hVJCYVDDok/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "Rise of the Wolves - North American Community Team PvP Stream (September 2026)",
+   "link": "https://www.youtube.com/watch?v=QAi1kckbMK0",
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/QAi1kckbMK0/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "【予選トーナメントD】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: D",
+   "link": "https://www.youtube.com/watch?v=d7JH4Ni7pHk",
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/d7JH4Ni7pHk/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "【予選トーナメントC】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: C",
+   "link": "https://www.youtube.com/watch?v=Y6W_K8XXiTE",
+   "date": 1790380209632,
+   "img": "https://i.ytimg.com/vi/Y6W_K8XXiTE/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "【ハイライト：予選トーナメントB】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
+   "link": "https://www.youtube.com/watch?v=IZLv-watGvY",
+   "date": 1787788209632,
+   "img": "https://i.ytimg.com/vi/IZLv-watGvY/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "【ハイライト：予選トーナメントA】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
+   "link": "https://www.youtube.com/watch?v=jVza7Z3Gqok",
+   "date": 1787788209632,
+   "img": "https://i.ytimg.com/vi/jVza7Z3Gqok/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "Fan Festival 2026 in Berlin - Recap Video",
+   "link": "https://www.youtube.com/watch?v=_Nepqo6ML4Q",
+   "date": 1787788209632,
+   "img": "https://i.ytimg.com/vi/_Nepqo6ML4Q/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "ファイナルファンタジーXIV Nintendo Switch™ 2 版 サービス開始！",
+   "link": "https://www.youtube.com/watch?v=AO2xe-T-MP4",
+   "date": 1787788209632,
+   "img": "https://i.ytimg.com/vi/AO2xe-T-MP4/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "【予選トーナメントB】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: B",
+   "link": "https://www.youtube.com/watch?v=xjbzX_lxDb0",
+   "date": 1787788209632,
+   "img": "https://i.ytimg.com/vi/xjbzX_lxDb0/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "【予選トーナメントA】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: A",
+   "link": "https://www.youtube.com/watch?v=qmG6hEUFGJw",
+   "date": 1787788209632,
+   "img": "https://i.ytimg.com/vi/qmG6hEUFGJw/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "第46回 FFXIVコミュニティ放送",
+   "link": "https://www.youtube.com/watch?v=ZoUJPuCIkU4",
+   "date": 1787788209632,
+   "img": "https://i.ytimg.com/vi/ZoUJPuCIkU4/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "Duty Commenced - North American Community Team Stream (August 2026)",
+   "link": "https://www.youtube.com/watch?v=NeDMRk_S-pM",
+   "date": 1787788209632,
+   "img": "https://i.ytimg.com/vi/NeDMRk_S-pM/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "『ファイナルファンタジーXIV』Nintendo Switch™ 2 版 発売記念！ 公開生放送 in 渋谷サクラステージ",
+   "link": "https://www.youtube.com/watch?v=MhaL0WCzgbE",
+   "date": 1787788209632,
+   "img": "https://i.ytimg.com/vi/MhaL0WCzgbE/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV Fan Festival 2026 in Berlin - Day 2",
+   "link": "https://www.youtube.com/watch?v=R6Yb4ZS3rLo",
+   "date": 1787788209632,
+   "img": "https://i.ytimg.com/vi/R6Yb4ZS3rLo/hqdefault.jpg"
   },
   {
    "src": "hikasen",
