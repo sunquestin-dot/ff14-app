@@ -1,5 +1,5 @@
 {
- "updatedAt": 1792965206981,
+ "updatedAt": 1792970270918,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】FLで「勝ち負け気にしないで、PvP経験値貰えればいい」→「1位は3位の1.5倍。15日で終わるのと1か月半で終わるのどっちがいい？」。「下がって」連打の軍師も",
+   "link": "https://yan-flash.com/articles/fl-reward-only-players-win-or-lose-doesnt-matter",
+   "date": 1792969298000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「殴り合いだけのステージも作ってくれ」→「ずーっと昔あったんですよ」。FLに攻城戦や非対称PvPは来る？",
    "link": "https://yan-flash.com/articles/fl-brawl-only-stage-siege-asymmetric-pvp",
    "date": 1792918867000,
@@ -675,13 +682,6 @@
    "title": "【FF14】FLでナイトの与ダメを伸ばすには？そして「一人でタンメレ」。「与ダメは戦闘時間よりもどんだけ集団に範囲を巻き込めるか」「出来らあっ！」",
    "link": "https://yan-flash.com/articles/ff14-frontline-paladin-damage-and-solo-tank-melee",
    "date": 1792217023000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】マッチング統合後のアラルレ、変な人が増えた？「今までたまに遭遇してた変な人を全部統合のせいにしてない？」「総数は増えるけど、結局確率は変わらない」",
-   "link": "https://yan-flash.com/articles/ff14-alliance-raid-after-region-matching",
-   "date": 1792206219000,
    "img": ""
   }
  ]
