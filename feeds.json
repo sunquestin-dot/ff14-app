@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793176981080,
+ "updatedAt": 1793180401383,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -19,6 +19,13 @@
   }
  },
  "items": [
+  {
+   "src": "lodestone",
+   "title": "いよいよ10月31日開幕！「ファンフェスティバル 2026 in 東京」 ストリーミング情報おさらい",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/ce72e6daf7597640e1e4ff52cb8e64c4e464c4ed",
+   "date": 1793178000000,
+   "img": "https://img.finalfantasyxiv.com/t/ce72e6daf7597640e1e4ff52cb8e64c4e464c4ed.png?1793178053"
+  },
   {
    "src": "lodestone",
    "title": "クリスタルコンフリクト シーズン21 閉幕迫る！",
@@ -153,13 +160,6 @@
    "img": "https://img.finalfantasyxiv.com/t/7b96c49068c476dec65924df0ee1d5bdecb215fa.png?1791273588"
   },
   {
-   "src": "lodestone",
-   "title": "日本ファンフェス「吉田Pの一問一答タイムアタック！」 質問大募集！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/97e3f71f76b32c341872d3090a29c04ad6f35e38",
-   "date": 1791193500000,
-   "img": "https://img.finalfantasyxiv.com/t/97e3f71f76b32c341872d3090a29c04ad6f35e38.jpg?1791207765"
-  },
-  {
    "src": "yt-official",
    "title": "第48回 FFXIVコミュニティ放送",
    "link": "https://www.youtube.com/watch?v=PdgjNUsuI9c",
@@ -263,6 +263,13 @@
    "link": "https://www.youtube.com/watch?v=4TU_49auAs4",
    "date": 1788090055000,
    "img": "https://i1.ytimg.com/vi/4TU_49auAs4/hqdefault.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】タイピング得意な人がいないときつい？「 キーバウンド・ブロウラー 」が難しすぎるｗｗｗｗｗｗｗｗ",
+   "link": "https://ff14hikasensokuhou.com/e/29724",
+   "date": 1793180169000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261021104857e93s.jpg"
   },
   {
    "src": "hikasen",
@@ -466,13 +473,6 @@
    "link": "https://ff14hikasensokuhou.com/e/29695",
    "date": 1792744214000,
    "img": "https://blog-imgs-123.fc2.com/f/f/1/ff14hikasensokuhou/20181213070736205.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】？？？「FL参加者の大半はソロなんだからPT組んでいる時点でズル」",
-   "link": "https://ff14hikasensokuhou.com/e/29694",
-   "date": 1792731621000,
-   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
   },
   {
    "src": "yan",
