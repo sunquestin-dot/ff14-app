@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793173825842,
+ "updatedAt": 1793176981080,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "【FF14】本日実装の「キーバウンド・ブロウラー」はキーボード必須な模様",
+   "link": "https://ff14hikasensokuhou.com/e/29723",
+   "date": 1793174413000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261021104857e93s.jpg"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】ギルが増えないって愚痴",
    "link": "https://ff14hikasensokuhou.com/e/29722",
    "date": 1793163628000,
@@ -466,13 +473,6 @@
    "link": "https://ff14hikasensokuhou.com/e/29694",
    "date": 1792731621000,
    "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【ネトゲ】今回のphp騒動によりサービス終了を決断するケースも",
-   "link": "https://ff14hikasensokuhou.com/e/29693",
-   "date": 1792724435000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260403211910a5f.png"
   },
   {
    "src": "yan",
