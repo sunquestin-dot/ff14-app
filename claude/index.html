@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Claude便り</title>
+<meta name="description" content="Claude・Anthropic の公式発表、Claude Code のリリース、障害情報、話題の記事を日本語の要約つきでまとめて読めるアプリ">
+<meta name="theme-color" content="#1f1d1a" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f5f1e8" media="(prefers-color-scheme: light)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@500&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap">
+<style>
+/* 片手操作の縦一列。上に見出し、下にタブ。エオルゼア便りと同じ作り */
+:root {
+  --bg: #f5f1e8;
+  --surface: #fffdf8;
+  --ink: #262420;
+  --muted: #6b665c;
+  --line: #e0d9ca;
+  --accent: #b8562f;      /* 操作できるもの */
+  --official: #2f6b5a;    /* 公式 */
+  --alert: #b23a3a;       /* 障害 */
+  --new: #b8562f;
+  --chip: #ebe5d7;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --font-body: "Zen Kaku Gothic New", "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1f1d1a; --surface: #292622; --ink: #ece7dc; --muted: #a39d90;
+    --line: #3a362f; --accent: #e08a62; --official: #7cc2a9; --alert: #ec8b84; --new: #e08a62; --chip: #34302a;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1f1d1a; --surface: #292622; --ink: #ece7dc; --muted: #a39d90;
+  --line: #3a362f; --accent: #e08a62; --official: #7cc2a9; --alert: #ec8b84; --new: #e08a62; --chip: #34302a;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { margin: 0; }
+body {
+  background: var(--bg); color: var(--ink);
+  font-family: var(--font-body); font-size: 15px; line-height: 1.6;
+  -webkit-tap-highlight-color: transparent;
+  padding-bottom: calc(64px + env(safe-area-inset-bottom, 0px));
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px);
+  z-index: 10; background: var(--bg);
+}
+a { color: inherit; text-decoration: none; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+
+.wrap {
+  max-width: 680px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+
+header.top {
+  position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5;
+  background: var(--bg); border-bottom: 1px solid var(--line);
+}
+header.top .wrap { display: flex; align-items: center; gap: 12px; padding-block: 12px; }
+.brand { flex: 1; min-width: 0; }
+.brand h1 { margin: 0; font-size: 20px; font-weight: 700; letter-spacing: .02em; line-height: 1.3; }
+.brand .sub { font-family: var(--font-mono); font-size: 10.5px; letter-spacing: .16em; color: var(--muted); }
+.refresh {
+  display: inline-flex; align-items: center; gap: 6px;
+  border: 1px solid var(--line); background: var(--surface); border-radius: 999px;
+  padding: 7px 14px; font-size: 13px; cursor: pointer; color: var(--accent); font-weight: 500;
+}
+.refresh svg { width: 16px; height: 16px; }
+.refresh.busy svg { animation: spin 1s linear infinite; }
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.status { font-size: 12px; color: var(--muted); padding-block: 10px 0; display: flex; gap: 4px 8px; flex-wrap: wrap; }
+.status .err { color: var(--alert); }
+
+.chips { display: flex; gap: 8px; overflow-x: auto; padding-block: 10px; scrollbar-width: none; }
+.chips::-webkit-scrollbar { display: none; }
+.chip {
+  flex: none; border: 0; background: var(--chip); border-radius: 999px;
+  padding: 5px 14px; font-size: 13px; cursor: pointer; white-space: nowrap;
+}
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--bg); font-weight: 500; }
+
+.list { list-style: none; margin: 0; padding: 0; }
+.item a {
+  display: grid; grid-template-columns: 1fr auto; gap: 12px;
+  padding-block: 12px; border-bottom: 1px solid var(--line);
+}
+.item .body { min-width: 0; display: flex; flex-direction: column; gap: 3px; }
+.item .title { font-size: 15px; font-weight: 500; line-height: 1.5; }
+.item .orig { font-size: 12px; color: var(--muted); overflow-wrap: anywhere; }
+.item .sum {
+  font-size: 13.5px; color: var(--muted); line-height: 1.6;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden;
+}
+.item.read .title { color: var(--muted); font-weight: 400; }
+.thumb { width: 88px; aspect-ratio: 16 / 9; border-radius: 6px; object-fit: cover; background: var(--chip); align-self: start; }
+.meta { font-size: 12px; color: var(--muted); display: flex; gap: 8px; align-items: center; flex-wrap: wrap; font-variant-numeric: tabular-nums; margin-top: 2px; }
+.new { color: var(--new); font-weight: 700; letter-spacing: .06em; font-size: 11px; }
+.src { border: 1px solid var(--line); border-radius: 4px; padding: 0 6px; }
+.src.k-official { border-color: var(--official); color: var(--official); }
+.src.k-alert { border-color: var(--alert); color: var(--alert); }
+.src.k-release { border-color: var(--accent); color: var(--accent); }
+
+.empty { color: var(--muted); padding-block: 40px; text-align: center; }
+
+/* まとめ */
+.digest { padding-block: 16px 8px; }
+.digest .when { font-size: 12px; color: var(--muted); font-family: var(--font-mono); letter-spacing: .04em; }
+.digest h2 { font-size: 19px; line-height: 1.45; margin: 4px 0 14px; }
+.points { list-style: none; margin: 0; padding: 0; counter-reset: p; }
+.points li {
+  counter-increment: p; position: relative;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px;
+  padding: 12px 14px 12px 44px; margin-bottom: 10px;
+}
+.points li::before {
+  content: counter(p); position: absolute; left: 14px; top: 12px;
+  font-family: var(--font-mono); font-size: 13px; color: var(--accent); font-weight: 500;
+}
+.points .refs { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 8px; }
+.points .refs a {
+  font-size: 12px; color: var(--accent); background: var(--chip); border-radius: 4px; padding: 1px 8px;
+  max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.section-h { font-size: 13px; color: var(--muted); font-weight: 500; letter-spacing: .08em; margin: 22px 0 4px; }
+.note {
+  font-size: 13px; color: var(--muted); background: var(--surface); border: 1px dashed var(--line);
+  border-radius: 10px; padding: 12px 14px; margin-top: 16px;
+}
+.note code { font-family: var(--font-mono); font-size: 12px; }
+
+/* リンク集 */
+section.links h2 { font-size: 13px; color: var(--muted); font-weight: 500; letter-spacing: .08em; margin: 20px 0 8px; }
+.linkgrid { display: grid; gap: 8px; }
+.link {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px;
+}
+.link .ic {
+  flex: none; width: 34px; height: 34px; border-radius: 8px; display: grid; place-items: center;
+  background: var(--chip); color: var(--accent); font-weight: 700; font-size: 13px;
+}
+.link .tx { min-width: 0; flex: 1; }
+.link .tx b { display: block; font-weight: 500; font-size: 14.5px; }
+.link .tx span { display: block; font-size: 12px; color: var(--muted); }
+.link .arrow { color: var(--muted); }
+
+nav.tabs {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 6;
+  background: var(--surface); border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+nav.tabs .wrap { display: grid; grid-template-columns: repeat(3, 1fr); }
+nav.tabs button {
+  border: 0; background: none; padding: 10px 0 12px; cursor: pointer;
+  display: flex; flex-direction: column; align-items: center; gap: 2px; font-size: 12px; color: var(--muted);
+}
+nav.tabs button svg { width: 22px; height: 22px; }
+nav.tabs button[aria-selected="true"] { color: var(--accent); font-weight: 700; }
+
+@media (prefers-reduced-motion: reduce) { .refresh.busy svg { animation: none; } }
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Claude便り</h1>
+      <div class="sub">CLAUDE NEWS DIGEST</div>
+    </div>
+    <button class="refresh" id="refresh" type="button" aria-label="記事を読み込み直す">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66"/><path d="M20 4v5h-5"/></svg>
+      更新
+    </button>
+  </div>
+</header>
+
+<main>
+  <div class="wrap" id="view-digest">
+    <div class="digest" id="digest"></div>
+  </div>
+
+  <div class="wrap" id="view-feed" hidden>
+    <div class="status" id="status">読み込み中…</div>
+    <div class="chips" id="chips" role="group" aria-label="種類で絞り込む"></div>
+    <ul class="list" id="list"></ul>
+  </div>
+
+  <div class="wrap" id="view-links" hidden>
+    <section class="links">
+      <h2>公式</h2>
+      <div class="linkgrid">
+        <a class="link" href="https://www.anthropic.com/news" target="_blank" rel="noopener">
+          <span class="ic">N</span><span class="tx"><b>Anthropic News</b><span>公式の発表（英語）</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://www.anthropic.com/engineering" target="_blank" rel="noopener">
+          <span class="ic">E</span><span class="tx"><b>Engineering ブログ</b><span>開発の裏側や使い方の解説（英語）</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://docs.claude.com/en/release-notes/overview" target="_blank" rel="noopener">
+          <span class="ic">R</span><span class="tx"><b>リリースノート</b><span>Claude アプリと API の変更履歴</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://status.claude.com/" target="_blank" rel="noopener">
+          <span class="ic">!</span><span class="tx"><b>稼働状況</b><span>障害・メンテナンス情報</span></span><span class="arrow">›</span></a>
+      </div>
+
+      <h2>Claude Code</h2>
+      <div class="linkgrid">
+        <a class="link" href="https://github.com/anthropics/claude-code/blob/main/CHANGELOG.md" target="_blank" rel="noopener">
+          <span class="ic">CL</span><span class="tx"><b>CHANGELOG</b><span>版ごとの変更点</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://code.claude.com/docs/ja/overview" target="_blank" rel="noopener">
+          <span class="ic">D</span><span class="tx"><b>ドキュメント</b><span>日本語版</span></span><span class="arrow">›</span></a>
+      </div>
+
+      <h2>コミュニティ</h2>
+      <div class="linkgrid">
+        <a class="link" href="https://www.reddit.com/r/ClaudeAI/top/?t=week" target="_blank" rel="noopener">
+          <span class="ic">r/</span><span class="tx"><b>Reddit r/ClaudeAI</b><span>今週の人気投稿（英語）</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://hn.algolia.com/?q=claude&amp;sort=byDate" target="_blank" rel="noopener">
+          <span class="ic">Y</span><span class="tx"><b>Hacker News</b><span>「Claude」の新しい投稿（英語）</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://x.com/search?q=Claude%20Code&amp;f=live" target="_blank" rel="noopener">
+          <span class="ic">X</span><span class="tx"><b>X で「Claude Code」</b><span>新しい順</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://zenn.dev/topics/claudecode" target="_blank" rel="noopener">
+          <span class="ic">Z</span><span class="tx"><b>Zenn</b><span>Claude Code の記事</span></span><span class="arrow">›</span></a>
+        <a class="link" href="https://qiita.com/tags/claudecode" target="_blank" rel="noopener">
+          <span class="ic">Q</span><span class="tx"><b>Qiita</b><span>Claude Code の記事</span></span><span class="arrow">›</span></a>
+      </div>
+    </section>
+  </div>
+</main>
+
+<nav class="tabs" aria-label="画面の切り替え">
+  <div class="wrap" role="tablist">
+    <button type="button" role="tab" id="tab-digest" aria-controls="view-digest">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M5.6 5.6l2.8 2.8M15.6 15.6l2.8 2.8M5.6 18.4l2.8-2.8M15.6 8.4l2.8-2.8"/></svg>
+      まとめ
+    </button>
+    <button type="button" role="tab" id="tab-feed" aria-controls="view-feed">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M5 6h14M5 12h14M5 18h9"/></svg>
+      新着
+    </button>
+    <button type="button" role="tab" id="tab-links" aria-controls="view-links">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 14a4 4 0 0 0 5.66 0l3-3a4 4 0 0 0-5.66-5.66l-1 1"/><path d="M14 10a4 4 0 0 0-5.66 0l-3 3a4 4 0 0 0 5.66 5.66l1-1"/></svg>
+      リンク集
+    </button>
+  </div>
+</nav>
+
+<script>
+// 情報源。記事は GitHub の自動実行が claude/feeds.json に集めたものを読む
+const SOURCES = {
+  "news":        { name: "Anthropic News", kind: "公式" },
+  "engineering": { name: "Engineering", kind: "公式" },
+  "research":    { name: "Research", kind: "公式" },
+  "claude-code": { name: "Claude Code", kind: "リリース" },
+  "status":      { name: "稼働状況", kind: "障害" },
+  "youtube":     { name: "YouTube", kind: "動画" },
+  "hn":          { name: "Hacker News", kind: "話題" },
+  "reddit":      { name: "r/ClaudeAI", kind: "話題" },
+  "zenn":        { name: "Zenn", kind: "日本語" },
+  "qiita":       { name: "Qiita", kind: "日本語" }
+};
+const KINDS = ["すべて", "公式", "リリース", "障害", "話題", "動画", "日本語"];
+const KIND_CLASS = { "公式": "k-official", "障害": "k-alert", "リリース": "k-release" };
+// 公開ページの作り直しを待たずに読めるよう、GitHub に保存されたファイルを直接読む。だめなら同じ場所のファイル
+const RELAY_URLS = ["https://raw.githubusercontent.com/sunquestin-dot/ff14-app/main/claude/feeds.json", "feeds.json"];
+const MAX_SHOWN = 200;
+
+const KEY_CACHE = "claude.feedCache.v1";
+const KEY_SEEN = "claude.lastSeenAt.v1";
+const KEY_READ = "claude.readLinks.v1";
+const KEY_TAB = "claude.tab.v1";
+const KEY_KIND = "claude.kind.v1";
+
+const $ = (id) => document.getElementById(id);
+const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+const store = {
+  get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch { return d; } },
+  set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch {} }
+};
+
+let data = { items: [], digest: null, sources: {} };
+let activeKind = store.get(KEY_KIND, "すべて");
+let seenAt = store.get(KEY_SEEN, 0);
+const read = new Set(store.get(KEY_READ, []));
+
+async function fetchRelay() {
+  let lastErr;
+  for (const url of RELAY_URLS) {
+    try {
+      const res = await fetch(url, { cache: "no-store" });
+      if (!res.ok) throw new Error("HTTP " + res.status);
+      const d = await res.json();
+      if (d.items?.length) return d;
+    } catch (e) { lastErr = e; }
+  }
+  throw lastErr || new Error("読み込めませんでした");
+}
+
+function timeAgo(t) {
+  const m = Math.round((Date.now() - t) / 60000);
+  if (m < 1) return "たった今";
+  if (m < 60) return m + "分前";
+  const h = Math.round(m / 60);
+  if (h < 24) return h + "時間前";
+  const d = new Date(t);
+  const md = (d.getMonth() + 1) + "/" + d.getDate();
+  return d.getFullYear() === new Date().getFullYear() ? md : d.getFullYear() + "/" + md;
+}
+
+function markRead(link, li) {
+  read.add(link); store.set(KEY_READ, [...read].slice(-800));
+  if (li) { li.classList.add("read"); li.querySelector(".new")?.remove(); }
+}
+
+function itemRow(it) {
+  const s = SOURCES[it.src];
+  const li = el("li", "item" + (read.has(it.link) ? " read" : ""));
+  const a = el("a"); a.href = it.link; a.target = "_blank"; a.rel = "noopener";
+  const body = el("div", "body");
+  body.append(el("div", "title", it.ja?.title || it.title));
+  if (it.ja) body.append(el("div", "orig", it.title));
+  const sum = it.ja?.summary || it.desc;
+  if (sum) body.append(el("div", "sum", sum));
+  const meta = el("div", "meta");
+  if (seenAt && it.date > seenAt && !read.has(it.link)) meta.append(el("span", "new", "NEW"));
+  const t = el("time", null, timeAgo(it.date)); t.dateTime = new Date(it.date).toISOString();
+  meta.append(t, el("span", "src " + (KIND_CLASS[s.kind] || ""), s.name));
+  body.append(meta);
+  a.append(body);
+  if (it.img) {
+    const img = el("img", "thumb"); img.src = it.img; img.alt = ""; img.loading = "lazy"; img.referrerPolicy = "no-referrer";
+    a.append(img);
+  }
+  a.addEventListener("click", () => markRead(it.link, li));
+  li.append(a);
+  return li;
+}
+
+function renderChips() {
+  if (!KINDS.includes(activeKind)) activeKind = "すべて";
+  $("chips").replaceChildren(...KINDS.map((k) => {
+    const b = el("button", "chip", k); b.type = "button";
+    b.setAttribute("aria-pressed", String(k === activeKind));
+    b.addEventListener("click", () => {
+      activeKind = k; store.set(KEY_KIND, k); renderChips(); renderList(); window.scrollTo(0, 0);
+    });
+    return b;
+  }));
+}
+
+function renderList() {
+  const shown = data.items
+    .filter((it) => activeKind === "すべて" || SOURCES[it.src].kind === activeKind)
+    .slice(0, MAX_SHOWN);
+  if (!shown.length) {
+    $("list").replaceChildren(el("li", "empty", "表示できる記事がありません。右上の「更新」を押してください。"));
+    return;
+  }
+  $("list").replaceChildren(...shown.map(itemRow));
+}
+
+function renderDigest() {
+  const box = $("digest");
+  const byLink = new Map(data.items.map((it) => [it.link, it]));
+  const parts = [];
+  const d = data.digest;
+  if (d?.points?.length) {
+    const when = new Date(d.at);
+    parts.push(el("div", "when", "直近1週間 · " + (when.getMonth() + 1) + "/" + when.getDate() + " " + when.getHours() + ":" + String(when.getMinutes()).padStart(2, "0") + " 時点"));
+    parts.push(el("h2", null, d.headline));
+    const ol = el("ol", "points");
+    for (const p of d.points) {
+      const li = el("li");
+      li.append(el("div", null, p.text));
+      const refs = el("div", "refs");
+      for (const link of p.links || []) {
+        const it = byLink.get(link);
+        const a = el("a", null, it ? SOURCES[it.src].name + "：" + (it.ja?.title || it.title) : "元の記事");
+        a.href = link; a.target = "_blank"; a.rel = "noopener";
+        a.addEventListener("click", () => markRead(link));
+        refs.append(a);
+      }
+      if (refs.childElementCount) li.append(refs);
+      ol.append(li);
+    }
+    parts.push(ol);
+  } else {
+    parts.push(el("h2", null, "この1週間の Claude"));
+    const n = el("div", "note");
+    n.append("AI による週のまとめはまだありません。GitHub のリポジトリ設定で Secrets に ",
+      el("code", null, "ANTHROPIC_API_KEY"), " を登録すると、1時間ごとに日本語の要約とまとめが作られます。");
+    parts.push(n);
+  }
+
+  // 公式発表とリリースは、まとめとは別に直近のものを並べておく
+  const week = Date.now() - 7 * 864e5;
+  const groups = [
+    ["公式の発表", (it) => SOURCES[it.src].kind === "公式"],
+    ["Claude Code のリリース", (it) => it.src === "claude-code"],
+    ["障害情報", (it) => it.src === "status"]
+  ];
+  for (const [label, fn] of groups) {
+    const rows = data.items.filter((it) => it.date > week && fn(it)).slice(0, 8);
+    if (!rows.length) continue;
+    parts.push(el("div", "section-h", label));
+    const ul = el("ul", "list"); ul.append(...rows.map(itemRow));
+    parts.push(ul);
+  }
+  box.replaceChildren(...parts);
+}
+
+function setStatus(text, failedNames) {
+  const s = $("status");
+  s.replaceChildren(el("span", null, text));
+  if (failedNames.length) s.append(el("span", "err", "読み込めなかった：" + failedNames.join("、")));
+}
+
+function apply(d) {
+  data = { ...d, items: (d.items || []).filter((it) => SOURCES[it.src]) };
+  renderChips(); renderList(); renderDigest();
+}
+
+async function load() {
+  const btn = $("refresh");
+  btn.classList.add("busy"); btn.disabled = true;
+  try {
+    const d = await fetchRelay();
+    const prevSeen = store.get(KEY_SEEN, 0);
+    seenAt = prevSeen;
+    apply(d);
+    store.set(KEY_CACHE, { at: Date.now(), data: d });
+    const now = Date.now();
+    store.set(KEY_SEEN, Math.max(prevSeen, ...data.items.map((it) => Math.min(it.date, now))));
+    const newCount = prevSeen ? data.items.filter((it) => it.date > prevSeen).length : 0;
+    const failed = Object.entries(d.sources || {}).filter(([id, s]) => !s.ok && SOURCES[id]).map(([id]) => SOURCES[id].name);
+    setStatus("収集 " + timeAgo(d.updatedAt) + (newCount ? " · 新着" + newCount + "件" : ""), failed);
+  } catch {
+    setStatus("読み込めませんでした。前回の内容を表示しています", []);
+  }
+  btn.classList.remove("busy"); btn.disabled = false;
+}
+
+const TABS = ["digest", "feed", "links"];
+function showTab(name) {
+  if (!TABS.includes(name)) name = "digest";
+  for (const t of TABS) {
+    $("view-" + t).hidden = t !== name;
+    $("tab-" + t).setAttribute("aria-selected", String(t === name));
+  }
+  $("refresh").hidden = name === "links";
+  store.set(KEY_TAB, name);
+  window.scrollTo(0, 0);
+}
+
+$("refresh").addEventListener("click", load);
+for (const t of TABS) $("tab-" + t).addEventListener("click", () => showTab(t));
+document.addEventListener("visibilitychange", () => {
+  const c = store.get(KEY_CACHE, null);
+  if (document.visibilityState === "visible" && (!c || Date.now() - c.at > 10 * 60000)) load();
+});
+
+const cached = store.get(KEY_CACHE, null);
+if (cached?.data?.items?.length) { apply(cached.data); setStatus("前回の内容", []); }
+else { renderChips(); renderDigest(); }
+showTab(store.get(KEY_TAB, "digest"));
+load();
+
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js").catch(() => {});
+}
+</script>
+</body>
+</html>

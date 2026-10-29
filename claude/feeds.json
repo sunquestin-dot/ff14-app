@@ -1,0 +1,800 @@
+{
+ "updatedAt": 1793257014590,
+ "sources": {
+  "news": {
+   "ok": true,
+   "count": 30
+  },
+  "engineering": {
+   "ok": true,
+   "count": 27
+  },
+  "research": {
+   "ok": true,
+   "count": 30
+  },
+  "claude-code": {
+   "ok": true,
+   "count": 10
+  },
+  "status": {
+   "ok": false,
+   "error": "fetch failed"
+  },
+  "youtube": {
+   "ok": false,
+   "error": "fetch failed"
+  },
+  "hn": {
+   "ok": false,
+   "error": "fetch failed"
+  },
+  "reddit": {
+   "ok": false,
+   "error": "fetch failed"
+  },
+  "zenn": {
+   "ok": false,
+   "error": "fetch failed"
+  },
+  "qiita": {
+   "ok": false,
+   "error": "fetch failed"
+  }
+ },
+ "items": [
+  {
+   "src": "news",
+   "title": "AI for Science expands to foundations and research institutions",
+   "link": "https://www.anthropic.com/news/ai-for-science-expands-foundations-research-institutions",
+   "date": 1793145600000,
+   "img": "",
+   "desc": "We’re highlighting 20 scientific foundations, institutions, and research groups around the world that we’ve partnered with in an expansion of our AI for Scienc…"
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.312",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+   "date": 1793132660000,
+   "img": "",
+   "desc": "What's changed - Added oidc.user_id_claim to the Claude apps gateway, to identify people by an id_token claim other than sub , such as Microsoft Entra ID's oid…"
+  },
+  {
+   "src": "news",
+   "title": "Early progress on accelerating drug development with Claude",
+   "link": "https://www.anthropic.com/research/early-progress-drug-development",
+   "date": 1793059200000,
+   "img": "",
+   "desc": "We're at the start of a major effort to speed up drug development with Claude. Over the past several months, our scientists have engaged in deep research partn…"
+  },
+  {
+   "src": "news",
+   "title": "Expanding our partnership with GSA to bring Claude to all levels of government",
+   "link": "https://www.anthropic.com/news/expanding-partnership-gsa",
+   "date": 1793059200000,
+   "img": "",
+   "desc": "We are expanding our partnership with the General Services Administration (GSA) through a new agreement that gives government partners a 40% discount on Claude…"
+  },
+  {
+   "src": "research",
+   "title": "How AI agents shape experts’ judgment calls",
+   "link": "https://www.anthropic.com/research/agents-judgment-calls",
+   "date": 1793059200000,
+   "img": "",
+   "desc": "As AI does more of the hands-on work, the hope is that experts still make the judgment calls, meaning the decisions with more than one defensible answer. We te…"
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.311",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+   "date": 1793051483000,
+   "img": "",
+   "desc": "What's changed - Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running - …"
+  },
+  {
+   "src": "news",
+   "title": "Anthropic files S-1 with the SEC for proposed initial public offering",
+   "link": "https://www.anthropic.com/news/s1-sec",
+   "date": 1792972800000,
+   "img": "",
+   "desc": "Today, Anthropic, PBC filed a registration statement on Form S-1 with the U.S. Securities and Exchange Commission relating to its proposed initial public offer…"
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.310",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+   "date": 1792798740000,
+   "img": "",
+   "desc": "What's changed - Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreg…"
+  },
+  {
+   "src": "research",
+   "title": "An alignment assessment of the UK AISI cybertesting incident",
+   "link": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+   "date": 1792713600000,
+   "img": "",
+   "desc": "In a UK AISI evaluation, Mythos 5 took unsanctioned actions that impacted real people and organizations. In this post, we investigate these behaviors from Clau…"
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.309",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.309",
+   "date": 1792707537000,
+   "img": "",
+   "desc": "What's changed - Fixed sandboxed Bash commands on macOS and Linux running the shell's startup files outside the sandbox before each command - Fixed macOS sandb…"
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.308",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308",
+   "date": 1792643695000,
+   "img": "",
+   "desc": "What's changed - Bug fixes and reliability improvements"
+  },
+  {
+   "src": "news",
+   "title": "Open call for guest investigators in the life sciences",
+   "link": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+   "date": 1792627200000,
+   "img": "",
+   "desc": "Today, we’re inviting members of the life sciences community to apply to work with us on special projects."
+  },
+  {
+   "src": "news",
+   "title": "Donating Agent Skills to the Agentic AI Foundation",
+   "link": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "date": 1792627200000,
+   "img": "",
+   "desc": "We’re donating Agent Skills, the open standard that gives AI agents specialized knowledge and workflows, to the Agentic AI Foundation. More than 70 agent platf…"
+  },
+  {
+   "src": "research",
+   "title": "LLMs are making formal software verification feasible at a much larger scale",
+   "link": "https://www.anthropic.com/research/formal-verification",
+   "date": 1792627200000,
+   "img": "",
+   "desc": "Formal verification can prove that code is free of certain bugs, but historically it has only been feasible for small codebases. With AI models, however, this …"
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.307",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307",
+   "date": 1792621022000,
+   "img": "",
+   "desc": "What's changed - Added /claude-api api-version to move Claude API code to API version 2026-10-21 - Added the claude_code.safety_event OpenTelemetry event for e…"
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.306",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+   "date": 1792552591000,
+   "img": "",
+   "desc": "What's changed - Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables - Fixed an API error …"
+  },
+  {
+   "src": "news",
+   "title": "Physicist Christopher Stubbs joins Anthropic's Long-Term Benefit Trust",
+   "link": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+   "date": 1792540800000,
+   "img": "",
+   "desc": "Dr. Christopher Stubbs, an experimental physicist and former Dean of Science at Harvard University, has joined Anthropic’s Long-Term Benefit Trust. He brings t…"
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.305",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
+   "date": 1792529210000,
+   "img": "",
+   "desc": "What's changed - Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them …"
+  },
+  {
+   "src": "research",
+   "title": "How Claude designed protein binders against scorpion neurotoxins",
+   "link": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+   "date": 1792454400000,
+   "img": "",
+   "desc": "We asked an internal research Claude model to design minibinders (small proteins that attach tightly to a target) against scorpion neurotoxins."
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.304",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+   "date": 1792445679000,
+   "img": "",
+   "desc": "What's changed - Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin - Added decider: \"person\"…"
+  },
+  {
+   "src": "claude-code",
+   "title": "v2.1.303",
+   "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303",
+   "date": 1792362414000,
+   "img": "",
+   "desc": "What's changed - Bug fixes and reliability improvements"
+  },
+  {
+   "src": "news",
+   "title": "Investing in the public benefit",
+   "link": "https://www.anthropic.com/news/public-benefit-fund",
+   "date": 1792281600000,
+   "img": "",
+   "desc": "We’re committing a portion of Anthropic’s shares to the Anthropic Public Benefit Fund, a new entity with a structure that increases the stake as the company gr…"
+  },
+  {
+   "src": "research",
+   "title": "Working at the frontier shapes expectations for the future",
+   "link": "https://www.anthropic.com/research/expectations-for-the-future",
+   "date": 1792108800000,
+   "img": "",
+   "desc": "We’re sharing two reports: the first covers how AI is changing employment inside Anthropic, and the second looks at the gap between how the public and Anthropi…"
+  },
+  {
+   "src": "research",
+   "title": "How employment is changing at Anthropic",
+   "link": "https://www.anthropic.com/research/employment-at-anthropic",
+   "date": 1792108800000,
+   "img": "",
+   "desc": "How has AI restructured work and employment at Anthropic? As a company at the frontier of AI adoption, Anthropic could be a leading indicator of how AI will sh…"
+  },
+  {
+   "src": "research",
+   "title": "Claude reveals ECDSA curve origins",
+   "link": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "date": 1792108800000,
+   "img": "",
+   "desc": "The decades-old mystery of the origins of one of the most popular cryptographic standards has been explained."
+  },
+  {
+   "src": "research",
+   "title": "Designing more efficient quantum circuits with Claude",
+   "link": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+   "date": 1792108800000,
+   "img": "",
+   "desc": "We gave Claude plain-language specifications for eight quantum circuits, along with an automated evaluator to check and score its designs. Working largely on i…"
+  },
+  {
+   "src": "research",
+   "title": "The AI expectations gap",
+   "link": "https://www.anthropic.com/research/ai-expectations-gap",
+   "date": 1792108800000,
+   "img": "",
+   "desc": "How will AI reshape the economy in the years ahead? What is the core source of disagreement about AI's future impact on the economy? This note presents new sur…"
+  },
+  {
+   "src": "news",
+   "title": "An update on independent evaluators",
+   "link": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+   "date": 1792022400000,
+   "img": "",
+   "desc": "To evaluate the safety of our systems, Anthropic is giving employee-like access to a team from METR, a nonprofit that evaluates frontier AI models, and we're i…"
+  },
+  {
+   "src": "news",
+   "title": "Anthropic opens Singapore office and signs MOU with the Government of Singapore",
+   "link": "https://www.anthropic.com/news/singapore-office-opening",
+   "date": 1791936000000,
+   "img": "",
+   "desc": "Anthropic has opened an office in Singapore and signed an MOU with the country’s government to advance safe, responsible AI adoption."
+  },
+  {
+   "src": "news",
+   "title": "Preparing for the 2026 US midterms",
+   "link": "https://www.anthropic.com/news/2026-us-midterms",
+   "date": 1791936000000,
+   "img": "",
+   "desc": "Earlier this year, we shared an update on our election safeguards. Here, we outline how we’ve continued to strengthen these safeguards ahead of this year’s US …"
+  },
+  {
+   "src": "engineering",
+   "title": "Redesigning source control at Anthropic",
+   "link": "https://www.anthropic.com/research/redesigning-source-control",
+   "date": 1791849600000,
+   "img": "",
+   "desc": "As our merges per day grew more than tenfold, source control became our biggest development bottleneck. Here, we share how we migrated to an in-house version c…"
+  },
+  {
+   "src": "news",
+   "title": "Strengthening our defenses against distillation attacks",
+   "link": "https://www.anthropic.com/news/distillation-defenses",
+   "date": 1791763200000,
+   "img": "",
+   "desc": "Illicit distillation allows model developers to copy frontier AI capabilities without creating proportionally robust safeguards. Here, we describe how we’ve re…"
+  },
+  {
+   "src": "research",
+   "title": "AI models may be capable of self-replicating without access to a datacenter",
+   "link": "https://www.anthropic.com/research/self-replicating-ai",
+   "date": 1791763200000,
+   "img": "",
+   "desc": "Our experiments suggest that small AI models may be only months away from being capable enough to self-replicate on commercial IoT devices, like Android TVs an…"
+  },
+  {
+   "src": "research",
+   "title": "Strengthening our defenses against distillation attacks",
+   "link": "https://www.anthropic.com/research/distillation-defenses",
+   "date": 1791763200000,
+   "img": "",
+   "desc": "Strengthening our defenses against distillation attacks"
+  },
+  {
+   "src": "research",
+   "title": "Investigating unintended model actions in our evaluations and internal use",
+   "link": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+   "date": 1791504000000,
+   "img": "",
+   "desc": "This report describes examples of unintended model actions we’ve observed during evaluations and internal use of Claude."
+  },
+  {
+   "src": "news",
+   "title": "Building on our commitment to American scientific discovery",
+   "link": "https://www.anthropic.com/news/genesis-mission-commitment",
+   "date": 1791417600000,
+   "img": "",
+   "desc": "Anthropic is committing $150 million over three years to the Genesis Mission, a federal initiative to accelerate scientific and technological discovery through…"
+  },
+  {
+   "src": "news",
+   "title": "Introducing the Anthropic Cyber Mission",
+   "link": "https://www.anthropic.com/news/anthropic-cyber-mission",
+   "date": 1791417600000,
+   "img": "",
+   "desc": "We’re launching the Anthropic Cyber Mission, a long-term commitment to securing the systems everyone depends on."
+  },
+  {
+   "src": "news",
+   "title": "2026 Usage Policy update",
+   "link": "https://www.anthropic.com/news/2026-usage-policy-update",
+   "date": 1791417600000,
+   "img": "",
+   "desc": "We’re publishing a new version of our Usage Policy. In this post, we summarize the changes we’ve made."
+  },
+  {
+   "src": "research",
+   "title": "The missing map of the sky",
+   "link": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+   "date": 1791417600000,
+   "img": "",
+   "desc": "Brice Ménard, an astrophysicist at Johns Hopkins University and a researcher at Anthropic, explains how he worked with Claude Science to produce the first comp…"
+  },
+  {
+   "src": "research",
+   "title": "Launching an opt-in vulnerability-finding service for open-source software",
+   "link": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+   "date": 1791417600000,
+   "img": "",
+   "desc": "We’re making available OSS Scanner, an opt-in vulnerability scanner for the open-source ecosystem that’s informed by our experience using Claude to find vulner…"
+  },
+  {
+   "src": "news",
+   "title": "Introducing Claude Haiku 5.5",
+   "link": "https://www.anthropic.com/claude-haiku-5-5",
+   "date": 1791331200000,
+   "img": "",
+   "desc": "Claude Haiku 5.5 is our fastest, most capable small model. Built for high-volume work like summarization, subagents, and browser use."
+  },
+  {
+   "src": "news",
+   "title": "Expanding the Cyber Verification Program",
+   "link": "https://www.anthropic.com/news/cyber-verification-program",
+   "date": 1791244800000,
+   "img": "",
+   "desc": "We’re launching a new, expanded version of our Cyber Verification Program, which makes advanced cyber capabilities and reduced blocking classifiers available t…"
+  },
+  {
+   "src": "news",
+   "title": "Anthropic invests $100 million to train 10,000 engineers and tackle the enterprise AI talent gap",
+   "link": "https://www.anthropic.com/news/claude-frontier-academy",
+   "date": 1790899200000,
+   "img": "",
+   "desc": "Anthropic is investing $100 million in Claude Frontier Academy to train 10,000 Frontier Deployed Engineers by the end of 2027, with cohorts from Accenture, Bai…"
+  },
+  {
+   "src": "news",
+   "title": "Barclays scales Claude to upgrade operations and improve client experience",
+   "link": "https://www.anthropic.com/news/barclays-scales-claude",
+   "date": 1790812800000,
+   "img": "",
+   "desc": "Barclays, the British universal bank, is expanding its strategic collaboration with Anthropic to integrate secure, enterprise-grade AI systems across its globa…"
+  },
+  {
+   "src": "research",
+   "title": "Claude-shaped science",
+   "link": "https://www.anthropic.com/research/claude-shaped-science",
+   "date": 1790812800000,
+   "img": "",
+   "desc": "Guest author Prof. Matthew Schwartz describes what happened when he stopped fighting Claude and allowed Claude to find “Claude-shaped” problems: ones best suit…"
+  },
+  {
+   "src": "research",
+   "title": "What work can robots do?",
+   "link": "https://www.anthropic.com/research/what-work-can-robots-do",
+   "date": 1790726400000,
+   "img": "",
+   "desc": "We built an index of how well today’s robots can perform US job tasks. Robots can already do three-quarters of physical tasks, mostly in limited settings, but …"
+  },
+  {
+   "src": "research",
+   "title": "What do you want from AI?",
+   "link": "https://www.anthropic.com/research/your-thoughts-on-ai",
+   "date": 1790640000000,
+   "img": "",
+   "desc": "We’re launching a new study using Anthropic Interviewer to learn from your experiences with AI."
+  },
+  {
+   "src": "research",
+   "title": "GLM-5.3 and the spread of advanced cyber capabilities",
+   "link": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+   "date": 1790640000000,
+   "img": "",
+   "desc": "Like Claude Mythos Preview, GLM-5.3 has strong capabilities for autonomously building end-to-end cyber exploits. But GLM-5.3 is unlike other frontier models in…"
+  },
+  {
+   "src": "news",
+   "title": "Introducing Claude Sonnet 5.5",
+   "link": "https://www.anthropic.com/claude-sonnet-5-5",
+   "date": 1790553600000,
+   "img": "",
+   "desc": "Claude Sonnet 5.5 is a clear upgrade over Claude Sonnet 5, runs 30%+ faster, and costs up to 30% less for most work."
+  },
+  {
+   "src": "research",
+   "title": "Yes, Claude can do Nine Loops",
+   "link": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+   "date": 1790294400000,
+   "img": "",
+   "desc": "Guest writer and physicist Matt von Hippel shares what happened when he issued a challenge to AI companies to solve a problem in his former subfield of theoret…"
+  },
+  {
+   "src": "research",
+   "title": "Project Swap: What happens when agents trade for us?",
+   "link": "https://www.anthropic.com/research/project-swap",
+   "date": 1790208000000,
+   "img": "",
+   "desc": "To see what works and what breaks when agents are sent into a market, we made a miniature market of Claudes."
+  },
+  {
+   "src": "news",
+   "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+   "link": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+   "date": 1790121600000,
+   "img": "",
+   "desc": "Claude discovers a novel enzyme system with CRISPR-like repeats"
+  },
+  {
+   "src": "research",
+   "title": "Claude discovers a novel enzyme system with CRISPR-like repeats",
+   "link": "https://www.anthropic.com/research/claude-discovers-novel-enzyme-system",
+   "date": 1790121600000,
+   "img": "",
+   "desc": "We’re announcing a new life sciences research group and laboratory at Anthropic. This post introduces the team behind this work and shares early results in whi…"
+  },
+  {
+   "src": "news",
+   "title": "Introducing Claude Opus 5.5",
+   "link": "https://www.anthropic.com/claude-opus-5-5",
+   "date": 1790035200000,
+   "img": "",
+   "desc": "Claude Opus 5.5 leads in agentic coding and knowledge work, and costs 40% less to run than Opus 5 on typical workloads."
+  },
+  {
+   "src": "news",
+   "title": "The Situation Report",
+   "link": "https://www.anthropic.com/features/ebola-response",
+   "date": 1789948800000,
+   "img": "",
+   "desc": "A rare Ebola strain is spreading in the DRC, with no confirmed vaccine. Global health organizations are using Claude to respond as fast as possible."
+  },
+  {
+   "src": "news",
+   "title": "Partnering with Accenture on embedded evaluation",
+   "link": "https://www.anthropic.com/news/accenture-embedded-evaluation",
+   "date": 1789689600000,
+   "img": "",
+   "desc": "Partnering with Accenture on embedded evaluation"
+  },
+  {
+   "src": "news",
+   "title": "Introducing the Life Sciences Verification Program",
+   "link": "https://www.anthropic.com/news/life-sciences-verification-program",
+   "date": 1789603200000,
+   "img": "",
+   "desc": "The Life Sciences Verification Program (LSVP) gives life science professionals access to Claude Mythos, Opus, and Sonnet models with a refined set of safeguard…"
+  },
+  {
+   "src": "research",
+   "title": "How Claude is uplifting biomolecular modeling",
+   "link": "https://www.anthropic.com/research/claude-uplifts-biomolecular-modeling",
+   "date": 1789603200000,
+   "img": "",
+   "desc": "Claude made the open-source models that scientists use to predict and design biomolecules faster and more memory-efficient. Claude optimized more than 30 of th…"
+  },
+  {
+   "src": "research",
+   "title": "Illuminating the frontier",
+   "link": "https://www.anthropic.com/institute/measuring-pace-of-ai-development",
+   "date": 1789603200000,
+   "img": "",
+   "desc": "Anthropic is sharing new measurements that would give the public visibility into frontier AI development."
+  },
+  {
+   "src": "news",
+   "title": "Introducing Claude Mythos and Fable 5.1",
+   "link": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+   "date": 1789430400000,
+   "img": "",
+   "desc": "They’re the world’s most advanced models for coding and knowledge work—and their research capabilities offer an early glimpse of how AI models will contribute …"
+  },
+  {
+   "src": "research",
+   "title": "Measuring tactical intelligence targeting and conventional weapons capabilities of AI models",
+   "link": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+   "date": 1788998400000,
+   "img": "",
+   "desc": "Anthropic’s Frontier Red Team developed new evaluations to measure AI capabilities in tactical intelligence targeting and conventional weapons development."
+  },
+  {
+   "src": "research",
+   "title": "An alignment assessment of recent cybersecurity incidents",
+   "link": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+   "date": 1788912000000,
+   "img": "",
+   "desc": "We present an alignment assessment of four incidents in which Claude models gained unauthorized access to real third-party systems."
+  },
+  {
+   "src": "research",
+   "title": "Scenarios for our economic future",
+   "link": "https://www.anthropic.com/institute/econ-scenarios",
+   "date": 1788912000000,
+   "img": "",
+   "desc": "Anthropic’s Economics team is sharing a new model of how AI may affect economic growth, jobs, wages, and more by 2030. The model lets you explore the scenarios…"
+  },
+  {
+   "src": "research",
+   "title": "Formalizing Fermat's Last Theorem",
+   "link": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+   "date": 1788480000000,
+   "img": "",
+   "desc": "We are sharing the first complete computer-checked proof of Fermat’s Last Theorem. Claude worked largely autonomously over 11 days to write the proof in the Le…"
+  },
+  {
+   "src": "news",
+   "title": "Developing Enterprise Frontier Safeguards with our customers",
+   "link": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+   "date": 1788220800000,
+   "img": "",
+   "desc": "We’re announcing Enterprise Frontier Safeguards (EFS), a solution that combines the privacy of zero data retention with state-of-the-art safeguards for detecti…"
+  },
+  {
+   "src": "news",
+   "title": "Improving our alignment and security efforts",
+   "link": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+   "date": 1788134400000,
+   "img": "",
+   "desc": "On July 30, we reported three incidents in which Claude models gained unauthorized access to real computer systems. We are conducting an in-depth analysis of b…"
+  },
+  {
+   "src": "news",
+   "title": "Previewing the Model Hardware Standard",
+   "link": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+   "date": 1787788800000,
+   "img": "",
+   "desc": "We’re opening a research preview of the Model Hardware Standard (MHS), a shared specification for AI agents to safely operate physical devices, to a first grou…"
+  },
+  {
+   "src": "news",
+   "title": "Expanding our support for scientists",
+   "link": "https://www.anthropic.com/news/expanding-support-for-scientists",
+   "date": 1787788800000,
+   "img": "",
+   "desc": "Starting today, 10,000 scientists around the world can get Claude at no cost to start. Verified principal investigators qualify for a Claude Team subscription …"
+  },
+  {
+   "src": "engineering",
+   "title": "How we contain Claude across products",
+   "link": "https://www.anthropic.com/research/how-we-contain-claude",
+   "date": 1779667200000,
+   "img": "",
+   "desc": "As agents grow more capable, so does their potential blast radius. The engineering question is how to cap it. Here’s what we’ve learned building containment fo…"
+  },
+  {
+   "src": "engineering",
+   "title": "An update on recent Claude Code quality reports",
+   "link": "https://www.anthropic.com/research/april-23-postmortem",
+   "date": 1776902400000,
+   "img": "",
+   "desc": "We traced recent reports of Claude Code quality issues to three separate changes. Here's what happened and what we're changing."
+  },
+  {
+   "src": "engineering",
+   "title": "Scaling Managed Agents: Decoupling the brain from the hands",
+   "link": "https://www.anthropic.com/research/managed-agents",
+   "date": 1775606400000,
+   "img": "",
+   "desc": "Harnesses encode assumptions that go stale as models improve. Managed Agents—our hosted service for long-horizon agent work—is built around interfaces that sta…"
+  },
+  {
+   "src": "engineering",
+   "title": "How we built Claude Code auto mode: a safer way to skip permissions",
+   "link": "https://www.anthropic.com/research/claude-code-auto-mode",
+   "date": 1774396800000,
+   "img": "",
+   "desc": "Claude Code users approve 93% of permission prompts. We built classifiers to automate some decisions, increasing safety while reducing approval fatigue. Here's…"
+  },
+  {
+   "src": "engineering",
+   "title": "Harness design for long-running application development",
+   "link": "https://www.anthropic.com/research/harness-design-long-running-apps",
+   "date": 1774310400000,
+   "img": "",
+   "desc": "Harness design is key to performance at the frontier of agentic coding. Here's how we pushed Claude further in frontend design and long-running autonomous soft…"
+  },
+  {
+   "src": "engineering",
+   "title": "Eval awareness in Claude Opus 4.6’s BrowseComp performance",
+   "link": "https://www.anthropic.com/research/eval-awareness-browsecomp",
+   "date": 1772755200000,
+   "img": "",
+   "desc": "Evaluating Opus 4.6 on BrowseComp, we found cases where the model recognized the test, then found and decrypted answers to it—raising questions about eval inte…"
+  },
+  {
+   "src": "engineering",
+   "title": "Quantifying infrastructure noise in agentic coding evals",
+   "link": "https://www.anthropic.com/research/infrastructure-noise",
+   "date": 1770249600000,
+   "img": "",
+   "desc": "Agentic coding benchmarks are often treated as precise measurements of relative model capability. However, we’ve found that infrastructure configuration alone …"
+  },
+  {
+   "src": "engineering",
+   "title": "Building a C compiler with a team of parallel Claudes",
+   "link": "https://www.anthropic.com/research/building-c-compiler",
+   "date": 1770249600000,
+   "img": "",
+   "desc": "Nicholas Carlini, a researcher on our Safeguards team, explains how he tasked 16 agents with writing a Rust-based C compiler, from scratch, capable of compilin…"
+  },
+  {
+   "src": "engineering",
+   "title": "Designing AI-resistant technical evaluations",
+   "link": "https://www.anthropic.com/research/AI-resistant-technical-evaluations",
+   "date": 1768953600000,
+   "img": "",
+   "desc": "What we learned from three iterations of a performance engineering take-home that Claude keeps beating."
+  },
+  {
+   "src": "engineering",
+   "title": "Demystifying evals for AI agents",
+   "link": "https://www.anthropic.com/research/demystifying-evals-for-ai-agents",
+   "date": 1767916800000,
+   "img": "",
+   "desc": "Guidance on how to design more rigorous and useful evals for agents across a range of agent architectures and use cases in real-world deployment."
+  },
+  {
+   "src": "engineering",
+   "title": "Effective harnesses for long-running agents",
+   "link": "https://www.anthropic.com/research/effective-harnesses-for-long-running-agents",
+   "date": 1764115200000,
+   "img": "",
+   "desc": "We developed a two-fold solution to enable the Claude Agent SDK to work effectively across many context windows: an initializer agent that sets up the environm…"
+  },
+  {
+   "src": "engineering",
+   "title": "Introducing advanced tool use on the Claude Developer Platform",
+   "link": "https://www.anthropic.com/research/advanced-tool-use",
+   "date": 1763942400000,
+   "img": "",
+   "desc": "We’ve added three new beta features that let Claude discover, learn, and execute tools dynamically. Here’s how they work."
+  },
+  {
+   "src": "engineering",
+   "title": "Code execution with MCP: Building more efficient agents",
+   "link": "https://www.anthropic.com/research/code-execution-with-mcp",
+   "date": 1762214400000,
+   "img": "",
+   "desc": "Code execution with MCP: Building more efficient agents"
+  },
+  {
+   "src": "engineering",
+   "title": "Beyond permission prompts: making Claude Code more secure and autonomous",
+   "link": "https://www.anthropic.com/research/claude-code-sandboxing",
+   "date": 1760918400000,
+   "img": "",
+   "desc": "Beyond permission prompts: making Claude Code more secure and autonomous"
+  },
+  {
+   "src": "engineering",
+   "title": "Equipping agents for the real world with Agent Skills",
+   "link": "https://www.anthropic.com/research/equipping-agents-for-the-real-world-with-agent-skills",
+   "date": 1760572800000,
+   "img": "",
+   "desc": "Claude is powerful, but real work requires procedural knowledge and organizational context. Introducing Agent Skills, a new way to build specialized agents usi…"
+  },
+  {
+   "src": "engineering",
+   "title": "Effective context engineering for AI agents",
+   "link": "https://www.anthropic.com/research/effective-context-engineering-for-ai-agents",
+   "date": 1759104000000,
+   "img": "",
+   "desc": "We explore the emerging art of context engineering and offer a refined mental model for building steerable, effective agents."
+  },
+  {
+   "src": "engineering",
+   "title": "A postmortem of three recent issues",
+   "link": "https://www.anthropic.com/research/a-postmortem-of-three-recent-issues",
+   "date": 1758067200000,
+   "img": "",
+   "desc": "A technical report on three bugs that intermittently degraded responses from Claude. Below we explain what happened, why it took time to fix, and what we're ch…"
+  },
+  {
+   "src": "engineering",
+   "title": "Writing effective tools for agents — with agents",
+   "link": "https://www.anthropic.com/research/writing-tools-for-agents",
+   "date": 1757548800000,
+   "img": "",
+   "desc": "In this post, we describe our most effective techniques for improving performance in a variety of agentic AI systems."
+  },
+  {
+   "src": "engineering",
+   "title": "Desktop Extensions: One-click MCP server installation for Claude Desktop",
+   "link": "https://www.anthropic.com/research/desktop-extensions",
+   "date": 1750896000000,
+   "img": "",
+   "desc": "Today, we're introducing Desktop Extensions—a new packaging format that makes installing MCP servers as simple as clicking a button."
+  },
+  {
+   "src": "engineering",
+   "title": "Confidential Inference via Trusted Virtual Machines",
+   "link": "https://www.anthropic.com/research/confidential-inference-trusted-vms",
+   "date": 1750204800000,
+   "img": "",
+   "desc": "Confidential Inference via Trusted Virtual Machines"
+  },
+  {
+   "src": "engineering",
+   "title": "How we built our multi-agent research system",
+   "link": "https://www.anthropic.com/research/multi-agent-research-system",
+   "date": 1749772800000,
+   "img": "",
+   "desc": "How we built our multi-agent research system"
+  },
+  {
+   "src": "engineering",
+   "title": "Claude Code: Best practices for agentic coding",
+   "link": "https://www.anthropic.com/research/claude-code-best-practices",
+   "date": 1744934400000,
+   "img": "",
+   "desc": "Claude Code: Best practices for agentic coding"
+  },
+  {
+   "src": "engineering",
+   "title": "The \"think\" tool: Enabling Claude to stop and think in complex tool use situations",
+   "link": "https://www.anthropic.com/research/claude-think-tool",
+   "date": 1742428800000,
+   "img": "",
+   "desc": "The \"think\" tool: Enabling Claude to stop and think in complex tool use situations"
+  },
+  {
+   "src": "engineering",
+   "title": "Raising the bar on SWE-bench Verified with Claude 3.5 Sonnet",
+   "link": "https://www.anthropic.com/engineering/swe-bench-sonnet",
+   "date": 1736121600000,
+   "img": "",
+   "desc": "SWE-bench is an AI evaluation benchmark that assesses a model's ability to complete real-world software engineering tasks."
+  },
+  {
+   "src": "engineering",
+   "title": "Building effective agents",
+   "link": "https://www.anthropic.com/engineering/building-effective-agents",
+   "date": 1734566400000,
+   "img": "",
+   "desc": "We've worked with dozens of teams building LLM agents across industries. Consistently, the most successful implementations use simple, composable patterns rath…"
+  },
+  {
+   "src": "engineering",
+   "title": "Introducing Contextual Retrieval",
+   "link": "https://www.anthropic.com/engineering/contextual-retrieval",
+   "date": 1726704000000,
+   "img": "",
+   "desc": "For an AI model to be useful in specific contexts, it often needs access to background knowledge."
+  }
+ ],
+ "digest": null
+}
