@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793281960362,
+ "updatedAt": 1793288649275,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -161,6 +161,13 @@
   },
   {
    "src": "yt-official",
+   "title": "FINAL FANTASY XIV at PAX Australia 2026",
+   "link": "https://www.youtube.com/watch?v=swSnBjYCFZA",
+   "date": 1793287469000,
+   "img": "https://i4.ytimg.com/vi/swSnBjYCFZA/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
    "title": "第48回 FFXIVコミュニティ放送",
    "link": "https://www.youtube.com/watch?v=PdgjNUsuI9c",
    "date": 1792764076000,
@@ -256,13 +263,6 @@
    "link": "https://www.youtube.com/watch?v=UkEiGejYC3Q",
    "date": 1788405999000,
    "img": "https://i2.ytimg.com/vi/UkEiGejYC3Q/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "【ハイライト：予選トーナメントD】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
-   "link": "https://www.youtube.com/watch?v=4TU_49auAs4",
-   "date": 1788090055000,
-   "img": "https://i1.ytimg.com/vi/4TU_49auAs4/hqdefault.jpg"
   },
   {
    "src": "hikasen",
