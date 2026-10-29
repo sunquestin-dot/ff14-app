@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793243663966,
+ "updatedAt": 1793247290694,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -10,8 +10,8 @@
    "count": 30
   },
   "hikasen": {
-   "ok": false,
-   "error": "HTTP 403"
+   "ok": true,
+   "count": 30
   },
   "yan": {
    "ok": true,
@@ -179,197 +179,407 @@
    "src": "yt-official",
    "title": "第48回 FFXIVコミュニティ放送",
    "link": "https://www.youtube.com/watch?v=PdgjNUsuI9c",
-   "date": 1792811664132,
+   "date": 1792815291024,
    "img": "https://i.ytimg.com/vi/PdgjNUsuI9c/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Duty Commenced - North American Community Team Stream (October 21, 2026)",
    "link": "https://www.youtube.com/watch?v=5nMDPRJwhk0",
-   "date": 1792638864132,
+   "date": 1792642491024,
    "img": "https://i.ytimg.com/vi/5nMDPRJwhk0/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Piano Collections: Till Dawn My Tears Flow - Promises to Keep Music Video (by Keiko)",
    "link": "https://www.youtube.com/watch?v=g2sU-UzoV14",
-   "date": 1792034064132,
+   "date": 1792037691024,
    "img": "https://i.ytimg.com/vi/g2sU-UzoV14/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Duty Commenced - North American Community Team Stream (October 7, 2026)",
    "link": "https://www.youtube.com/watch?v=mXU4gIn1Bmo",
-   "date": 1791429264132,
+   "date": 1791432891024,
    "img": "https://i.ytimg.com/vi/mXU4gIn1Bmo/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV @ Otakon 2026",
    "link": "https://www.youtube.com/watch?v=RQ4h5G80wFY",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/RQ4h5G80wFY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "gamescom 2026 - Recap Video",
    "link": "https://www.youtube.com/watch?v=ex5hfbzA9is",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/ex5hfbzA9is/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV Letter from the Producer LIVE Part XCIII",
    "link": "https://www.youtube.com/watch?v=5xraioACduM",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/5xraioACduM/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "開発パネル - Development Panel ｜FINAL FANTASY XIV Fan Festival 2026 in  Berlin",
    "link": "https://www.youtube.com/watch?v=UkEiGejYC3Q",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/UkEiGejYC3Q/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：予選トーナメントD】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=4TU_49auAs4",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/4TU_49auAs4/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：予選トーナメントC】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=666D3uXbAaw",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/666D3uXbAaw/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "第47回 FFXIVコミュニティ放送",
    "link": "https://www.youtube.com/watch?v=tyl3k1l4Q9M",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/tyl3k1l4Q9M/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV - The Unending Journey - EU Community Stream",
    "link": "https://www.youtube.com/watch?v=jLMMm83wwQ0",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/jLMMm83wwQ0/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV - Le Carnet de Voyage - French Community Stream",
    "link": "https://www.youtube.com/watch?v=0hVJCYVDDok",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/0hVJCYVDDok/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Rise of the Wolves - North American Community Team PvP Stream (September 2026)",
    "link": "https://www.youtube.com/watch?v=QAi1kckbMK0",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/QAi1kckbMK0/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【予選トーナメントD】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: D",
    "link": "https://www.youtube.com/watch?v=d7JH4Ni7pHk",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/d7JH4Ni7pHk/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【予選トーナメントC】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: C",
    "link": "https://www.youtube.com/watch?v=Y6W_K8XXiTE",
-   "date": 1790651664132,
+   "date": 1790655291024,
    "img": "https://i.ytimg.com/vi/Y6W_K8XXiTE/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "基調講演まとめ - FINAL FANTASY XIV Fan Festival 2026 in  Berlin",
    "link": "https://www.youtube.com/watch?v=84x_nrekEBA",
-   "date": 1788059664132,
+   "date": 1788063291024,
    "img": "https://i.ytimg.com/vi/84x_nrekEBA/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "基調講演 - Keynote｜FINAL FANTASY XIV Fan Festival 2026 in  Berlin",
    "link": "https://www.youtube.com/watch?v=-OcvXUVQDRI",
-   "date": 1788059664132,
+   "date": 1788063291024,
    "img": "https://i.ytimg.com/vi/-OcvXUVQDRI/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：予選トーナメントB】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=IZLv-watGvY",
-   "date": 1788059664132,
+   "date": 1788063291024,
    "img": "https://i.ytimg.com/vi/IZLv-watGvY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：予選トーナメントA】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=jVza7Z3Gqok",
-   "date": 1788059664132,
+   "date": 1788063291024,
    "img": "https://i.ytimg.com/vi/jVza7Z3Gqok/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Fan Festival 2026 in Berlin - Recap Video",
    "link": "https://www.youtube.com/watch?v=_Nepqo6ML4Q",
-   "date": 1788059664132,
+   "date": 1788063291024,
    "img": "https://i.ytimg.com/vi/_Nepqo6ML4Q/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "ファイナルファンタジーXIV Nintendo Switch™ 2 版 サービス開始！",
    "link": "https://www.youtube.com/watch?v=AO2xe-T-MP4",
-   "date": 1788059664132,
+   "date": 1788063291024,
    "img": "https://i.ytimg.com/vi/AO2xe-T-MP4/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【予選トーナメントB】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: B",
    "link": "https://www.youtube.com/watch?v=xjbzX_lxDb0",
-   "date": 1788059664132,
+   "date": 1788063291024,
    "img": "https://i.ytimg.com/vi/xjbzX_lxDb0/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【予選トーナメントA】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: A",
    "link": "https://www.youtube.com/watch?v=qmG6hEUFGJw",
-   "date": 1788059664132,
+   "date": 1788063291024,
    "img": "https://i.ytimg.com/vi/qmG6hEUFGJw/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "第46回 FFXIVコミュニティ放送",
    "link": "https://www.youtube.com/watch?v=ZoUJPuCIkU4",
-   "date": 1788059664132,
+   "date": 1788063291024,
    "img": "https://i.ytimg.com/vi/ZoUJPuCIkU4/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Duty Commenced - North American Community Team Stream (August 2026)",
    "link": "https://www.youtube.com/watch?v=NeDMRk_S-pM",
-   "date": 1788059664132,
+   "date": 1788063291024,
    "img": "https://i.ytimg.com/vi/NeDMRk_S-pM/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "『ファイナルファンタジーXIV』Nintendo Switch™ 2 版 発売記念！ 公開生放送 in 渋谷サクラステージ",
    "link": "https://www.youtube.com/watch?v=MhaL0WCzgbE",
-   "date": 1788059664132,
+   "date": 1788063291024,
    "img": "https://i.ytimg.com/vi/MhaL0WCzgbE/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV — EVANGELION - Ghosts of Desire",
    "link": "https://www.youtube.com/watch?v=ecjI-T1zP-o",
-   "date": 1785467664132,
+   "date": 1785471291024,
    "img": "https://i.ytimg.com/vi/ecjI-T1zP-o/hqdefault.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】キーバウンド・ブロウラー実装で浮き彫りに？キーボードを持っていないプレイヤーの存在",
+   "link": "https://ff14hikasensokuhou.com/e/29730",
+   "date": 1793242824000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/2026102820252204ds.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】フロントラインのLBゲージは被ダメで増加にしてほしい！",
+   "link": "https://ff14hikasensokuhou.com/e/29729",
+   "date": 1793235649000,
+   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/20160715235818ecc.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】キーバウンド・ブロウラー ってどうやったらスコア伸びるの？",
+   "link": "https://ff14hikasensokuhou.com/e/29728",
+   "date": 1793228414000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261029064355298s.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】キーバウンド・ブロウラーで放置プレイヤーが問題に？クリア失敗への不満が続出",
+   "link": "https://ff14hikasensokuhou.com/e/29727",
+   "date": 1793220542000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/dJO06GAiSItDfzWRZ3JC0zsXlgs.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】キーバウンド・ブロウラー攻略のコツは？バリアと攻撃対象の選び方が重要に",
+   "link": "https://ff14hikasensokuhou.com/e/29726",
+   "date": 1793188814000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/2026102820252204ds.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】キーバウンド・ブロウラーで放置する人が現れてしまう･･･",
+   "link": "https://ff14hikasensokuhou.com/e/29725",
+   "date": 1793186280000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/dJO06GAiSItDfzWRZ3JC0zsXlgs.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】タイピング得意な人がいないときつい？「 キーバウンド・ブロウラー 」が難しすぎるｗｗｗｗｗｗｗｗ",
+   "link": "https://ff14hikasensokuhou.com/e/29724",
+   "date": 1793180169000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261021104857e93s.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】本日実装の「キーバウンド・ブロウラー」はキーボード必須な模様",
+   "link": "https://ff14hikasensokuhou.com/e/29723",
+   "date": 1793174413000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261021104857e93s.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】ギルが増えないって愚痴",
+   "link": "https://ff14hikasensokuhou.com/e/29722",
+   "date": 1793163628000,
+   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/201607082051260f7.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "昔のゲームセンターは凄かったって本当ですか？",
+   "link": "https://ff14hikasensokuhou.com/e/29721",
+   "date": 1793152807000,
+   "img": "https://blog-imgs-162.fc2.com/f/f/1/ff14hikasensokuhou/20250826075923d35s.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】統合後のフロントラインって本当に質下がったの？",
+   "link": "https://ff14hikasensokuhou.com/e/29720",
+   "date": 1793142689000,
+   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】最大4人でプレイ可能なタイピングゲーム『キーバウンド・ブロウラー』 が明日実装されるわけだが",
+   "link": "https://ff14hikasensokuhou.com/e/29719",
+   "date": 1793098802000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261021104857e93s.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "？？？「私たちはタイパを大事にしている。ゲームにボリュームはいらない」",
+   "link": "https://ff14hikasensokuhou.com/e/29718",
+   "date": 1793088010000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/game_tetsuya_mans.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】FLヒーラー「ヒラ下がります！」←これ",
+   "link": "https://ff14hikasensokuhou.com/e/29717",
+   "date": 1793077227000,
+   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】メインクエストのIL不足でレイドをやる必要がある？カジュアル層の装備事情",
+   "link": "https://ff14hikasensokuhou.com/e/29716",
+   "date": 1793066403000,
+   "img": "https://blog-imgs-171.fc2.com/f/f/1/ff14hikasensokuhou/20240910075428f07s.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】「1日50万、いや30万ギルでいい」金策に苦しむヒカセン",
+   "link": "https://ff14hikasensokuhou.com/e/29715",
+   "date": 1793055619000,
+   "img": "https://blog-imgs-94.fc2.com/f/f/1/ff14hikasensokuhou/20160912232034b5e.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】固定募集「外部ツールの使用に抵抗がない方」←これ",
+   "link": "https://ff14hikasensokuhou.com/e/29714",
+   "date": 1793016052000,
+   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/201607230020367fa.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】ワイメレー「LBはギリギリまで貯めてぇ」",
+   "link": "https://ff14hikasensokuhou.com/e/29713",
+   "date": 1793008833000,
+   "img": "https://blog-imgs-98.fc2.com/f/f/1/ff14hikasensokuhou/2016111213050974e.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】結局フロントラインのメレーってPvPロールアクション何がいいの？",
+   "link": "https://ff14hikasensokuhou.com/e/29712",
+   "date": 1792998052000,
+   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】実際タンクって本当に不足してるの？DPSのシャキ待ちは改善されたという声も",
+   "link": "https://ff14hikasensokuhou.com/e/29711",
+   "date": 1792987200000,
+   "img": "https://blog-imgs-202.fc2.com/f/f/1/ff14hikasensokuhou/20170425022453225.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "年取ると据え置きのゲームができなくなる理由",
+   "link": "https://ff14hikasensokuhou.com/e/29710",
+   "date": 1792976408000,
+   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/202512101611052ea.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】「指揮ありで一番差が出るの砕氷戦」",
+   "link": "https://ff14hikasensokuhou.com/e/29709",
+   "date": 1792964734000,
+   "img": "https://blog-imgs-98.fc2.com/f/f/1/ff14hikasensokuhou/2017020301025016a.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】？？？「○○ガーを使うのはおっさん」",
+   "link": "https://ff14hikasensokuhou.com/e/29708",
+   "date": 1792926018000,
+   "img": "https://blog-imgs-126.fc2.com/f/f/1/ff14hikasensokuhou/201903271951158f0.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "ゲーム歴10年以上の人に聞きたい。「最近のゲームはつまらない」と言いますが具体的にどう違うの？",
+   "link": "https://ff14hikasensokuhou.com/e/29707",
+   "date": 1792911609000,
+   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251129115229e44s.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】魔獣使いランキング始まるけどお前ら参加するの？",
+   "link": "https://ff14hikasensokuhou.com/e/29706",
+   "date": 1792900823000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/202603132117056a2s.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】小隊の兵舎をもっと充実させてほしい",
+   "link": "https://ff14hikasensokuhou.com/e/29705",
+   "date": 1792890610000,
+   "img": "https://blog-imgs-94.fc2.com/f/f/1/ff14hikasensokuhou/2016090815344385b.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】フロントラインの「ピロピロ軍師」は必要なのか？指揮を巡って不満続出",
+   "link": "https://ff14hikasensokuhou.com/e/29704",
+   "date": 1792879249000,
+   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/20160715235818ecc.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】初対面で上からタメ口のやつってなんなの？",
+   "link": "https://ff14hikasensokuhou.com/e/29703",
+   "date": 1792839625000,
+   "img": "https://blog-imgs-120.fc2.com/f/f/1/ff14hikasensokuhou/20180306215541c04.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】FL民「対面にいてもなんら怖くない」スウィフトメレーの立場が危うい",
+   "link": "https://ff14hikasensokuhou.com/e/29702",
+   "date": 1792828844000,
+   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251213072817d1ds.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "ゲーム機「6万です」スマホ「10万です」←これ",
+   "link": "https://ff14hikasensokuhou.com/e/29701",
+   "date": 1792821650000,
+   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251207122218b07.png"
   },
   {
    "src": "yan",
