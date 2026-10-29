@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793259283243,
+ "updatedAt": 1793263537875,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -19,6 +19,20 @@
   }
  },
  "items": [
+  {
+   "src": "lodestone",
+   "title": "オンラインでも遊べる！ 「ナインズ・キャッチャー」タイトーオンラインクレーンに登場",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/9dc8d8e56b5c44b5de650cd3f552053415700a45",
+   "date": 1793260860000,
+   "img": "https://img.finalfantasyxiv.com/t/9dc8d8e56b5c44b5de650cd3f552053415700a45.jpg?1793261182"
+  },
+  {
+   "src": "lodestone",
+   "title": "「ファンアートコンテスト 2026」最終選考開始！",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/3ffbcc488fb631ed8c184873e769c08b8de46a27",
+   "date": 1793260800000,
+   "img": "https://img.finalfantasyxiv.com/t/3ffbcc488fb631ed8c184873e769c08b8de46a27.jpg?1793261398"
+  },
   {
    "src": "lodestone",
    "title": "いよいよ10月31日開幕！「ファンフェスティバル 2026 in 東京」 ストリーミング情報おさらい",
@@ -144,20 +158,6 @@
    "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/9aa135968177d29528fff28a58604e3a0ddfdb6a",
    "date": 1791518400000,
    "img": "https://img.finalfantasyxiv.com/t/9aa135968177d29528fff28a58604e3a0ddfdb6a.jpg?1791550319"
-  },
-  {
-   "src": "lodestone",
-   "title": "「守護天節」10月15日（木）より開催！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/761da1cee02b58025385ad225d3cea885498ad97",
-   "date": 1791446400000,
-   "img": "https://img.finalfantasyxiv.com/t/761da1cee02b58025385ad225d3cea885498ad97.jpg?1791446596"
-  },
-  {
-   "src": "lodestone",
-   "title": "マウント「マウンテンズー」が当たる！LINE友だちプレゼントキャンペーン実施",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/7b96c49068c476dec65924df0ee1d5bdecb215fa",
-   "date": 1791273600000,
-   "img": "https://img.finalfantasyxiv.com/t/7b96c49068c476dec65924df0ee1d5bdecb215fa.png?1791273588"
   },
   {
    "src": "yt-official",
