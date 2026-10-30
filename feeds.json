@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793349943587,
+ "updatedAt": 1793353420812,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】「キーボード課金したら『よろしくお願いします』がコントローラー3秒、キーボード2分」→「運営は何も悪くない」「ネトゲやってんだからキーボぐらい用意しとけ」",
+   "link": "https://yan-flash.com/articles/bought-keyboard-but-controller-faster",
+   "date": 1793350886000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】FLでMIPは誰にあげてる？「一番槍で突っ込んで範囲バーストの起点になる人」「か　ば　う」「かばってくれたナイトさんありがとう、しんでゴメンナサイ」",
    "link": "https://yan-flash.com/articles/fl-who-gets-your-mip",
    "date": 1793340078000,
@@ -675,13 +682,6 @@
    "title": "【FF14】メンタールレでタンヒラが数時間待ちに。「直すのに時間がかかる」「メンターは足りない所に入るから一生後回しになるんかもね」",
    "link": "https://yan-flash.com/articles/mentor-roulette-tank-healer-hours-wait",
    "date": 1792562639000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】IDで白魔のホーリー連打は「弱い」「地雷」なのか。「ホーリーが弱いってのは完全誤認」「脳死ほーりでいい、あんなんでワイプにならん」",
-   "link": "https://yan-flash.com/articles/whm-holy-spam-weak-or-not",
-   "date": 1792551834000,
    "img": ""
   }
  ]
