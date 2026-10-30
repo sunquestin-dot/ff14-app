@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793356823709,
+ "updatedAt": 1793367058559,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "お前らがプレイ時間1000超えてるゲーム",
+   "link": "https://ff14hikasensokuhou.com/e/29739",
+   "date": 1793365227000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260408082539b5d.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】キーバウンド・ブロウラー、タイピング格差が大きすぎる？難易度調整を求める声も",
    "link": "https://ff14hikasensokuhou.com/e/29738",
    "date": 1793354441000,
@@ -466,13 +473,6 @@
    "link": "https://ff14hikasensokuhou.com/e/29710",
    "date": 1792976408000,
    "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/202512101611052ea.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】「指揮ありで一番差が出るの砕氷戦」",
-   "link": "https://ff14hikasensokuhou.com/e/29709",
-   "date": 1792964734000,
-   "img": "https://blog-imgs-98.fc2.com/f/f/1/ff14hikasensokuhou/2017020301025016a.png"
   },
   {
    "src": "yan",
