@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793437844017,
+ "updatedAt": 1793444530071,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -161,6 +161,20 @@
   },
   {
    "src": "yt-official",
+   "title": "山峡の涼風 ～オルコ・パチャ：昼～ / \"Windswept Echoes\" | Piano Concert | Fan Festival 2026 in Tokyo",
+   "link": "https://www.youtube.com/watch?v=haC0LgXzxJM",
+   "date": 1793443370000,
+   "img": "https://i1.ytimg.com/vi/haC0LgXzxJM/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "[Day 1] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
+   "link": "https://www.youtube.com/watch?v=IUtPVmCtltY",
+   "date": 1791429324000,
+   "img": "https://i2.ytimg.com/vi/IUtPVmCtltY/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
    "title": "FINAL FANTASY XIV: Evercold | Collector's Edition | Valhallar Odin",
    "link": "https://www.youtube.com/watch?v=-K6aiJ52_ss",
    "date": 1793420770000,
@@ -238,13 +252,6 @@
   },
   {
    "src": "yt-official",
-   "title": "[Day 1] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
-   "link": "https://www.youtube.com/watch?v=IUtPVmCtltY",
-   "date": 1791429324000,
-   "img": "https://i2.ytimg.com/vi/IUtPVmCtltY/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
    "title": "FINAL FANTASY XIV at PAX Australia 2026",
    "link": "https://www.youtube.com/watch?v=swSnBjYCFZA",
    "date": 1793287469000,
@@ -256,13 +263,6 @@
    "link": "https://www.youtube.com/watch?v=PdgjNUsuI9c",
    "date": 1792764076000,
    "img": "https://i1.ytimg.com/vi/PdgjNUsuI9c/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "Duty Commenced - North American Community Team Stream (October 21, 2026)",
-   "link": "https://www.youtube.com/watch?v=5nMDPRJwhk0",
-   "date": 1792624075000,
-   "img": "https://i2.ytimg.com/vi/5nMDPRJwhk0/hqdefault.jpg"
   },
   {
    "src": "yan",
