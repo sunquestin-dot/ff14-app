@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793478353610,
+ "updatedAt": 1793487573108,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "【FF14】「アライアンスレイドは長いので前半後半で分けます」←これ",
+   "link": "https://ff14hikasensokuhou.com/e/29761",
+   "date": 1793484035000,
+   "img": "https://blog-imgs-148.fc2.com/f/f/1/ff14hikasensokuhou/20210824011326d69s.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】パッチ8.1でPvP初心者の館が実装！初心者向けの導線は改善されるのか",
    "link": "https://ff14hikasensokuhou.com/e/29759",
    "date": 1793448043000,
@@ -468,11 +475,11 @@
    "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/dJO06GAiSItDfzWRZ3JC0zsXlgs.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】キーバウンド・ブロウラー実装で浮き彫りに？キーボードを持っていないプレイヤーの存在",
-   "link": "https://ff14hikasensokuhou.com/e/29730",
-   "date": 1793242824000,
-   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/2026102820252204ds.jpg"
+   "src": "yan",
+   "title": "【FF14】ファンフェス基調講演を実況スレで追った2時間「2月かぁ」「ゼファーいいな」「アライアンス分割は想像の斜め上」「ロット廃止嬉しい」「マテリア金策終了かと思ったら禁断解禁で息を吹き返した」",
+   "link": "https://yan-flash.com/articles/fanfest-2026-keynote-live-thread-reactions",
+   "date": 1793484272000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "【FF14】キーバウンド・ブロウラー、「辞書登録したらあほみたいに楽になってわろた」。辞書はアリ？「違反でもない」「IDの挨拶にマクロ使ったら怒りそう」「ツールはともかく」",
    "link": "https://yan-flash.com/articles/keybound-brawler-dictionary-registration-and-tools",
    "date": 1793314857000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】闘獣練ランキング初日、300位ボーダーは1万点切り。「オセアニアは14人」「最新スコア参照だから下手に更新できない」「1回ミスったら洗い流すために追加で3回」",
-   "link": "https://yan-flash.com/articles/beastmaster-ranking-day1-border-under-10k",
-   "date": 1793253618000,
    "img": ""
   }
  ]
