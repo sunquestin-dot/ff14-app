@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793413346146,
+ "updatedAt": 1793416450921,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -169,206 +169,248 @@
   },
   {
    "src": "yt-official",
+   "title": "FINAL FANTASY XIV: EVERCOLD - 第四世界の新たなフィールド",
+   "link": "https://www.youtube.com/watch?v=ucMMJMU69mg",
+   "date": 1793414411840,
+   "img": "https://i.ytimg.com/vi/ucMMJMU69mg/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV: EVERCOLD - 新たな冒険の舞台「風の大陸船・スキーズブラズニル」",
+   "link": "https://www.youtube.com/watch?v=V7t0oR3-Hpg",
+   "date": 1793414171840,
+   "img": "https://i.ytimg.com/vi/V7t0oR3-Hpg/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV: EVERCOLD - 新たな冒険の舞台「土の大陸船・セスルームニル」",
+   "link": "https://www.youtube.com/watch?v=35inH1cr1-M",
+   "date": 1793413991840,
+   "img": "https://i.ytimg.com/vi/35inH1cr1-M/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
    "title": "FINAL FANTASY XIV: EVERCOLD - 新たなジョブ「ゼファー」",
    "link": "https://www.youtube.com/watch?v=qX5jtcXjmts",
-   "date": 1793413106491,
+   "date": 1793413151840,
    "img": "https://i.ytimg.com/vi/qX5jtcXjmts/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV at PAX Australia 2026",
    "link": "https://www.youtube.com/watch?v=swSnBjYCFZA",
-   "date": 1793326946491,
+   "date": 1793330051840,
    "img": "https://i.ytimg.com/vi/swSnBjYCFZA/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "第48回 FFXIVコミュニティ放送",
    "link": "https://www.youtube.com/watch?v=PdgjNUsuI9c",
-   "date": 1792808546491,
+   "date": 1792811651840,
    "img": "https://i.ytimg.com/vi/PdgjNUsuI9c/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Duty Commenced - North American Community Team Stream (October 21, 2026)",
    "link": "https://www.youtube.com/watch?v=5nMDPRJwhk0",
-   "date": 1792635746491,
+   "date": 1792638851840,
    "img": "https://i.ytimg.com/vi/5nMDPRJwhk0/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Piano Collections: Till Dawn My Tears Flow - Promises to Keep Music Video (by Keiko)",
    "link": "https://www.youtube.com/watch?v=g2sU-UzoV14",
-   "date": 1792203746491,
+   "date": 1792206851840,
    "img": "https://i.ytimg.com/vi/g2sU-UzoV14/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Duty Commenced - North American Community Team Stream (October 7, 2026)",
    "link": "https://www.youtube.com/watch?v=mXU4gIn1Bmo",
-   "date": 1791598946491,
+   "date": 1791602051840,
    "img": "https://i.ytimg.com/vi/mXU4gIn1Bmo/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV @ Otakon 2026",
    "link": "https://www.youtube.com/watch?v=RQ4h5G80wFY",
-   "date": 1790821346491,
+   "date": 1790824451840,
    "img": "https://i.ytimg.com/vi/RQ4h5G80wFY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "gamescom 2026 - Recap Video",
    "link": "https://www.youtube.com/watch?v=ex5hfbzA9is",
-   "date": 1790821346491,
+   "date": 1790824451840,
    "img": "https://i.ytimg.com/vi/ex5hfbzA9is/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV Letter from the Producer LIVE Part XCIII",
    "link": "https://www.youtube.com/watch?v=5xraioACduM",
-   "date": 1790821346491,
+   "date": 1790824451840,
    "img": "https://i.ytimg.com/vi/5xraioACduM/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "開発パネル - Development Panel ｜FINAL FANTASY XIV Fan Festival 2026 in  Berlin",
    "link": "https://www.youtube.com/watch?v=UkEiGejYC3Q",
-   "date": 1790821346491,
+   "date": 1790824451840,
    "img": "https://i.ytimg.com/vi/UkEiGejYC3Q/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "第47回 FFXIVコミュニティ放送",
    "link": "https://www.youtube.com/watch?v=tyl3k1l4Q9M",
-   "date": 1790821346491,
+   "date": 1790824451840,
    "img": "https://i.ytimg.com/vi/tyl3k1l4Q9M/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV - The Unending Journey - EU Community Stream",
    "link": "https://www.youtube.com/watch?v=jLMMm83wwQ0",
-   "date": 1790821346491,
+   "date": 1790824451840,
    "img": "https://i.ytimg.com/vi/jLMMm83wwQ0/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV - Le Carnet de Voyage - French Community Stream",
    "link": "https://www.youtube.com/watch?v=0hVJCYVDDok",
-   "date": 1790821346491,
+   "date": 1790824451840,
    "img": "https://i.ytimg.com/vi/0hVJCYVDDok/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Rise of the Wolves - North American Community Team PvP Stream (September 2026)",
    "link": "https://www.youtube.com/watch?v=QAi1kckbMK0",
-   "date": 1790821346491,
+   "date": 1790824451840,
    "img": "https://i.ytimg.com/vi/QAi1kckbMK0/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：予選トーナメントD】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=4TU_49auAs4",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/4TU_49auAs4/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：予選トーナメントC】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=666D3uXbAaw",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/666D3uXbAaw/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "基調講演まとめ - FINAL FANTASY XIV Fan Festival 2026 in  Berlin",
    "link": "https://www.youtube.com/watch?v=84x_nrekEBA",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/84x_nrekEBA/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "基調講演 - Keynote｜FINAL FANTASY XIV Fan Festival 2026 in  Berlin",
    "link": "https://www.youtube.com/watch?v=-OcvXUVQDRI",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/-OcvXUVQDRI/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：予選トーナメントB】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=IZLv-watGvY",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/IZLv-watGvY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：予選トーナメントA】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=jVza7Z3Gqok",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/jVza7Z3Gqok/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Fan Festival 2026 in Berlin - Recap Video",
    "link": "https://www.youtube.com/watch?v=_Nepqo6ML4Q",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/_Nepqo6ML4Q/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "ファイナルファンタジーXIV Nintendo Switch™ 2 版 サービス開始！",
    "link": "https://www.youtube.com/watch?v=AO2xe-T-MP4",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/AO2xe-T-MP4/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【予選トーナメントD】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: D",
    "link": "https://www.youtube.com/watch?v=d7JH4Ni7pHk",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/d7JH4Ni7pHk/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【予選トーナメントC】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: C",
    "link": "https://www.youtube.com/watch?v=Y6W_K8XXiTE",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/Y6W_K8XXiTE/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【予選トーナメントB】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: B",
    "link": "https://www.youtube.com/watch?v=xjbzX_lxDb0",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/xjbzX_lxDb0/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【予選トーナメントA】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G / CCRC JP Quarterfinals: A",
    "link": "https://www.youtube.com/watch?v=qmG6hEUFGJw",
-   "date": 1788229346491,
+   "date": 1788232451840,
    "img": "https://i.ytimg.com/vi/qmG6hEUFGJw/hqdefault.jpg"
   },
   {
-   "src": "yt-official",
-   "title": "第46回 FFXIVコミュニティ放送",
-   "link": "https://www.youtube.com/watch?v=ZoUJPuCIkU4",
-   "date": 1788229346491,
-   "img": "https://i.ytimg.com/vi/ZoUJPuCIkU4/hqdefault.jpg"
+   "src": "hikasen",
+   "title": "【FF14】白銀のワンダラーで新たな仕組み「アイテムレベルリンク」が導入！",
+   "link": "https://ff14hikasensokuhou.com/e/29748",
+   "date": 1793415832000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260425072801e0fs.png"
   },
   {
-   "src": "yt-official",
-   "title": "Duty Commenced - North American Community Team Stream (August 2026)",
-   "link": "https://www.youtube.com/watch?v=NeDMRk_S-pM",
-   "date": 1788229346491,
-   "img": "https://i.ytimg.com/vi/NeDMRk_S-pM/hqdefault.jpg"
+   "src": "hikasen",
+   "title": "【FF14】白銀のワンダラーからゲームデザインが進化！デイリーからウィークリーへ",
+   "link": "https://ff14hikasensokuhou.com/e/29747",
+   "date": 1793415279000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260425072801e0fs.png"
   },
   {
-   "src": "yt-official",
-   "title": "『ファイナルファンタジーXIV』Nintendo Switch™ 2 版 発売記念！ 公開生放送 in 渋谷サクラステージ",
-   "link": "https://www.youtube.com/watch?v=MhaL0WCzgbE",
-   "date": 1788229346491,
-   "img": "https://i.ytimg.com/vi/MhaL0WCzgbE/hqdefault.jpg"
+   "src": "hikasen",
+   "title": "【FF14】特定のストーリー以降、任意物語から攻略することが可能に！順番によってNPCのセリフが変わる模様",
+   "link": "https://ff14hikasensokuhou.com/e/29746",
+   "date": 1793414910000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261031114544465s.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】新たな冒険の舞台「風の大陸船・スキーズブラズニル」「土の大陸船・セスルームニル」の紹介動画が公開！",
+   "link": "https://ff14hikasensokuhou.com/e/29745",
+   "date": 1793414349000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260425072801e0fs.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】白銀のワンダラーで活躍するキーキャラクターを紹介！",
+   "link": "https://ff14hikasensokuhou.com/e/29744",
+   "date": 1793413864000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261031112821a26s.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】youtubeにて新たなジョブ「ゼファー」の紹介動画が公開！",
+   "link": "https://ff14hikasensokuhou.com/e/29743",
+   "date": 1793413430000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/202610311119306ebs.png"
   },
   {
    "src": "hikasen",
@@ -539,46 +581,53 @@
    "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261021104857e93s.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "？？？「私たちはタイパを大事にしている。ゲームにボリュームはいらない」",
-   "link": "https://ff14hikasensokuhou.com/e/29718",
-   "date": 1793088010000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/game_tetsuya_mans.png"
+   "src": "yan",
+   "title": "【FF14】EVERCOLD のゲームデザイン。3エリアを順不同で攻略、レベル自動調整、デイリーからウィークリーへ、2パッチ＝1シーズン、アイテムレベルリンク、アクションスキン、キャラメイクにカラーピッカー",
+   "link": "https://yan-flash.com/articles/evercold-game-design-updates",
+   "date": 1793416350000,
+   "img": ""
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】FLヒーラー「ヒラ下がります！」←これ",
-   "link": "https://ff14hikasensokuhou.com/e/29717",
-   "date": 1793077227000,
-   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
+   "src": "yan",
+   "title": "【FF14】EVERCOLD「第4の生存領域 風の大陸船スキーズブラズニル」ウォークスルー映像。翼のように広がる船、風車と帆、石造りの水路、夜に光る尖塔",
+   "link": "https://yan-flash.com/articles/evercold-skidbladnir-walkthrough",
+   "date": 1793414552000,
+   "img": ""
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】メインクエストのIL不足でレイドをやる必要がある？カジュアル層の装備事情",
-   "link": "https://ff14hikasensokuhou.com/e/29716",
-   "date": 1793066403000,
-   "img": "https://blog-imgs-171.fc2.com/f/f/1/ff14hikasensokuhou/20240910075428f07s.jpg"
+   "src": "yan",
+   "title": "【FF14】EVERCOLD サブエリア「ヒャルタドナ（Hjartadunur）」ウォークスルー映像。夜の森の街、巨大なピンクの花と光る植物、噴水の庭園",
+   "link": "https://yan-flash.com/articles/evercold-subarea-walkthrough",
+   "date": 1793414523000,
+   "img": ""
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】「1日50万、いや30万ギルでいい」金策に苦しむヒカセン",
-   "link": "https://ff14hikasensokuhou.com/e/29715",
-   "date": 1793055619000,
-   "img": "https://blog-imgs-94.fc2.com/f/f/1/ff14hikasensokuhou/20160912232034b5e.jpg"
+   "src": "yan",
+   "title": "【FF14】EVERCOLD「第3の生存領域 土の大陸船セスルームニル」ウォークスルー映像。草原と立石、金色の輪、地下区画、麦畑",
+   "link": "https://yan-flash.com/articles/evercold-sessrymnir-walkthrough",
+   "date": 1793414185000,
+   "img": ""
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】固定募集「外部ツールの使用に抵抗がない方」←これ",
-   "link": "https://ff14hikasensokuhou.com/e/29714",
-   "date": 1793016052000,
-   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/201607230020367fa.jpg"
+   "src": "yan",
+   "title": "【FF14】EVERCOLD の舞台は「第四世界」。氷の災厄で地表が閉ざされ、人々は空へ逃れて500年。5隻の生存領域と「刻印」、刻印を持たない“探求者”が希望に。新キャラはヴィスナ・バルドル・ラゲルタ・ハルマルト",
+   "link": "https://yan-flash.com/articles/evercold-story-overview-fourth-world",
+   "date": 1793414022000,
+   "img": ""
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】ワイメレー「LBはギリギリまで貯めてぇ」",
-   "link": "https://ff14hikasensokuhou.com/e/29713",
-   "date": 1793008833000,
-   "img": "https://blog-imgs-98.fc2.com/f/f/1/ff14hikasensokuhou/2016111213050974e.jpg"
+   "src": "yan",
+   "title": "【FF14】EVERCOLD の新キャラクター「ラゲルタ（Lagertha）」。イゼルに似た銀髪のエレゼン、字幕は「見覚えある面影が交錯し」",
+   "link": "https://yan-flash.com/articles/evercold-lagertha",
+   "date": 1793413801000,
+   "img": ""
+  },
+  {
+   "src": "yan",
+   "title": "【FF14】新ジョブ「ゼファー」の基本情報。遠隔物理DPS・エヴォルヴモードのみ・武器はクロスボウ・初期レベル90・開始はグリダニア。使い魔は「ネフェレ」",
+   "link": "https://yan-flash.com/articles/evercold-zephyr-overview-2",
+   "date": 1793413410000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -739,55 +788,6 @@
    "title": "【FF14】FLで「無言でマーカーだけ置く軍師」増えてない？「理由のわからんマーカー多い」「責任負う気ないから無言で置かれる」",
    "link": "https://yan-flash.com/articles/fl-silent-marker-only-commanders",
    "date": 1792735430000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】FLの「挟撃注意」マクロは助かる？「注意だけだと攻め時なのに戦線が崩れる」「逃げるより押し返した方が早い」",
-   "link": "https://yan-flash.com/articles/fl-pincer-warning-macro-helpful-or-not",
-   "date": 1792724620000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】ツアー化したモブハンは「効率いいけどマジ虚無ってる」。白銀でAモブ・Sモブと激闘する形に戻せる？",
-   "link": "https://yan-flash.com/articles/mob-hunt-tour-efficient-but-empty",
-   "date": 1792659766000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】FL初心者に「PvPのダメージはすべて頭割り」と教えるのは正しいのか。「前に出ない・ただ逃げるは一番死ぬパターン」",
-   "link": "https://yan-flash.com/articles/fl-beginners-damage-is-shared-teaching",
-   "date": 1792648958000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】アラルレでクロポジをヘイト1位に付けないとトロール扱い？「ヘイト6位につけっぱなしはトロール」「ノーマルで他人にあーだこーだ」",
-   "link": "https://yan-flash.com/articles/alliance-raid-closed-position-hate-troll",
-   "date": 1792638153000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "「キーバウンド・ブロウラー」10月28日（水）より開催！",
-   "link": "https://yan-flash.com/articles/lodestone-ca90665e1a04",
-   "date": 1792632439000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "全ワールド 新規ログイン一時停止のお知らせ(10/22)",
-   "link": "https://yan-flash.com/articles/lodestone-d9b4c1cf9d16",
-   "date": 1792632423000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】新規ログイン停止の理由は「PHP」の欠陥。今週の出来事と、ヒカセンが今やっておくこと",
-   "link": "https://yan-flash.com/articles/php-flaw-login-suspension-2026w43-v2",
-   "date": 1792632419000,
    "img": ""
   }
  ]
