@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793522420142,
+ "updatedAt": 1793525807679,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -161,6 +161,13 @@
   },
   {
    "src": "yt-official",
+   "title": "[Day 2] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
+   "link": "https://www.youtube.com/watch?v=ZN5682sEIrY",
+   "date": 1791429739000,
+   "img": "https://i3.ytimg.com/vi/ZN5682sEIrY/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
    "title": "[Day 1] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
    "link": "https://www.youtube.com/watch?v=IUtPVmCtltY",
    "date": 1793519283000,
@@ -172,13 +179,6 @@
    "link": "https://www.youtube.com/watch?v=7T3WZf1he_k",
    "date": 1793512146000,
    "img": "https://i4.ytimg.com/vi/7T3WZf1he_k/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "[Day 2] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
-   "link": "https://www.youtube.com/watch?v=ZN5682sEIrY",
-   "date": 1791429739000,
-   "img": "https://i3.ytimg.com/vi/ZN5682sEIrY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】FL「1位をキルしないと負けるタイミングで『挟撃注意！』で味方がいなくなった、利敵行為だよな」→「挟まれた時点で負け」「挟撃注意が出た時点で既に隙だらけだった」",
+   "link": "https://yan-flash.com/articles/fl-pincer-warning-macro-blame",
+   "date": 1793523898000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「報酬取り終わってもやりたいコンテンツってそもそもこのゲームにあるのか」→「エウレカ、ボズヤ、DD、PvP、麻雀、絶あたりは愛好家がそこそこいる」「どんなコンテンツでもずっとやってる人いるよな」",
    "link": "https://yan-flash.com/articles/content-you-keep-playing-after-rewards",
    "date": 1793502288000,
@@ -675,13 +682,6 @@
    "title": "【FF14】次期拡張「EVERCOLD 白銀の探求者」はアーリーアクセス2027年2月19日・発売2月23日。予約は2026年11月4日から",
    "link": "https://yan-flash.com/articles/evercold-release-dates-2027-02",
    "date": 1793412885000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】次期拡張「EVERCOLD 白銀の探求者（ワンダラー）」ティザー映像の全カット（字幕つき）",
-   "link": "https://yan-flash.com/articles/fanfest-2026-tokyo-evercold-teaser-all-cuts",
-   "date": 1793412760000,
    "img": ""
   }
  ]
