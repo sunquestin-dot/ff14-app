@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793515502778,
+ "updatedAt": 1793519462813,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -161,6 +161,13 @@
   },
   {
    "src": "yt-official",
+   "title": "[Day 1] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
+   "link": "https://www.youtube.com/watch?v=IUtPVmCtltY",
+   "date": 1793519283000,
+   "img": "https://i2.ytimg.com/vi/IUtPVmCtltY/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
    "title": "ファイナルファンタジーXIV × ディーゼル スタイリングコンテスト｜ディーゼル特別賞 受賞コーディネート",
    "link": "https://www.youtube.com/watch?v=7T3WZf1he_k",
    "date": 1793512146000,
@@ -179,13 +186,6 @@
    "link": "https://www.youtube.com/watch?v=haC0LgXzxJM",
    "date": 1793443370000,
    "img": "https://i1.ytimg.com/vi/haC0LgXzxJM/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "[Day 1] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
-   "link": "https://www.youtube.com/watch?v=IUtPVmCtltY",
-   "date": 1791429324000,
-   "img": "https://i2.ytimg.com/vi/IUtPVmCtltY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
