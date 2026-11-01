@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793525807679,
+ "updatedAt": 1793529036957,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -161,6 +161,13 @@
   },
   {
    "src": "yt-official",
+   "title": "THE PRIMALS - \"Open Sky - The Theme from Dawntrail\" | Fan Festival 2026 in Tokyo",
+   "link": "https://www.youtube.com/watch?v=ktsfH8CWJP4",
+   "date": 1793528863000,
+   "img": "https://i4.ytimg.com/vi/ktsfH8CWJP4/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
    "title": "[Day 2] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
    "link": "https://www.youtube.com/watch?v=ZN5682sEIrY",
    "date": 1791429739000,
@@ -256,13 +263,6 @@
    "link": "https://www.youtube.com/watch?v=35inH1cr1-M",
    "date": 1793413992000,
    "img": "https://i4.ytimg.com/vi/35inH1cr1-M/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: Evercold - New Job: Zephyr",
-   "link": "https://www.youtube.com/watch?v=qX5jtcXjmts",
-   "date": 1793413099000,
-   "img": "https://i2.ytimg.com/vi/qX5jtcXjmts/hqdefault.jpg"
   },
   {
    "src": "hikasen",
