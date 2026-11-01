@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793529036957,
+ "updatedAt": 1793532402676,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -161,17 +161,17 @@
   },
   {
    "src": "yt-official",
+   "title": "[Day 2] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
+   "link": "https://www.youtube.com/watch?v=ZN5682sEIrY",
+   "date": 1793529325000,
+   "img": "https://i3.ytimg.com/vi/ZN5682sEIrY/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
    "title": "THE PRIMALS - \"Open Sky - The Theme from Dawntrail\" | Fan Festival 2026 in Tokyo",
    "link": "https://www.youtube.com/watch?v=ktsfH8CWJP4",
    "date": 1793528863000,
    "img": "https://i4.ytimg.com/vi/ktsfH8CWJP4/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "[Day 2] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
-   "link": "https://www.youtube.com/watch?v=ZN5682sEIrY",
-   "date": 1791429739000,
-   "img": "https://i3.ytimg.com/vi/ZN5682sEIrY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
@@ -263,6 +263,13 @@
    "link": "https://www.youtube.com/watch?v=35inH1cr1-M",
    "date": 1793413992000,
    "img": "https://i4.ytimg.com/vi/35inH1cr1-M/hqdefault.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】討滅戦でタンクより先に殴るDPS、放置してもいいの？",
+   "link": "https://ff14hikasensokuhou.com/e/29766",
+   "date": 1793530846000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260504061250b81s.png"
   },
   {
    "src": "hikasen",
@@ -468,11 +475,11 @@
    "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261029064355298s.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "ゲームはやってるときは楽しいんだが",
-   "link": "https://ff14hikasensokuhou.com/e/29736",
-   "date": 1793332809000,
-   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251129115229e44s.png"
+   "src": "yan",
+   "title": "【FF14】タイピング「どれぐらいからキャリー可能？」→「10万以上ぐらい」「ポイントだけで判断するのは誤解を生む。フィーバーで45000の人が65000まで行く」「バリア張れてるかどうか」",
+   "link": "https://yan-flash.com/articles/typing-event-what-score-can-carry",
+   "date": 1793530802000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "【FF14】新ジョブは遠隔物理DPS「ゼファー（Zephyr）」。弓と青い鳥で戦う。新ジョブは「複数」実装、メインクエストは第二章「神なき世界編」へ",
    "link": "https://yan-flash.com/articles/evercold-new-job-zephyr",
    "date": 1793413218000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】次期拡張「EVERCOLD 白銀の探求者」はアーリーアクセス2027年2月19日・発売2月23日。予約は2026年11月4日から",
-   "link": "https://yan-flash.com/articles/evercold-release-dates-2027-02",
-   "date": 1793412885000,
    "img": ""
   }
  ]
