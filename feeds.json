@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793623918424,
+ "updatedAt": 1793657460079,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "【FF14】零式の報酬仕様変更で固定や野良募集はどう変わる？「未クリアだけで挑む意味がない」との声も",
+   "link": "https://ff14hikasensokuhou.com/e/29773",
+   "date": 1793656832000,
+   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261031131251c1cs.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】タンクは簡単？「落ちにくいしギミックも楽」という意見も",
    "link": "https://ff14hikasensokuhou.com/e/29772",
    "date": 1793620826000,
@@ -468,11 +475,11 @@
    "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261031112821a26s.png"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】youtubeにて新たなジョブ「ゼファー」の紹介動画が公開！",
-   "link": "https://ff14hikasensokuhou.com/e/29743",
-   "date": 1793413430000,
-   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/202610311119306ebs.png"
+   "src": "yan",
+   "title": "【FF14】「零式が個人報酬になってクリア者も箱が出るってどういうこと？」→「今まではクリ済5人以上で箱無し」「毎度1個は出るけどフルパワーまで6週」「傭兵用サブキャラの必要性が薄まった」",
+   "link": "https://yan-flash.com/articles/savage-personal-loot-cleared-players-explained",
+   "date": 1793656961000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "【FF14】EVERCOLD の新キャラクター「ラゲルタ（Lagertha）」。イゼルに似た銀髪のエレゼン、字幕は「見覚えある面影が交錯し」",
    "link": "https://yan-flash.com/articles/evercold-lagertha",
    "date": 1793413801000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】新ジョブ「ゼファー」の基本情報。遠隔物理DPS・エヴォルヴモードのみ・武器はクロスボウ・初期レベル90・開始はグリダニア。使い魔は「ネフェレ」",
-   "link": "https://yan-flash.com/articles/evercold-zephyr-overview-2",
-   "date": 1793413410000,
    "img": ""
   }
  ]
