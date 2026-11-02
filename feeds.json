@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793608703592,
+ "updatedAt": 1793613237511,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -19,6 +19,13 @@
   }
  },
  "items": [
+  {
+   "src": "lodestone",
+   "title": "「ファンフェスティバル 2026 in 東京」アンケート実施中！",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/deb038f704ce46d3955eea754453971b8141dcf4",
+   "date": 1793610000000,
+   "img": "https://img.finalfantasyxiv.com/t/deb038f704ce46d3955eea754453971b8141dcf4.png?1793610058"
+  },
   {
    "src": "lodestone",
    "title": "「リージョン内フリーマッチング」 北米／欧州データセンターに実装！",
@@ -153,13 +160,6 @@
    "img": "https://img.finalfantasyxiv.com/t/6670913fa02f90c4b51697c8a7f86f4ef81654e2.png?1792396892"
   },
   {
-   "src": "lodestone",
-   "title": "「ファンフェスティバル 2026 in 東京」最新情報公開 第2弾！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/20b0ea43233bb0895227cdfd001098461d611348",
-   "date": 1792143000000,
-   "img": "https://img.finalfantasyxiv.com/t/20b0ea43233bb0895227cdfd001098461d611348.png?1792553715"
-  },
-  {
    "src": "yt-official",
    "title": "[Day 2] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
    "link": "https://www.youtube.com/watch?v=ZN5682sEIrY",
@@ -263,6 +263,13 @@
    "link": "https://www.youtube.com/watch?v=35inH1cr1-M",
    "date": 1793413992000,
    "img": "https://i4.ytimg.com/vi/35inH1cr1-M/hqdefault.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】8.0新ジョブ「バスティオン」と「ゼファー」、フロントラインではどのようなジョブになるのか",
+   "link": "https://ff14hikasensokuhou.com/e/29771",
+   "date": 1793610030000,
+   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
   },
   {
    "src": "hikasen",
@@ -466,13 +473,6 @@
    "link": "https://ff14hikasensokuhou.com/e/29742",
    "date": 1793413195000,
    "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261031111727b8as.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】8.0拡張白銀のワンダラーのアーリーアクセスは2027年2月19日、正式発売日は2月23日と判明！",
-   "link": "https://ff14hikasensokuhou.com/e/29741",
-   "date": 1793412962000,
-   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261031111546328s.png"
   },
   {
    "src": "yan",
