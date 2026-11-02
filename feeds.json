@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793613237511,
+ "updatedAt": 1793623918424,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "【FF14】タンクは簡単？「落ちにくいしギミックも楽」という意見も",
+   "link": "https://ff14hikasensokuhou.com/e/29772",
+   "date": 1793620826000,
+   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/20160725011254697.jpg"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】8.0新ジョブ「バスティオン」と「ゼファー」、フロントラインではどのようなジョブになるのか",
    "link": "https://ff14hikasensokuhou.com/e/29771",
    "date": 1793610030000,
@@ -468,11 +475,11 @@
    "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/202610311119306ebs.png"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】新たな新ジョブ「ゼファー」の実装が決定！ロールは遠隔物理DPSに",
-   "link": "https://ff14hikasensokuhou.com/e/29742",
-   "date": 1793413195000,
-   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/20261031111727b8as.png"
+   "src": "yan",
+   "title": "【FF14】ファンフェス2日目に実況スレ「詩学先輩卒業か…」「釣り餌持たなくて良くなるやったー」「ネフェレ2色染色マジか」「リテイナーベンチャー自動繰り返し…！？」",
+   "link": "https://yan-flash.com/articles/fanfest-2026-day2-dev-panel-live-thread-reactions",
+   "date": 1793622672000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "【FF14】新ジョブ「ゼファー」の基本情報。遠隔物理DPS・エヴォルヴモードのみ・武器はクロスボウ・初期レベル90・開始はグリダニア。使い魔は「ネフェレ」",
    "link": "https://yan-flash.com/articles/evercold-zephyr-overview-2",
    "date": 1793413410000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】新ジョブは遠隔物理DPS「ゼファー（Zephyr）」。弓と青い鳥で戦う。新ジョブは「複数」実装、メインクエストは第二章「神なき世界編」へ",
-   "link": "https://yan-flash.com/articles/evercold-new-job-zephyr",
-   "date": 1793413218000,
    "img": ""
   }
  ]
