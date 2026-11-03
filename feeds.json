@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793697524891,
+ "updatedAt": 1793701400221,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "【FF14】零式の箱が減らなくなると固定はどうなる？野良で先にクリアする「抜け駆け問題」が浮上",
+   "link": "https://ff14hikasensokuhou.com/e/29778",
+   "date": 1793700053000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260425072801e0fs.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】拡張のアーリーアクセスって何時から始まるの？【白銀のワンダラー】",
    "link": "https://ff14hikasensokuhou.com/e/29777",
    "date": 1793696424000,
@@ -468,11 +475,11 @@
    "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260425072801e0fs.png"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】白銀のワンダラーで新たな仕組み「アイテムレベルリンク」が導入！",
-   "link": "https://ff14hikasensokuhou.com/e/29748",
-   "date": 1793415832000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260425072801e0fs.png"
+   "src": "yan",
+   "title": "【FF14】FL「もうすぐ勝ちそうな1位をスルーしてリスのない所で2位と3位が場外乱闘してんだ」→「2位が3位のリス取って繰り上がり1位もある」「裏リスの空き巣が増えた」",
+   "link": "https://yan-flash.com/articles/fl-2nd-3rd-brawl-while-1st-escapes",
+   "date": 1793700191000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "【FF14】EVERCOLD のバトルコンテンツ。8人レイドは「ノーマル／改／零式」の3段階、アライアンスレイドは前半・後半に分割、アライアンス零式（8人用）、新コンテンツ「ガントレット・オブ・パワー」は4人で最大5連戦",
    "link": "https://yan-flash.com/articles/evercold-battle-content",
    "date": 1793417493000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】EVERCOLD のゲームデザイン。3エリアを順不同で攻略、レベル自動調整、デイリーからウィークリーへ、2パッチ＝1シーズン、アイテムレベルリンク、アクションスキン、キャラメイクにカラーピッカー",
-   "link": "https://yan-flash.com/articles/evercold-game-design-updates",
-   "date": 1793416350000,
    "img": ""
   }
  ]
