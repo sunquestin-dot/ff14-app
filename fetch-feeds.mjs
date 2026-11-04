@@ -10,6 +10,12 @@ const SOURCES = [
   { id: "yan", url: "https://yan-flash.com/feed.xml" }
 ];
 const PER_SOURCE = 30;
+// 見慣れない名前だと断るサイトがあるため、一般的なブラウザとして名乗る
+const BROWSER_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36",
+  "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
+  "Accept-Language": "ja-JP,ja;q=0.9"
+};
 
 const decode = (s = "") =>
   s.replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, "$1")
@@ -74,12 +80,7 @@ async function youtubeFromPage(channel) {
   const now = Date.now();
   const all = [];
   for (const tab of ["videos", "streams"]) {
-    const res = await fetch(`https://www.youtube.com/channel/${channel}/${tab}`, {
-      headers: {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36",
-        "Accept-Language": "ja-JP,ja;q=0.9"
-      }
-    });
+    const res = await fetch(`https://www.youtube.com/channel/${channel}/${tab}`, { headers: BROWSER_HEADERS });
     if (res.ok) all.push(...parseChannelPage(await res.text(), now));
   }
   const seen = new Set();
@@ -88,7 +89,7 @@ async function youtubeFromPage(channel) {
 
 async function fetchSource(s) {
   try {
-    const res = await fetch(s.url, { headers: { "User-Agent": "Mozilla/5.0 (eorzea-dispatch feed reader)" } });
+    const res = await fetch(s.url, { headers: BROWSER_HEADERS });
     if (!res.ok) throw new Error("HTTP " + res.status);
     const items = parse(await res.text());
     if (!items.length) throw new Error("記事が見つかりませんでした");
