@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793793037463,
+ "updatedAt": 1793796621187,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -19,6 +19,13 @@
   }
  },
  "items": [
+  {
+   "src": "lodestone",
+   "title": "最新拡張パッケージ「白銀のワンダラー」予約開始！",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/c1863381795a3a0f35ba50cc2fa651b1a4572d3e",
+   "date": 1793792700000,
+   "img": "https://img.finalfantasyxiv.com/t/c1863381795a3a0f35ba50cc2fa651b1a4572d3e.png?1793792964"
+  },
   {
    "src": "lodestone",
    "title": "「ファンフェスティバル 2026 in 東京」アンケート実施中！",
@@ -151,13 +158,6 @@
    "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/1f59f5e6e37f48004ae0df02d7239b79cf1f2a26",
    "date": 1792479600000,
    "img": "https://img.finalfantasyxiv.com/t/1f59f5e6e37f48004ae0df02d7239b79cf1f2a26.jpg?1792483583"
-  },
-  {
-   "src": "lodestone",
-   "title": "「ファンフェスティバル 2026 in 東京」ライブビューイング 上映スクリーン追加＆グッズ情報！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/6670913fa02f90c4b51697c8a7f86f4ef81654e2",
-   "date": 1792396800000,
-   "img": "https://img.finalfantasyxiv.com/t/6670913fa02f90c4b51697c8a7f86f4ef81654e2.png?1792396892"
   },
   {
    "src": "yt-official",
