@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793879410283,
+ "updatedAt": 1793883310815,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】NIKKEのランチャー改ざんに雑談スレ「14もこうならないようにセキュリティに金かけて」→「FF14はツール利用者が多いから…」「公式がやられたのと外部ツールを同列に語るな」「クレカのサイトすら不安」",
+   "link": "https://yan-flash.com/articles/nikke-launcher-malware-and-ff14-third-party-tool-risk",
+   "date": 1793881815000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「ウクラマト、あれだけ喋ったのに実は尺が足りてない」「初登場〜成長〜挫折をやるには全然足りない」→「ファンフェスでも空気」「アルカディアの方が人気なのは事実」「ビジュより中身」",
    "link": "https://yan-flash.com/articles/wuk-lamat-screen-time-vs-depth-and-arcadion-popularity",
    "date": 1793772239000,
@@ -675,13 +682,6 @@
    "title": "【FF14】ハウジングアップデートはパッチ8.1から。Sハウスでも内部をLサイズに、空中への家具配置などインターフェース一新、「より多くのプレイヤーへ土地付きハウスの提供」",
    "link": "https://yan-flash.com/articles/evercold-housing-updates",
    "date": 1793419883000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】EVERCOLD のPvPアップデート。8.0で新ジョブ2種追加とジョブ調整、8.1から本格更新＝PvP初心者の館・各種システム調整・大規模PvPアップデート",
-   "link": "https://yan-flash.com/articles/evercold-pvp-updates",
-   "date": 1793419676000,
    "img": ""
   }
  ]
