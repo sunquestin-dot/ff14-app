@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793958862021,
+ "updatedAt": 1793962487864,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "【FF14】暗黒のソルトアースにリーパーLBを重ねるのはNG？「むしろ防御を剥がせる」と反論も【フロントライン】",
+   "link": "https://ff14hikasensokuhou.com/e/29797",
+   "date": 1793959218000,
+   "img": "https://blog-imgs-148.fc2.com/f/f/1/ff14hikasensokuhou/20210515102123f81s.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】？？？「初見でなんどもペロッた このままだと引退しちゃうよ|дﾟ)ﾁﾗｯ」←これ",
    "link": "https://ff14hikasensokuhou.com/e/29796",
    "date": 1793948433000,
@@ -468,11 +475,11 @@
    "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260425072801e0fs.png"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】「与ダメ100万でも勝てなきゃ意味がない」FLの貢献度論争",
-   "link": "https://ff14hikasensokuhou.com/e/29767",
-   "date": 1793570406000,
-   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251213072817d1d.png"
+   "src": "yan",
+   "title": "【FF14】「新ジョブ発表のたびに力士が熱望されてたの何だったの」→「FF11でからくり士の略称を“カ士”と誤爆してから」「16年前に公式がネタで拾った」「LB3で土俵が迫り上がる」",
+   "link": "https://yan-flash.com/articles/sumo-wrestler-job-meme-origin-ff11-karakurishi",
+   "date": 1793959264000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "最新拡張パッケージ「白銀のワンダラー」発売日決定！",
    "link": "https://yan-flash.com/articles/lodestone-be396c786945",
    "date": 1793422907000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】ファンフェス2026東京 基調講演まとめ。次期拡張「EVERCOLD 白銀の探求者」は2027年2月19日アーリーアクセス。新ジョブ・第四世界・FFVIIレイド・エヴァコラボ・3500万人突破",
-   "link": "https://yan-flash.com/articles/fanfest-2026-tokyo-keynote-summary",
-   "date": 1793421237000,
    "img": ""
   }
  ]
