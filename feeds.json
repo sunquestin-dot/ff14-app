@@ -1,5 +1,5 @@
 {
- "updatedAt": 1793962487864,
+ "updatedAt": 1793969517180,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】「エヴォルヴ失敗したらグラアプデの比じゃなく荒れそう、担当者を前に出すのやめた方がいい」→「出さなければ後継が育たない」「開発スタッフは裏方、成功してから顔を出すのが普通」",
+   "link": "https://yan-flash.com/articles/should-evolve-devs-appear-publicly-debate",
+   "date": 1793966469000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「新ジョブ発表のたびに力士が熱望されてたの何だったの」→「FF11でからくり士の略称を“カ士”と誤爆してから」「16年前に公式がネタで拾った」「LB3で土俵が迫り上がる」",
    "link": "https://yan-flash.com/articles/sumo-wrestler-job-meme-origin-ff11-karakurishi",
    "date": 1793959264000,
@@ -675,13 +682,6 @@
    "title": "チャットバッジがもらえるTwitch視聴キャンペーン第3弾！",
    "link": "https://yan-flash.com/articles/lodestone-cd9f9f6616ed",
    "date": 1793422928000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "最新拡張パッケージ「白銀のワンダラー」発売日決定！",
-   "link": "https://yan-flash.com/articles/lodestone-be396c786945",
-   "date": 1793422907000,
    "img": ""
   }
  ]
