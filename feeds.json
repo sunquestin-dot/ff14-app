@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794218097852,
+ "updatedAt": 1794221372967,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -19,6 +19,13 @@
   }
  },
  "items": [
+  {
+   "src": "lodestone",
+   "title": "7.58パッチノート公開！",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/1e4c13f59390f7353a83501156557f7fbad1dfbc",
+   "date": 1794220200000,
+   "img": "https://img.finalfantasyxiv.com/t/1e4c13f59390f7353a83501156557f7fbad1dfbc.jpg?1794219335"
+  },
   {
    "src": "lodestone",
    "title": "11月9日（月）から全国のサントリー自販機に「至天の座アルカディア」のオリジナルラベル缶が登場！",
@@ -151,13 +158,6 @@
    "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/f4ee84a657f6298b50a5d9622091a64584fe7802",
    "date": 1792738800000,
    "img": "https://img.finalfantasyxiv.com/t/f4ee84a657f6298b50a5d9622091a64584fe7802.jpg?1792757726"
-  },
-  {
-   "src": "lodestone",
-   "title": "「ファンフェスティバル 2026 in 東京」コンテンツ事前予約 抽選応募受付開始！ 10月25日（日）まで",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/857cdf80b686a7999ab2e9b03fe613fb1f86ab69",
-   "date": 1792581300000,
-   "img": "https://img.finalfantasyxiv.com/t/857cdf80b686a7999ab2e9b03fe613fb1f86ab69.png?1792581663"
   },
   {
    "src": "yt-official",
