@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794306220384,
+ "updatedAt": 1794309452365,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "ゲーム←10時間くらいでストーリークリアして終わりです",
+   "link": "https://ff14hikasensokuhou.com/e/29822",
+   "date": 1794308446000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/game_tetsuya_man.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】フロントラインでMIPを貰う方法ってある？",
    "link": "https://ff14hikasensokuhou.com/e/29821",
    "date": 1794298637000,
@@ -466,13 +473,6 @@
    "link": "https://ff14hikasensokuhou.com/e/29793",
    "date": 1793921457000,
    "img": "https://blog-imgs-171.fc2.com/f/f/1/ff14hikasensokuhou/20241029103942107s.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】蘇生マクロって本当に便利？「不発するくらいなら手動で蘇生した方がいい」との意見も",
-   "link": "https://ff14hikasensokuhou.com/e/29792",
-   "date": 1793887206000,
-   "img": "https://blog-imgs-98.fc2.com/f/f/1/ff14hikasensokuhou/20161106234559aa3.jpg"
   },
   {
    "src": "yan",
