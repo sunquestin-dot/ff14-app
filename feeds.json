@@ -1,9 +1,9 @@
 {
- "updatedAt": 1794271580788,
+ "updatedAt": 1794275711943,
  "sources": {
   "lodestone": {
-   "ok": true,
-   "count": 20
+   "ok": false,
+   "error": "HTTP 503"
   },
   "yt-official": {
    "ok": true,
@@ -20,353 +20,213 @@
  },
  "items": [
   {
-   "src": "lodestone",
-   "title": "7.58パッチノート公開！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/1e4c13f59390f7353a83501156557f7fbad1dfbc",
-   "date": 1794220200000,
-   "img": "https://img.finalfantasyxiv.com/t/1e4c13f59390f7353a83501156557f7fbad1dfbc.jpg?1794222696"
-  },
-  {
-   "src": "lodestone",
-   "title": "11月9日（月）から全国のサントリー自販機に「至天の座アルカディア」のオリジナルラベル缶が登場！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/a0ee42e191405ee634ff173aa26625367fea4a30",
-   "date": 1794214800000,
-   "img": "https://img.finalfantasyxiv.com/t/a0ee42e191405ee634ff173aa26625367fea4a30.png?1794214743"
-  },
-  {
-   "src": "lodestone",
-   "title": "Chillアレンジ「Sanctuary's Heart」シリーズ第2弾 発売決定！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/5cfbadb85f1a84b8cdda033e55b82528afe240c3",
-   "date": 1794207600000,
-   "img": "https://img.finalfantasyxiv.com/t/5cfbadb85f1a84b8cdda033e55b82528afe240c3.jpg?1794207452"
-  },
-  {
-   "src": "lodestone",
-   "title": "最新拡張パッケージ「白銀のワンダラー」予約開始！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/c1863381795a3a0f35ba50cc2fa651b1a4572d3e",
-   "date": 1793792700000,
-   "img": "https://img.finalfantasyxiv.com/t/c1863381795a3a0f35ba50cc2fa651b1a4572d3e.png?1793930994"
-  },
-  {
-   "src": "lodestone",
-   "title": "「ファンフェスティバル 2026 in 東京」アンケート実施中！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/deb038f704ce46d3955eea754453971b8141dcf4",
-   "date": 1793610000000,
-   "img": "https://img.finalfantasyxiv.com/t/deb038f704ce46d3955eea754453971b8141dcf4.png?1793610058"
-  },
-  {
-   "src": "lodestone",
-   "title": "「リージョン内フリーマッチング」 北米／欧州データセンターに実装！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/4ec4498b511cae986002f873da50951c31d251cb",
-   "date": 1793606400000,
-   "img": "https://img.finalfantasyxiv.com/t/4ec4498b511cae986002f873da50951c31d251cb.png?1793605640"
-  },
-  {
-   "src": "lodestone",
-   "title": "オプションアイテム期間限定セール スタート！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/e69b69f86189928a6d2491c67890e350994d474c",
-   "date": 1793602800000,
-   "img": "https://img.finalfantasyxiv.com/t/e69b69f86189928a6d2491c67890e350994d474c.png?1793603013"
-  },
-  {
-   "src": "lodestone",
-   "title": "最新拡張パッケージ「白銀のワンダラー」発売日決定！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/be396c78694558723d641c22474a18e56cd801fb",
-   "date": 1793421600000,
-   "img": "https://img.finalfantasyxiv.com/t/be396c78694558723d641c22474a18e56cd801fb.png?1793422363"
-  },
-  {
-   "src": "lodestone",
-   "title": "「ファンフェスティバル 2026 in 東京」の音楽ステージを配信で楽しもう！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/6bac301229dca8c167092e402c1d6d04605f4faf",
-   "date": 1793347260000,
-   "img": "https://img.finalfantasyxiv.com/t/6bac301229dca8c167092e402c1d6d04605f4faf.jpg?1793347322"
-  },
-  {
-   "src": "lodestone",
-   "title": "チャットバッジがもらえるTwitch視聴キャンペーン第3弾！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/cd9f9f6616ede73ac0e760706ab0226062b7f246",
-   "date": 1793347200000,
-   "img": "https://img.finalfantasyxiv.com/t/cd9f9f6616ede73ac0e760706ab0226062b7f246.png?1793347322"
-  },
-  {
-   "src": "lodestone",
-   "title": "オンラインでも遊べる！ 「ナインズ・キャッチャー」タイトーオンラインクレーンに登場",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/9dc8d8e56b5c44b5de650cd3f552053415700a45",
-   "date": 1793260860000,
-   "img": "https://img.finalfantasyxiv.com/t/9dc8d8e56b5c44b5de650cd3f552053415700a45.jpg?1793261182"
-  },
-  {
-   "src": "lodestone",
-   "title": "「ファンアートコンテスト 2026」最終選考開始！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/3ffbcc488fb631ed8c184873e769c08b8de46a27",
-   "date": 1793260800000,
-   "img": "https://img.finalfantasyxiv.com/t/3ffbcc488fb631ed8c184873e769c08b8de46a27.jpg?1793261398"
-  },
-  {
-   "src": "lodestone",
-   "title": "いよいよ10月31日開幕！「ファンフェスティバル 2026 in 東京」 ストリーミング情報おさらい",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/ce72e6daf7597640e1e4ff52cb8e64c4e464c4ed",
-   "date": 1793178000000,
-   "img": "https://img.finalfantasyxiv.com/t/ce72e6daf7597640e1e4ff52cb8e64c4e464c4ed.png?1793318263"
-  },
-  {
-   "src": "lodestone",
-   "title": "クリスタルコンフリクト シーズン21 閉幕迫る！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/4f18fc0716e7ba6e84c532f4be6ed70d38a5d185",
-   "date": 1793088000000,
-   "img": "https://img.finalfantasyxiv.com/t/4f18fc0716e7ba6e84c532f4be6ed70d38a5d185.jpg?1793088585"
-  },
-  {
-   "src": "lodestone",
-   "title": "「闘獣練ランキング」シーズン1開幕！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/37d27f0805651d328d303cd7079741cfe330301b",
-   "date": 1792996200000,
-   "img": "https://img.finalfantasyxiv.com/t/37d27f0805651d328d303cd7079741cfe330301b.jpg?1792996453"
-  },
-  {
-   "src": "lodestone",
-   "title": "「ファイナルファンタジーXIV複製原画」ラインナップに5種追加！ 予約受付中！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/0a56323f05b57a39020edc8760d9d7597e171ec4",
-   "date": 1792983600000,
-   "img": "https://img.finalfantasyxiv.com/t/0a56323f05b57a39020edc8760d9d7597e171ec4.png?1792983982"
-  },
-  {
-   "src": "lodestone",
-   "title": "「ファンフェスティバル 2026 in 東京」はチケットをお持ちでない方もお楽しみいただけます！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/ebbdb29bb90dea3a39c4d3f70c0f8a2b07d352ab",
-   "date": 1792749660000,
-   "img": "https://img.finalfantasyxiv.com/t/ebbdb29bb90dea3a39c4d3f70c0f8a2b07d352ab.png?1792750908"
-  },
-  {
-   "src": "lodestone",
-   "title": "「ファンフェスティバル 2026 in 東京」ご来場の皆さまへ",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/9c258561582cbcff7d4b47dd40ec22054f5caad5",
-   "date": 1792749600000,
-   "img": "https://img.finalfantasyxiv.com/t/9c258561582cbcff7d4b47dd40ec22054f5caad5.png?1792750908"
-  },
-  {
-   "src": "lodestone",
-   "title": "EXBAR TOKYO plus AKIHABARAにFFXIVイメージのクラフトビール第２弾が登場！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/5169173cf34bd804670ffe8a5a74bfd654dcbe98",
-   "date": 1792742400000,
-   "img": "https://img.finalfantasyxiv.com/t/5169173cf34bd804670ffe8a5a74bfd654dcbe98.jpg?1792742735"
-  },
-  {
-   "src": "lodestone",
-   "title": "「ファンフェスティバル 2026」記念アイテム 第3弾 発売＆セール開始！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/f4ee84a657f6298b50a5d9622091a64584fe7802",
-   "date": 1792738800000,
-   "img": "https://img.finalfantasyxiv.com/t/f4ee84a657f6298b50a5d9622091a64584fe7802.jpg?1792757726"
-  },
-  {
    "src": "yt-official",
    "title": "【ハイライト：ファイナル】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=v066mGOY8Tg",
-   "date": 1794217581629,
+   "date": 1794218112379,
    "img": "https://i.ytimg.com/vi/v066mGOY8Tg/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：セミファイナル2対戦目】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=lAHaDmjK8cs",
-   "date": 1794217581629,
+   "date": 1794218112379,
    "img": "https://i.ytimg.com/vi/lAHaDmjK8cs/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：セミファイナル1対戦目】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=aEKCEhJOT3w",
-   "date": 1794217581629,
+   "date": 1794218112379,
    "img": "https://i.ytimg.com/vi/aEKCEhJOT3w/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "ファイナルファンタジーXIV × ディーゼル スタイリングコンテスト｜ディーゼル特別賞 受賞コーディネート",
    "link": "https://www.youtube.com/watch?v=7T3WZf1he_k",
-   "date": 1793580381629,
+   "date": 1793584512379,
    "img": "https://i.ytimg.com/vi/7T3WZf1he_k/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "THE PRIMALS - \"Open Sky - The Theme from Dawntrail\" | Fan Festival 2026 in Tokyo",
    "link": "https://www.youtube.com/watch?v=ktsfH8CWJP4",
-   "date": 1793580381629,
+   "date": 1793584512379,
    "img": "https://i.ytimg.com/vi/ktsfH8CWJP4/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "[Day 2] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
    "link": "https://www.youtube.com/watch?v=ZN5682sEIrY",
-   "date": 1793580381629,
+   "date": 1793584512379,
    "img": "https://i.ytimg.com/vi/ZN5682sEIrY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: EVERCOLD - New Mount “Valhallar Odin”",
    "link": "https://www.youtube.com/watch?v=-K6aiJ52_ss",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/-K6aiJ52_ss/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: Evercold Full Trailer",
    "link": "https://www.youtube.com/watch?v=1RawyqQLQ54",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/1RawyqQLQ54/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: Evercold Full Trailer",
    "link": "https://www.youtube.com/watch?v=lXK6Kcdfeew",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/lXK6Kcdfeew/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: Evercold | Full Trailer | Launches February 23, 2027",
    "link": "https://www.youtube.com/watch?v=8mN8N5O5ru0",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/8mN8N5O5ru0/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: EVERCOLD Full Trailer",
    "link": "https://www.youtube.com/watch?v=_qY_Hc4xaQY",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/_qY_Hc4xaQY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV — EVANGELION - Ghosts of Desire 『予告』",
    "link": "https://www.youtube.com/watch?v=eTYVn5jBBSc",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/eTYVn5jBBSc/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: EVERCOLD - Dungeon Crawl",
    "link": "https://www.youtube.com/watch?v=WiVABiUttiw",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/WiVABiUttiw/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: EVERCOLD - 第四世界の新たなフィールド",
    "link": "https://www.youtube.com/watch?v=ucMMJMU69mg",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/ucMMJMU69mg/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: EVERCOLD - 新たな冒険の舞台「風の大陸船・スキーズブラズニル」",
    "link": "https://www.youtube.com/watch?v=V7t0oR3-Hpg",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/V7t0oR3-Hpg/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: EVERCOLD - 新たな冒険の舞台「土の大陸船・セスルームニル」",
    "link": "https://www.youtube.com/watch?v=35inH1cr1-M",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/35inH1cr1-M/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: EVERCOLD - 新たなジョブ「ゼファー」",
    "link": "https://www.youtube.com/watch?v=qX5jtcXjmts",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/qX5jtcXjmts/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "山峡の涼風 ～オルコ・パチャ：昼～ / \"Windswept Echoes\" | Piano Concert | Fan Festival 2026 in Tokyo",
    "link": "https://www.youtube.com/watch?v=haC0LgXzxJM",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/haC0LgXzxJM/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "[Day 1] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
    "link": "https://www.youtube.com/watch?v=IUtPVmCtltY",
-   "date": 1793493981629,
+   "date": 1793498112379,
    "img": "https://i.ytimg.com/vi/IUtPVmCtltY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV at PAX Australia 2026",
    "link": "https://www.youtube.com/watch?v=swSnBjYCFZA",
-   "date": 1793321181629,
+   "date": 1793325312379,
    "img": "https://i.ytimg.com/vi/swSnBjYCFZA/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "第48回 FFXIVコミュニティ放送",
    "link": "https://www.youtube.com/watch?v=PdgjNUsuI9c",
-   "date": 1793061981629,
+   "date": 1793066112379,
    "img": "https://i.ytimg.com/vi/PdgjNUsuI9c/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Duty Commenced - North American Community Team Stream (October 21, 2026)",
    "link": "https://www.youtube.com/watch?v=5nMDPRJwhk0",
-   "date": 1793061981629,
+   "date": 1793066112379,
    "img": "https://i.ytimg.com/vi/5nMDPRJwhk0/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Piano Collections: Till Dawn My Tears Flow - Promises to Keep Music Video (by Keiko)",
    "link": "https://www.youtube.com/watch?v=g2sU-UzoV14",
-   "date": 1792457181629,
+   "date": 1792461312379,
    "img": "https://i.ytimg.com/vi/g2sU-UzoV14/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV @ Otakon 2026",
    "link": "https://www.youtube.com/watch?v=RQ4h5G80wFY",
-   "date": 1791679581629,
+   "date": 1791683712379,
    "img": "https://i.ytimg.com/vi/RQ4h5G80wFY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "gamescom 2026 - Recap Video",
    "link": "https://www.youtube.com/watch?v=ex5hfbzA9is",
-   "date": 1791679581629,
+   "date": 1791683712379,
    "img": "https://i.ytimg.com/vi/ex5hfbzA9is/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Duty Commenced - North American Community Team Stream (October 7, 2026)",
    "link": "https://www.youtube.com/watch?v=mXU4gIn1Bmo",
-   "date": 1791679581629,
+   "date": 1791683712379,
    "img": "https://i.ytimg.com/vi/mXU4gIn1Bmo/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "第47回 FFXIVコミュニティ放送",
    "link": "https://www.youtube.com/watch?v=tyl3k1l4Q9M",
-   "date": 1791679581629,
+   "date": 1791683712379,
    "img": "https://i.ytimg.com/vi/tyl3k1l4Q9M/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV - The Unending Journey - EU Community Stream",
    "link": "https://www.youtube.com/watch?v=jLMMm83wwQ0",
-   "date": 1791679581629,
+   "date": 1791683712379,
    "img": "https://i.ytimg.com/vi/jLMMm83wwQ0/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV - Le Carnet de Voyage - French Community Stream",
    "link": "https://www.youtube.com/watch?v=0hVJCYVDDok",
-   "date": 1791679581629,
+   "date": 1791683712379,
    "img": "https://i.ytimg.com/vi/0hVJCYVDDok/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "Rise of the Wolves - North American Community Team PvP Stream (September 2026)",
    "link": "https://www.youtube.com/watch?v=QAi1kckbMK0",
-   "date": 1791679581629,
+   "date": 1791683712379,
    "img": "https://i.ytimg.com/vi/QAi1kckbMK0/hqdefault.jpg"
   },
   {
