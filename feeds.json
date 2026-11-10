@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794325184408,
+ "updatedAt": 1794350026343,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】「連続サブクエの1個目に風脈を入れないで」→「最初から飛べていいだろ」vs「崖や海をどう越えるかがRPG、自由に飛べたら楽しみが無くなる」「湖畔地帯の風脈は蒼天の簡悔の残滓」「課金解放はDQ10の二の舞」",
+   "link": "https://yan-flash.com/articles/aether-currents-debate-fly-from-start-vs-exploration",
+   "date": 1794348155000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「エヴォルヴ失敗したらグラアプデの比じゃなく荒れそう、担当者を前に出すのやめた方がいい」→「出さなければ後継が育たない」「開発スタッフは裏方、成功してから顔を出すのが普通」",
    "link": "https://yan-flash.com/articles/should-evolve-devs-appear-publicly-debate",
    "date": 1793966469000,
@@ -675,13 +682,6 @@
    "title": "【FF14】ファンフェス基調講演を実況スレで追った2時間「2月かぁ」「ゼファーいいな」「アライアンス分割は想像の斜め上」「ロット廃止嬉しい」「マテリア金策終了かと思ったら禁断解禁で息を吹き返した」",
    "link": "https://yan-flash.com/articles/fanfest-2026-keynote-live-thread-reactions",
    "date": 1793484272000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "チャットバッジがもらえるTwitch視聴キャンペーン第3弾！",
-   "link": "https://yan-flash.com/articles/lodestone-cd9f9f6616ed",
-   "date": 1793422928000,
    "img": ""
   }
  ]
