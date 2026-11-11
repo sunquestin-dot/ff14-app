@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794350026343,
+ "updatedAt": 1794355562993,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】「蘇生されてすぐまた床舐めたらそいつのせいだよね」→「起きた時のカメラは常に南向き（豆知識）」「蘇生の仕様ってどこかで教えられたか？」「転がって覚えるもの、極までは学習の途中」",
+   "link": "https://yan-flash.com/articles/raise-etiquette-camera-faces-south-and-unlearned-mechanics",
+   "date": 1794355364000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「連続サブクエの1個目に風脈を入れないで」→「最初から飛べていいだろ」vs「崖や海をどう越えるかがRPG、自由に飛べたら楽しみが無くなる」「湖畔地帯の風脈は蒼天の簡悔の残滓」「課金解放はDQ10の二の舞」",
    "link": "https://yan-flash.com/articles/aether-currents-debate-fly-from-start-vs-exploration",
    "date": 1794348155000,
@@ -675,13 +682,6 @@
    "title": "【FF14】エヴァコラボ発表に実況スレ「ミサトさんだ！！」「サービスサービスぅ！」「エヴァ履修してないから盛り上がりについて行けない」→「テレビ版は24話しかないし8.1まで時間ある」。レナスにも「一番びっくりした」",
    "link": "https://yan-flash.com/articles/fanfest-2026-eva-collab-live-thread-reactions",
    "date": 1793487878000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】ファンフェス基調講演を実況スレで追った2時間「2月かぁ」「ゼファーいいな」「アライアンス分割は想像の斜め上」「ロット廃止嬉しい」「マテリア金策終了かと思ったら禁断解禁で息を吹き返した」",
-   "link": "https://yan-flash.com/articles/fanfest-2026-keynote-live-thread-reactions",
-   "date": 1793484272000,
    "img": ""
   }
  ]
