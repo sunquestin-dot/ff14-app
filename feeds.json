@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794484236147,
+ "updatedAt": 1794488161526,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】「黄金の振り返りが無かったとよく言われるけど、今までの拡張は振り返りあったの？」→「漆黒は秘話インタビュー、暁月はシナリオ鼎談」「不評な時に敢えて触れろは理不尽な気もする」",
+   "link": "https://yan-flash.com/articles/did-past-expansions-get-retrospective-interviews",
+   "date": 1794484878000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「絶固定は面接で履歴書とVC面談、ゲームごときで」→「地雷を事前に弾かないと本当に大変になる、やってみたら分かる」「白銀からは固定の横幅が広がる」「未クリア同士で練習するメリットが消え傭兵PT乱立しそう」",
    "link": "https://yan-flash.com/articles/ultimate-static-interviews-and-hakugin-static-future",
    "date": 1794477671000,
@@ -675,13 +682,6 @@
    "title": "【FF14】「野良で余計なこと喋ると通報されてXに晒される、何も言わないのが正解」→「普通に喋って何年もやって一度も何もない」「アウトなのは言い方とチクチク繰り返し」",
    "link": "https://yan-flash.com/articles/pug-chat-risk-silence-vs-speaking-up",
    "date": 1793743417000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】FL「もうすぐ勝ちそうな1位をスルーしてリスのない所で2位と3位が場外乱闘してんだ」→「2位が3位のリス取って繰り上がり1位もある」「裏リスの空き巣が増えた」",
-   "link": "https://yan-flash.com/articles/fl-2nd-3rd-brawl-while-1st-escapes",
-   "date": 1793700191000,
    "img": ""
   }
  ]
