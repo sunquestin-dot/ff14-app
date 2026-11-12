@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794518198608,
+ "updatedAt": 1794521701834,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】「白銀は零式必須？改でなんとかなるんじゃ」→「+1強化は改、+2は零式。改は今の極より下」「滅や塔を見ると丁度いい難易度が出るとは…」",
+   "link": "https://yan-flash.com/articles/shirogane-kai-difficulty",
+   "date": 1794520907000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「黄金の振り返りが無かったとよく言われるけど、今までの拡張は振り返りあったの？」→「漆黒は秘話インタビュー、暁月はシナリオ鼎談」「不評な時に敢えて触れろは理不尽な気もする」",
    "link": "https://yan-flash.com/articles/did-past-expansions-get-retrospective-interviews",
    "date": 1794484878000,
@@ -675,13 +682,6 @@
    "title": "【FF14】愚痴スレ「FCもアップデートなーんもない、やりっぱなし」→「潜水艦の海図は増えてる」「FCに限定する理由がない」「地図みたいな誘いやすいコンテンツを増やして」",
    "link": "https://yan-flash.com/articles/fc-content-stagnation-submarine-fcs-and-what-to-add",
    "date": 1793750626000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「野良で余計なこと喋ると通報されてXに晒される、何も言わないのが正解」→「普通に喋って何年もやって一度も何もない」「アウトなのは言い方とチクチク繰り返し」",
-   "link": "https://yan-flash.com/articles/pug-chat-risk-silence-vs-speaking-up",
-   "date": 1793743417000,
    "img": ""
   }
  ]
