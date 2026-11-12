@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794436634388,
+ "updatedAt": 1794442538015,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】絶ケフカ開幕「STナイトが挑発したのに暗黒にヘイトを持っていかれる」→「挑発は威力1000相当、ディセス1000＋ブリンガー600で2000超える」「一番確実なのは暗黒がスタンスを切ること」",
+   "link": "https://yan-flash.com/articles/fru-opener-provoke-vs-dark-knight-burst-enmity",
+   "date": 1794441831000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「白銀で零式やる気がない奴は解約しとけ、一生IL10差でデバフ扱い」→「零式人口は2割」「俺のFC9人で零式やってるの俺だけ」「ライトコンテンツで差が出るのはILより回し」",
    "link": "https://yan-flash.com/articles/hakugin-il-gap-for-non-savage-players-debate",
    "date": 1794434619000,
@@ -675,13 +682,6 @@
    "title": "【FF14】「レイド改やっても最終装備貰えないっぽくて残念」→「改は零式までの導線であって代替品ではない」「詩学は無くなるがトームストーン自体は残る」",
    "link": "https://yan-flash.com/articles/raid-kai-and-poetics-tomestone-what-changes",
    "date": 1793664170000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「零式が個人報酬になってクリア者も箱が出るってどういうこと？」→「今まではクリ済5人以上で箱無し」「毎度1個は出るけどフルパワーまで6週」「傭兵用サブキャラの必要性が薄まった」",
-   "link": "https://yan-flash.com/articles/savage-personal-loot-cleared-players-explained",
-   "date": 1793656961000,
    "img": ""
   }
  ]
