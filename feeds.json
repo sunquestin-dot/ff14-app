@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794609497619,
+ "updatedAt": 1794612900911,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -161,6 +161,13 @@
   },
   {
    "src": "yt-official",
+   "title": "Duty Commenced - North American Community Team Stream (November 13, 2026)",
+   "link": "https://www.youtube.com/watch?v=2JmHy4G6quM",
+   "date": 1793844030000,
+   "img": "https://i3.ytimg.com/vi/2JmHy4G6quM/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
    "title": "「クリスタルコンフリクト」初心者ガイド動画 第1弾「ルールと基本」編",
    "link": "https://www.youtube.com/watch?v=yj4x8TFy_zU",
    "date": 1794476055000,
@@ -186,6 +193,13 @@
    "link": "https://www.youtube.com/watch?v=v066mGOY8Tg",
    "date": 1794217381000,
    "img": "https://i3.ytimg.com/vi/v066mGOY8Tg/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "Rise of the Wolves - North American Community Team PvP Stream (November 2026)",
+   "link": "https://www.youtube.com/watch?v=cNVwIiILY3o",
+   "date": 1793844157000,
+   "img": "https://i4.ytimg.com/vi/cNVwIiILY3o/hqdefault.jpg"
   },
   {
    "src": "yt-official",
@@ -249,20 +263,6 @@
    "link": "https://www.youtube.com/watch?v=8mN8N5O5ru0",
    "date": 1793420750000,
    "img": "https://i1.ytimg.com/vi/8mN8N5O5ru0/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: EVERCOLD Full Trailer",
-   "link": "https://www.youtube.com/watch?v=_qY_Hc4xaQY",
-   "date": 1793420745000,
-   "img": "https://i4.ytimg.com/vi/_qY_Hc4xaQY/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV — EVANGELION - Ghosts of Desire 『予告』",
-   "link": "https://www.youtube.com/watch?v=eTYVn5jBBSc",
-   "date": 1793420225000,
-   "img": "https://i2.ytimg.com/vi/eTYVn5jBBSc/hqdefault.jpg"
   },
   {
    "src": "hikasen",
