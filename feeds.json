@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794569234885,
+ "updatedAt": 1794609497619,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】これから始める人「ララフェルのタンクは迷惑？IDはコンサポで慣れてから？」→先輩ヒカセン「ララタンクいっぱいいる」「NPCは安置に動くから覚えやすい、慣れたらCF」「製品版は新生を抜けてからでいい」",
+   "link": "https://yan-flash.com/articles/beginner-questions-lala-tank-cf",
+   "date": 1794607401000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】ダメ出しスレ「クリアしたいと思えるストーリーを作れよ」→「せめて遊んでから批判しようね」「どの界隈でも運営を支えてるのはライト勢」",
    "link": "https://yan-flash.com/articles/golden-criticism-who-may-speak",
    "date": 1794564151000,
@@ -675,13 +682,6 @@
    "title": "【FF14】「Xが今さら永久人を人とみなすかどうかで荒れてる」→ダメ出しスレでも「記憶しかない幽霊みたいなもの」vs「それを問いかけたのがリビングメモリー」「足掻く描写が欲しかった」",
    "link": "https://yan-flash.com/articles/living-memory-shutdown-are-endless-people-persons-debate",
    "date": 1793930445000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「白銀の商品情報の and more に青魔アプデ入ってるよね」→「黄金の権利で遊べるはずやろ」「黄金で宣伝して白銀で実装ってよく考えたら」「開発に甘すぎでは」vs「納期延期は社会にはある」",
-   "link": "https://yan-flash.com/articles/blue-mage-update-in-hakugin-and-more-dawntrail-license-debate",
-   "date": 1793923242000,
    "img": ""
   }
  ]
