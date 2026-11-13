@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794521701834,
+ "updatedAt": 1794528639677,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】「トロいタンクがいるから先釣りする」→「なら自分がタンク出せ」「上手いタンクほど先釣りされても気にしない」「初心者の館で先釣りすんなって言われてる」",
+   "link": "https://yan-flash.com/articles/sakizuri-vs-slow-tank",
+   "date": 1794528116000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「白銀は零式必須？改でなんとかなるんじゃ」→「+1強化は改、+2は零式。改は今の極より下」「滅や塔を見ると丁度いい難易度が出るとは…」",
    "link": "https://yan-flash.com/articles/shirogane-kai-difficulty",
    "date": 1794520907000,
@@ -675,13 +682,6 @@
    "title": "【FF14】「蛮神系の余ったトークンどうしてる？」→「捨ててる」「光る武器のために残してる」→「光る極武器、黄金では一本も来てない」「6.3ルビー・6.5エメラルド・7.1ダイヤ・7.2ハイデリン、意外と遅い」",
    "link": "https://yan-flash.com/articles/leftover-primal-tomestones-and-missing-glowing-weapons",
    "date": 1793757830000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】愚痴スレ「FCもアップデートなーんもない、やりっぱなし」→「潜水艦の海図は増えてる」「FCに限定する理由がない」「地図みたいな誘いやすいコンテンツを増やして」",
-   "link": "https://yan-flash.com/articles/fc-content-stagnation-submarine-fcs-and-what-to-add",
-   "date": 1793750626000,
    "img": ""
   }
  ]
