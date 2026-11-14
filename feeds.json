@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794612900911,
+ "updatedAt": 1794617146089,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -7,11 +7,11 @@
   },
   "yt-official": {
    "ok": true,
-   "count": 15
+   "count": 30
   },
   "hikasen": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 403"
   },
   "yan": {
    "ok": true,
@@ -161,318 +161,221 @@
   },
   {
    "src": "yt-official",
-   "title": "Duty Commenced - North American Community Team Stream (November 13, 2026)",
-   "link": "https://www.youtube.com/watch?v=2JmHy4G6quM",
-   "date": 1793844030000,
-   "img": "https://i3.ytimg.com/vi/2JmHy4G6quM/hqdefault.jpg"
+   "title": "Rise of the Wolves - North American Community Team PvP Stream (November 2026)",
+   "link": "https://www.youtube.com/watch?v=cNVwIiILY3o",
+   "date": 1794981600000,
+   "img": "https://i.ytimg.com/vi/cNVwIiILY3o/hqdefault.jpg",
+   "upcoming": true
   },
   {
    "src": "yt-official",
    "title": "「クリスタルコンフリクト」初心者ガイド動画 第1弾「ルールと基本」編",
    "link": "https://www.youtube.com/watch?v=yj4x8TFy_zU",
-   "date": 1794476055000,
-   "img": "https://i2.ytimg.com/vi/yj4x8TFy_zU/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "【ハイライト：セミファイナル1対戦目】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
-   "link": "https://www.youtube.com/watch?v=aEKCEhJOT3w",
-   "date": 1794217381000,
-   "img": "https://i2.ytimg.com/vi/aEKCEhJOT3w/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "【ハイライト：セミファイナル2対戦目】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
-   "link": "https://www.youtube.com/watch?v=lAHaDmjK8cs",
-   "date": 1794217381000,
-   "img": "https://i1.ytimg.com/vi/lAHaDmjK8cs/hqdefault.jpg"
+   "date": 1794530747107,
+   "img": "https://i.ytimg.com/vi/yj4x8TFy_zU/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：ファイナル】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=v066mGOY8Tg",
-   "date": 1794217381000,
-   "img": "https://i3.ytimg.com/vi/v066mGOY8Tg/hqdefault.jpg"
+   "date": 1794271547107,
+   "img": "https://i.ytimg.com/vi/v066mGOY8Tg/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "Rise of the Wolves - North American Community Team PvP Stream (November 2026)",
-   "link": "https://www.youtube.com/watch?v=cNVwIiILY3o",
-   "date": 1793844157000,
-   "img": "https://i4.ytimg.com/vi/cNVwIiILY3o/hqdefault.jpg"
+   "title": "【ハイライト：セミファイナル2対戦目】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
+   "link": "https://www.youtube.com/watch?v=lAHaDmjK8cs",
+   "date": 1794271547107,
+   "img": "https://i.ytimg.com/vi/lAHaDmjK8cs/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "[Day 2] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
-   "link": "https://www.youtube.com/watch?v=ZN5682sEIrY",
-   "date": 1793529325000,
-   "img": "https://i3.ytimg.com/vi/ZN5682sEIrY/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "THE PRIMALS - \"Open Sky - The Theme from Dawntrail\" | Fan Festival 2026 in Tokyo",
-   "link": "https://www.youtube.com/watch?v=ktsfH8CWJP4",
-   "date": 1793528863000,
-   "img": "https://i4.ytimg.com/vi/ktsfH8CWJP4/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "[Day 1] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
-   "link": "https://www.youtube.com/watch?v=IUtPVmCtltY",
-   "date": 1793519283000,
-   "img": "https://i2.ytimg.com/vi/IUtPVmCtltY/hqdefault.jpg"
+   "title": "【ハイライト：セミファイナル1対戦目】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
+   "link": "https://www.youtube.com/watch?v=aEKCEhJOT3w",
+   "date": 1794271547107,
+   "img": "https://i.ytimg.com/vi/aEKCEhJOT3w/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "ファイナルファンタジーXIV × ディーゼル スタイリングコンテスト｜ディーゼル特別賞 受賞コーディネート",
    "link": "https://www.youtube.com/watch?v=7T3WZf1he_k",
-   "date": 1793512146000,
-   "img": "https://i4.ytimg.com/vi/7T3WZf1he_k/hqdefault.jpg"
+   "date": 1793580347107,
+   "img": "https://i.ytimg.com/vi/7T3WZf1he_k/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "山峡の涼風 ～オルコ・パチャ：昼～ / \"Windswept Echoes\" | Piano Concert | Fan Festival 2026 in Tokyo",
-   "link": "https://www.youtube.com/watch?v=haC0LgXzxJM",
-   "date": 1793443370000,
-   "img": "https://i1.ytimg.com/vi/haC0LgXzxJM/hqdefault.jpg"
+   "title": "THE PRIMALS - \"Open Sky - The Theme from Dawntrail\" | Fan Festival 2026 in Tokyo",
+   "link": "https://www.youtube.com/watch?v=ktsfH8CWJP4",
+   "date": 1793580347107,
+   "img": "https://i.ytimg.com/vi/ktsfH8CWJP4/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "FINAL FANTASY XIV: Evercold | Collector's Edition | Valhallar Odin",
+   "title": "[Day 2] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
+   "link": "https://www.youtube.com/watch?v=ZN5682sEIrY",
+   "date": 1793580347107,
+   "img": "https://i.ytimg.com/vi/ZN5682sEIrY/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV: EVERCOLD - New Mount “Valhallar Odin”",
    "link": "https://www.youtube.com/watch?v=-K6aiJ52_ss",
-   "date": 1793420770000,
-   "img": "https://i2.ytimg.com/vi/-K6aiJ52_ss/hqdefault.jpg"
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/-K6aiJ52_ss/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: Evercold Full Trailer",
    "link": "https://www.youtube.com/watch?v=1RawyqQLQ54",
-   "date": 1793420763000,
-   "img": "https://i2.ytimg.com/vi/1RawyqQLQ54/hqdefault.jpg"
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/1RawyqQLQ54/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: Evercold Full Trailer",
    "link": "https://www.youtube.com/watch?v=lXK6Kcdfeew",
-   "date": 1793420759000,
-   "img": "https://i1.ytimg.com/vi/lXK6Kcdfeew/hqdefault.jpg"
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/lXK6Kcdfeew/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "FINAL FANTASY XIV: Evercold | Full Trailer | Launches February 23, 2027",
    "link": "https://www.youtube.com/watch?v=8mN8N5O5ru0",
-   "date": 1793420750000,
-   "img": "https://i1.ytimg.com/vi/8mN8N5O5ru0/hqdefault.jpg"
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/8mN8N5O5ru0/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】パッドで侍やってる人ってスキルの配置どうしているの？",
-   "link": "https://ff14hikasensokuhou.com/e/29838",
-   "date": 1794567621000,
-   "img": "https://blog-imgs-202.fc2.com/f/f/1/ff14hikasensokuhou/2017022315470512e.png"
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV: EVERCOLD Full Trailer",
+   "link": "https://www.youtube.com/watch?v=_qY_Hc4xaQY",
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/_qY_Hc4xaQY/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】WoLのノーマルは難しすぎる？「ラスボスなんだから強くていい」と擁護する声も",
-   "link": "https://ff14hikasensokuhou.com/e/29837",
-   "date": 1794555016000,
-   "img": "https://blog-imgs-139.fc2.com/f/f/1/ff14hikasensokuhou/20201206215810a30s.jpg"
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV — EVANGELION - Ghosts of Desire 『予告』",
+   "link": "https://www.youtube.com/watch?v=eTYVn5jBBSc",
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/eTYVn5jBBSc/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインの4人固定は「ズル」なのか？ソロ申請との公平性を求める声",
-   "link": "https://ff14hikasensokuhou.com/e/29836",
-   "date": 1794542535000,
-   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251213072817d1d.png"
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV: EVERCOLD - Dungeon Crawl",
+   "link": "https://www.youtube.com/watch?v=WiVABiUttiw",
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/WiVABiUttiw/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】FF11には「やりすぎ注意」の表示があるのにFF14にはない？MMORPGの設計思想の違い",
-   "link": "https://ff14hikasensokuhou.com/e/29835",
-   "date": 1794535223000,
-   "img": "https://blog-imgs-94.fc2.com/f/f/1/ff14hikasensokuhou/2016090815344385b.jpg"
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV: EVERCOLD - 第四世界の新たなフィールド",
+   "link": "https://www.youtube.com/watch?v=ucMMJMU69mg",
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/ucMMJMU69mg/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "FF14】ソロでFLタンクを出すならどのジョブがオススメなの？",
-   "link": "https://ff14hikasensokuhou.com/e/29834",
-   "date": 1794492003000,
-   "img": "https://blog-imgs-123.fc2.com/f/f/1/ff14hikasensokuhou/20190203015113873.png"
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV: EVERCOLD - 新たな冒険の舞台「風の大陸船・スキーズブラズニル」",
+   "link": "https://www.youtube.com/watch?v=V7t0oR3-Hpg",
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/V7t0oR3-Hpg/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "MMORPGの住人「狩場横取りやめてください！！」←1番意味不明なルール",
-   "link": "https://ff14hikasensokuhou.com/e/29833",
-   "date": 1794481255000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/game_gamens.png"
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV: EVERCOLD - 新たな冒険の舞台「土の大陸船・セスルームニル」",
+   "link": "https://www.youtube.com/watch?v=35inH1cr1-M",
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/35inH1cr1-M/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】8.0でスキルが減りすぎる？「色々合体させると誤爆しそう」とプレイヤーから不安の声",
-   "link": "https://ff14hikasensokuhou.com/e/29832",
-   "date": 1794470413000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260425061838fdbs.png"
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV: EVERCOLD - 新たなジョブ「ゼファー」",
+   "link": "https://www.youtube.com/watch?v=qX5jtcXjmts",
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/qX5jtcXjmts/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "有識者「AIによってシングルゲームは絶滅する。マルチプレイゲームしか残らない」",
-   "link": "https://ff14hikasensokuhou.com/e/29831",
-   "date": 1794463207000,
-   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251207122218b07.png"
+   "src": "yt-official",
+   "title": "山峡の涼風 ～オルコ・パチャ：昼～ / \"Windswept Echoes\" | Piano Concert | Fan Festival 2026 in Tokyo",
+   "link": "https://www.youtube.com/watch?v=haC0LgXzxJM",
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/haC0LgXzxJM/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインの「挟撃注意」は本当に必要？「前線の圧力が落ちて逆効果」と批判する声も",
-   "link": "https://ff14hikasensokuhou.com/e/29830",
-   "date": 1794452454000,
-   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
+   "src": "yt-official",
+   "title": "[Day 1] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
+   "link": "https://www.youtube.com/watch?v=IUtPVmCtltY",
+   "date": 1793493947107,
+   "img": "https://i.ytimg.com/vi/IUtPVmCtltY/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】土地がどんどん埋まる謎、複数軒所持の抜け穴を塞ぐべき？【ハウジング】",
-   "link": "https://ff14hikasensokuhou.com/e/29829",
-   "date": 1794445204000,
-   "img": "https://blog-imgs-117.fc2.com/f/f/1/ff14hikasensokuhou/20180526093138525.png"
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV at PAX Australia 2026",
+   "link": "https://www.youtube.com/watch?v=swSnBjYCFZA",
+   "date": 1793407547107,
+   "img": "https://i.ytimg.com/vi/swSnBjYCFZA/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインはタンクが多いほど有利？「多すぎても勝てない」と編成バランスを指摘する声",
-   "link": "https://ff14hikasensokuhou.com/e/29828",
-   "date": 1794405658000,
-   "img": "https://blog-imgs-119.fc2.com/f/f/1/ff14hikasensokuhou/201807261413112a2.jpg"
+   "src": "yt-official",
+   "title": "第48回 FFXIVコミュニティ放送",
+   "link": "https://www.youtube.com/watch?v=PdgjNUsuI9c",
+   "date": 1792802747107,
+   "img": "https://i.ytimg.com/vi/PdgjNUsuI9c/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "ゲームで○属性が○属性に強い的なアレに違和感感じるんだが",
-   "link": "https://ff14hikasensokuhou.com/e/29827",
-   "date": 1794394830000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/2026080814333528es.png"
+   "src": "yt-official",
+   "title": "Duty Commenced - North American Community Team Stream (October 21, 2026)",
+   "link": "https://www.youtube.com/watch?v=5nMDPRJwhk0",
+   "date": 1792802747107,
+   "img": "https://i.ytimg.com/vi/5nMDPRJwhk0/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】IDの1G進行とまとめってヒーラーの仕事変わるの？",
-   "link": "https://ff14hikasensokuhou.com/e/29826",
-   "date": 1794384055000,
-   "img": "https://blog-imgs-162.fc2.com/f/f/1/ff14hikasensokuhou/20250806063153e84s.png"
+   "src": "yt-official",
+   "title": "Piano Collections: Till Dawn My Tears Flow - Promises to Keep Music Video (by Keiko)",
+   "link": "https://www.youtube.com/watch?v=g2sU-UzoV14",
+   "date": 1792025147107,
+   "img": "https://i.ytimg.com/vi/g2sU-UzoV14/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】フレ「○○に行きませんか？」ワイ「いいですよ」←これってダメなの？",
-   "link": "https://ff14hikasensokuhou.com/e/29825",
-   "date": 1794374426000,
-   "img": "https://blog-imgs-126.fc2.com/f/f/1/ff14hikasensokuhou/201903271951158f0.jpg"
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV @ Otakon 2026",
+   "link": "https://www.youtube.com/watch?v=RQ4h5G80wFY",
+   "date": 1792025147107,
+   "img": "https://i.ytimg.com/vi/RQ4h5G80wFY/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインの召喚士は強いの？「与ダメージは出るけど役には立たない」と辛辣な評価も",
-   "link": "https://ff14hikasensokuhou.com/e/29824",
-   "date": 1794366014000,
-   "img": "https://blog-imgs-148.fc2.com/f/f/1/ff14hikasensokuhou/202109192120117f6s.png"
+   "src": "yt-official",
+   "title": "Duty Commenced - North American Community Team Stream (October 7, 2026)",
+   "link": "https://www.youtube.com/watch?v=mXU4gIn1Bmo",
+   "date": 1792025147107,
+   "img": "https://i.ytimg.com/vi/mXU4gIn1Bmo/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】そもそもIDの先釣りが嫌われる理由って何？",
-   "link": "https://ff14hikasensokuhou.com/e/29823",
-   "date": 1794357006000,
-   "img": "https://blog-imgs-94.fc2.com/f/f/1/ff14hikasensokuhou/2016080303011472a.jpg"
+   "src": "yt-official",
+   "title": "第47回 FFXIVコミュニティ放送",
+   "link": "https://www.youtube.com/watch?v=tyl3k1l4Q9M",
+   "date": 1792025147107,
+   "img": "https://i.ytimg.com/vi/tyl3k1l4Q9M/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "ゲーム←10時間くらいでストーリークリアして終わりです",
-   "link": "https://ff14hikasensokuhou.com/e/29822",
-   "date": 1794308446000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/game_tetsuya_man.png"
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV - The Unending Journey - EU Community Stream",
+   "link": "https://www.youtube.com/watch?v=jLMMm83wwQ0",
+   "date": 1792025147107,
+   "img": "https://i.ytimg.com/vi/jLMMm83wwQ0/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインでMIPを貰う方法ってある？",
-   "link": "https://ff14hikasensokuhou.com/e/29821",
-   "date": 1794298637000,
-   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/MIPPP.png"
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV - Le Carnet de Voyage - French Community Stream",
+   "link": "https://www.youtube.com/watch?v=0hVJCYVDDok",
+   "date": 1792025147107,
+   "img": "https://i.ytimg.com/vi/0hVJCYVDDok/hqdefault.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】新IDの初見攻略はコンサポと野良どっちがいい？全滅を恐れないプレイヤーも",
-   "link": "https://ff14hikasensokuhou.com/e/29820",
-   "date": 1794286850000,
-   "img": "https://blog-imgs-171.fc2.com/f/f/1/ff14hikasensokuhou/20241029103942107s.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】フリートライアルで効率よくギルを稼ぐ方法って何かある？",
-   "link": "https://ff14hikasensokuhou.com/e/29819",
-   "date": 1794276003000,
-   "img": "https://blog-imgs-94.fc2.com/f/f/1/ff14hikasensokuhou/2016090815344385b.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "個人的にゲームで一番ワクワクした時代はいつだった？",
-   "link": "https://ff14hikasensokuhou.com/e/29818",
-   "date": 1794268822000,
-   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251129115229e44s.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】オンサルの中央って必要だったの？",
-   "link": "https://ff14hikasensokuhou.com/e/29817",
-   "date": 1794261604000,
-   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】「絶妖星乱舞」において、「道化師のトーテム像」に対する週制限が撤廃！",
-   "link": "https://ff14hikasensokuhou.com/e/29816",
-   "date": 1794230333000,
-   "img": "https://blog-imgs-120.fc2.com/f/f/1/ff14hikasensokuhou/201803260739241e6.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】MTナイトがSTガンブレにヘイトを奪われるのはなぜ？火力だけでは決まらない敵視管理",
-   "link": "https://ff14hikasensokuhou.com/e/29815",
-   "date": 1794218434000,
-   "img": "https://blog-imgs-123.fc2.com/f/f/1/ff14hikasensokuhou/20190203015113873.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインの固定パーティは本当に強い？「ソロで勝てないから固定に逃げている」と辛辣な意見も",
-   "link": "https://ff14hikasensokuhou.com/e/29814",
-   "date": 1794209409000,
-   "img": "https://blog-imgs-117.fc2.com/f/f/1/ff14hikasensokuhou/20180506234609a12.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "ゲーム配信VTuber「これはなんだろ」俺（既プレイだけど勘の良い初見勢のフリしてヒント教えよw笑）「それってこれなのかな？」",
-   "link": "https://ff14hikasensokuhou.com/e/29813",
-   "date": 1794198645000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/youtuber_virtual.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】お前らって魔獣ランキング参加しないの？",
-   "link": "https://ff14hikasensokuhou.com/e/29812",
-   "date": 1794188423000,
-   "img": "https://blog-imgs-156.fc2.com/f/f/1/ff14hikasensokuhou/20260911090337807s.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインのガンブレはランパート一択？「ランページは相性が悪い」との意見も",
-   "link": "https://ff14hikasensokuhou.com/e/29811",
-   "date": 1794175221000,
-   "img": "https://blog-imgs-123.fc2.com/f/f/1/ff14hikasensokuhou/20190203015113873.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】零式の報酬個人箱化によって固定環境が変わる可能性",
-   "link": "https://ff14hikasensokuhou.com/e/29810",
-   "date": 1794142848000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260425072801e0fs.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】FL踊り子のコントラダンスを単騎相手に使用？「バーストが全然刺さらない」と味方から不満",
-   "link": "https://ff14hikasensokuhou.com/e/29809",
-   "date": 1794132010000,
-   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
+   "src": "yan",
+   "title": "【FF14】「予習だ効率だ言うくせに、興味のないコンテンツは適当でいいって人が苦手」→「FF14のバトルで手を抜くのは無理じゃね？2秒毎にボタン押すんだから」「“手を抜いてるだけ”を免罪符に放置するタイプが最悪」",
+   "link": "https://yan-flash.com/articles/half-assed-play-excuse",
+   "date": 1794614609000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +578,6 @@
    "title": "【FF14】FL「アルカディアの実況みたいにポイントを声で教えてほしい」→「公式で誘導するのはPvPでやる事じゃない」／「毎日3位だと目玉報酬に届かなくすれば」→「報酬なしの初期FLは過疎ってた」",
    "link": "https://yan-flash.com/articles/fl-live-commentary-idea-and-third-place-reward-design",
    "date": 1793937651000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「Xが今さら永久人を人とみなすかどうかで荒れてる」→ダメ出しスレでも「記憶しかない幽霊みたいなもの」vs「それを問いかけたのがリビングメモリー」「足掻く描写が欲しかった」",
-   "link": "https://yan-flash.com/articles/living-memory-shutdown-are-endless-people-persons-debate",
-   "date": 1793930445000,
    "img": ""
   }
  ]
