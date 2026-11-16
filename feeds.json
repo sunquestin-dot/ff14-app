@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794817539534,
+ "updatedAt": 1794824553963,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -31,7 +31,7 @@
    "title": "『白銀のワンダラー』への冒険準備キャンペーン開催！",
    "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/7e1c4366a70f9070b2019984e78988a177a1853a",
    "date": 1794816000000,
-   "img": "https://img.finalfantasyxiv.com/t/7e1c4366a70f9070b2019984e78988a177a1853a.png?1794817327"
+   "img": "https://img.finalfantasyxiv.com/t/7e1c4366a70f9070b2019984e78988a177a1853a.png?1794820621"
   },
   {
    "src": "lodestone",
@@ -266,6 +266,20 @@
   },
   {
    "src": "hikasen",
+   "title": "【FF14】パッチ6.1から7.4までの「黄金の冒険録:白銀への道」が期間限定で販売中！",
+   "link": "https://ff14hikasensokuhou.com/e/29853",
+   "date": 1794823094000,
+   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/202312122346519cbs.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】フロントラインで3位ばかり攻めるのはなぜ？その隙に1位が逃げ切る展開が多すぎる件",
+   "link": "https://ff14hikasensokuhou.com/e/29852",
+   "date": 1794817802000,
+   "img": "https://blog-imgs-117.fc2.com/f/f/1/ff14hikasensokuhou/20180506234609a12.jpg"
+  },
+  {
+   "src": "hikasen",
    "title": "おまえら深夜から早朝にかけて寝ずにやったゲーム",
    "link": "https://ff14hikasensokuhou.com/e/29851",
    "date": 1794805212000,
@@ -461,18 +475,11 @@
    "img": "https://blog-imgs-148.fc2.com/f/f/1/ff14hikasensokuhou/202109192120117f6s.png"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】そもそもIDの先釣りが嫌われる理由って何？",
-   "link": "https://ff14hikasensokuhou.com/e/29823",
-   "date": 1794357006000,
-   "img": "https://blog-imgs-94.fc2.com/f/f/1/ff14hikasensokuhou/2016080303011472a.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "ゲーム←10時間くらいでストーリークリアして終わりです",
-   "link": "https://ff14hikasensokuhou.com/e/29822",
-   "date": 1794308446000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/game_tetsuya_man.png"
+   "src": "yan",
+   "title": "【FF14】タンクメインの初心者「サブジョブはDPSとヒーラーどっちがいい？」まとめは適正レベルでは死ぬ・アーマリーボーナスの正しい理解",
+   "link": "https://yan-flash.com/articles/beginner-tank-main-which-sub-job-and-armory-bonus",
+   "date": 1794823380000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "【FF14】「ノーマルで詰めムーブするな、床舐めたら無視できないヒラが面倒」vs「蘇生もヒラの仕事」「死んでそれで何秒変わるのさ」「詰めてる()奴のパーフは大体灰色」",
    "link": "https://yan-flash.com/articles/pushing-limits-in-normal-content-vs-healer-burden-debate",
    "date": 1794376981000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「やってない奴は『絶テマは簡単』を鵜呑みにするなよ」→「零式クリア者向けの“簡単”」「火力要求が低いだけで被ダメはちゃんと痛い」「簡単と言っていいのはヒラかMTでクリアした人だけ」",
-   "link": "https://yan-flash.com/articles/is-ultimate-tema-easy-debate",
-   "date": 1794369776000,
    "img": ""
   }
  ]
