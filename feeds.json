@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794807136142,
+ "updatedAt": 1794817539534,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -7,7 +7,7 @@
   },
   "yt-official": {
    "ok": true,
-   "count": 30
+   "count": 15
   },
   "hikasen": {
    "ok": true,
@@ -19,6 +19,27 @@
   }
  },
  "items": [
+  {
+   "src": "lodestone",
+   "title": "第65回FFXIVプロデューサーレター：「白銀のワンダラーへの冒険準備キャンペーン」について",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/a063e78ef6679960efafe09001200eebbb2173b7",
+   "date": 1794816060000,
+   "img": "https://img.finalfantasyxiv.com/t/a063e78ef6679960efafe09001200eebbb2173b7.png?1794817327"
+  },
+  {
+   "src": "lodestone",
+   "title": "『白銀のワンダラー』への冒険準備キャンペーン開催！",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/7e1c4366a70f9070b2019984e78988a177a1853a",
+   "date": 1794816000000,
+   "img": "https://img.finalfantasyxiv.com/t/7e1c4366a70f9070b2019984e78988a177a1853a.png?1794817327"
+  },
+  {
+   "src": "lodestone",
+   "title": "オプションアイテムが追加されます！",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/96473881ef22337b8ed49ab99b3131698159d590",
+   "date": 1794812460000,
+   "img": "https://img.finalfantasyxiv.com/t/96473881ef22337b8ed49ab99b3131698159d590.png?1794812678"
+  },
   {
    "src": "lodestone",
    "title": "チョコボレースVRが「ティフォニウム お台場」に登場！",
@@ -139,236 +160,109 @@
    "img": "https://img.finalfantasyxiv.com/t/9dc8d8e56b5c44b5de650cd3f552053415700a45.jpg?1793261182"
   },
   {
-   "src": "lodestone",
-   "title": "「ファンアートコンテスト 2026」最終選考開始！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/3ffbcc488fb631ed8c184873e769c08b8de46a27",
-   "date": 1793260800000,
-   "img": "https://img.finalfantasyxiv.com/t/3ffbcc488fb631ed8c184873e769c08b8de46a27.jpg?1793261398"
-  },
-  {
-   "src": "lodestone",
-   "title": "いよいよ10月31日開幕！「ファンフェスティバル 2026 in 東京」 ストリーミング情報おさらい",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/ce72e6daf7597640e1e4ff52cb8e64c4e464c4ed",
-   "date": 1793178000000,
-   "img": "https://img.finalfantasyxiv.com/t/ce72e6daf7597640e1e4ff52cb8e64c4e464c4ed.png?1793318263"
-  },
-  {
-   "src": "lodestone",
-   "title": "クリスタルコンフリクト シーズン21 閉幕迫る！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/4f18fc0716e7ba6e84c532f4be6ed70d38a5d185",
-   "date": 1793088000000,
-   "img": "https://img.finalfantasyxiv.com/t/4f18fc0716e7ba6e84c532f4be6ed70d38a5d185.jpg?1793088585"
-  },
-  {
-   "src": "yt-official",
-   "title": "Rise of the Wolves - North American Community Team PvP Stream (November 2026)",
-   "link": "https://www.youtube.com/watch?v=cNVwIiILY3o",
-   "date": 1794981600000,
-   "img": "https://i.ytimg.com/vi/cNVwIiILY3o/hqdefault.jpg",
-   "upcoming": true
-  },
-  {
    "src": "yt-official",
    "title": "Duty Commenced - North American Community Team Stream (November 13, 2026)",
    "link": "https://www.youtube.com/watch?v=2JmHy4G6quM",
-   "date": 1794634336487,
-   "img": "https://i.ytimg.com/vi/2JmHy4G6quM/hqdefault.jpg"
+   "date": 1794620108000,
+   "img": "https://i3.ytimg.com/vi/2JmHy4G6quM/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "「クリスタルコンフリクト」初心者ガイド動画 第1弾「ルールと基本」編",
    "link": "https://www.youtube.com/watch?v=yj4x8TFy_zU",
-   "date": 1794547936487,
-   "img": "https://i.ytimg.com/vi/yj4x8TFy_zU/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "【ハイライト：ファイナル】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
-   "link": "https://www.youtube.com/watch?v=v066mGOY8Tg",
-   "date": 1794288736487,
-   "img": "https://i.ytimg.com/vi/v066mGOY8Tg/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "【ハイライト：セミファイナル2対戦目】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
-   "link": "https://www.youtube.com/watch?v=lAHaDmjK8cs",
-   "date": 1794288736487,
-   "img": "https://i.ytimg.com/vi/lAHaDmjK8cs/hqdefault.jpg"
+   "date": 1794476055000,
+   "img": "https://i2.ytimg.com/vi/yj4x8TFy_zU/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "【ハイライト：セミファイナル1対戦目】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
    "link": "https://www.youtube.com/watch?v=aEKCEhJOT3w",
-   "date": 1794288736487,
-   "img": "https://i.ytimg.com/vi/aEKCEhJOT3w/hqdefault.jpg"
+   "date": 1794217381000,
+   "img": "https://i2.ytimg.com/vi/aEKCEhJOT3w/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "ファイナルファンタジーXIV × ディーゼル スタイリングコンテスト｜ディーゼル特別賞 受賞コーディネート",
-   "link": "https://www.youtube.com/watch?v=7T3WZf1he_k",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/7T3WZf1he_k/hqdefault.jpg"
+   "title": "【ハイライト：セミファイナル2対戦目】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
+   "link": "https://www.youtube.com/watch?v=lAHaDmjK8cs",
+   "date": 1794217381000,
+   "img": "https://i1.ytimg.com/vi/lAHaDmjK8cs/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "FINAL FANTASY XIV: EVERCOLD - New Mount “Valhallar Odin”",
-   "link": "https://www.youtube.com/watch?v=-K6aiJ52_ss",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/-K6aiJ52_ss/hqdefault.jpg"
+   "title": "【ハイライト：ファイナル】クリスタルコンフリクト リージョンチャンピオンシップ 2026 Japan Powered by Logicool G",
+   "link": "https://www.youtube.com/watch?v=v066mGOY8Tg",
+   "date": 1794217381000,
+   "img": "https://i3.ytimg.com/vi/v066mGOY8Tg/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "FINAL FANTASY XIV: Evercold Full Trailer",
-   "link": "https://www.youtube.com/watch?v=1RawyqQLQ54",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/1RawyqQLQ54/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: Evercold Full Trailer",
-   "link": "https://www.youtube.com/watch?v=lXK6Kcdfeew",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/lXK6Kcdfeew/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: Evercold | Full Trailer | Launches February 23, 2027",
-   "link": "https://www.youtube.com/watch?v=8mN8N5O5ru0",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/8mN8N5O5ru0/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: EVERCOLD Full Trailer",
-   "link": "https://www.youtube.com/watch?v=_qY_Hc4xaQY",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/_qY_Hc4xaQY/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV — EVANGELION - Ghosts of Desire 『予告』",
-   "link": "https://www.youtube.com/watch?v=eTYVn5jBBSc",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/eTYVn5jBBSc/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: EVERCOLD - Dungeon Crawl",
-   "link": "https://www.youtube.com/watch?v=WiVABiUttiw",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/WiVABiUttiw/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: EVERCOLD - 第四世界の新たなフィールド",
-   "link": "https://www.youtube.com/watch?v=ucMMJMU69mg",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/ucMMJMU69mg/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: EVERCOLD - 新たな冒険の舞台「風の大陸船・スキーズブラズニル」",
-   "link": "https://www.youtube.com/watch?v=V7t0oR3-Hpg",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/V7t0oR3-Hpg/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: EVERCOLD - 新たな冒険の舞台「土の大陸船・セスルームニル」",
-   "link": "https://www.youtube.com/watch?v=35inH1cr1-M",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/35inH1cr1-M/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: EVERCOLD - 新たなジョブ「ゼファー」",
-   "link": "https://www.youtube.com/watch?v=qX5jtcXjmts",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/qX5jtcXjmts/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV at PAX Australia 2026",
-   "link": "https://www.youtube.com/watch?v=swSnBjYCFZA",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/swSnBjYCFZA/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "THE PRIMALS - \"Open Sky - The Theme from Dawntrail\" | Fan Festival 2026 in Tokyo",
-   "link": "https://www.youtube.com/watch?v=ktsfH8CWJP4",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/ktsfH8CWJP4/hqdefault.jpg"
+   "title": "Rise of the Wolves - North American Community Team PvP Stream (November 2026)",
+   "link": "https://www.youtube.com/watch?v=cNVwIiILY3o",
+   "date": 1793844157000,
+   "img": "https://i4.ytimg.com/vi/cNVwIiILY3o/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "[Day 2] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
    "link": "https://www.youtube.com/watch?v=ZN5682sEIrY",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/ZN5682sEIrY/hqdefault.jpg"
+   "date": 1793529325000,
+   "img": "https://i3.ytimg.com/vi/ZN5682sEIrY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "山峡の涼風 ～オルコ・パチャ：昼～ / \"Windswept Echoes\" | Piano Concert | Fan Festival 2026 in Tokyo",
-   "link": "https://www.youtube.com/watch?v=haC0LgXzxJM",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/haC0LgXzxJM/hqdefault.jpg"
+   "title": "THE PRIMALS - \"Open Sky - The Theme from Dawntrail\" | Fan Festival 2026 in Tokyo",
+   "link": "https://www.youtube.com/watch?v=ktsfH8CWJP4",
+   "date": 1793528863000,
+   "img": "https://i4.ytimg.com/vi/ktsfH8CWJP4/hqdefault.jpg"
   },
   {
    "src": "yt-official",
    "title": "[Day 1] FINAL FANTASY XIV FAN FESTIVAL 2026 in TOKYO",
    "link": "https://www.youtube.com/watch?v=IUtPVmCtltY",
-   "date": 1793597536487,
-   "img": "https://i.ytimg.com/vi/IUtPVmCtltY/hqdefault.jpg"
+   "date": 1793519283000,
+   "img": "https://i2.ytimg.com/vi/IUtPVmCtltY/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "第48回 FFXIVコミュニティ放送",
-   "link": "https://www.youtube.com/watch?v=PdgjNUsuI9c",
-   "date": 1792992736487,
-   "img": "https://i.ytimg.com/vi/PdgjNUsuI9c/hqdefault.jpg"
+   "title": "ファイナルファンタジーXIV × ディーゼル スタイリングコンテスト｜ディーゼル特別賞 受賞コーディネート",
+   "link": "https://www.youtube.com/watch?v=7T3WZf1he_k",
+   "date": 1793512146000,
+   "img": "https://i4.ytimg.com/vi/7T3WZf1he_k/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "Duty Commenced - North American Community Team Stream (October 21, 2026)",
-   "link": "https://www.youtube.com/watch?v=5nMDPRJwhk0",
-   "date": 1792992736487,
-   "img": "https://i.ytimg.com/vi/5nMDPRJwhk0/hqdefault.jpg"
+   "title": "山峡の涼風 ～オルコ・パチャ：昼～ / \"Windswept Echoes\" | Piano Concert | Fan Festival 2026 in Tokyo",
+   "link": "https://www.youtube.com/watch?v=haC0LgXzxJM",
+   "date": 1793443370000,
+   "img": "https://i1.ytimg.com/vi/haC0LgXzxJM/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "Piano Collections: Till Dawn My Tears Flow - Promises to Keep Music Video (by Keiko)",
-   "link": "https://www.youtube.com/watch?v=g2sU-UzoV14",
-   "date": 1792215136487,
-   "img": "https://i.ytimg.com/vi/g2sU-UzoV14/hqdefault.jpg"
+   "title": "FINAL FANTASY XIV: Evercold | Collector's Edition | Valhallar Odin",
+   "link": "https://www.youtube.com/watch?v=-K6aiJ52_ss",
+   "date": 1793420770000,
+   "img": "https://i2.ytimg.com/vi/-K6aiJ52_ss/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "FINAL FANTASY XIV @ Otakon 2026",
-   "link": "https://www.youtube.com/watch?v=RQ4h5G80wFY",
-   "date": 1792215136487,
-   "img": "https://i.ytimg.com/vi/RQ4h5G80wFY/hqdefault.jpg"
+   "title": "FINAL FANTASY XIV: Evercold Full Trailer",
+   "link": "https://www.youtube.com/watch?v=1RawyqQLQ54",
+   "date": 1793420763000,
+   "img": "https://i2.ytimg.com/vi/1RawyqQLQ54/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "Duty Commenced - North American Community Team Stream (October 7, 2026)",
-   "link": "https://www.youtube.com/watch?v=mXU4gIn1Bmo",
-   "date": 1792215136487,
-   "img": "https://i.ytimg.com/vi/mXU4gIn1Bmo/hqdefault.jpg"
+   "title": "FINAL FANTASY XIV: Evercold Full Trailer",
+   "link": "https://www.youtube.com/watch?v=lXK6Kcdfeew",
+   "date": 1793420759000,
+   "img": "https://i1.ytimg.com/vi/lXK6Kcdfeew/hqdefault.jpg"
   },
   {
    "src": "yt-official",
-   "title": "第47回 FFXIVコミュニティ放送",
-   "link": "https://www.youtube.com/watch?v=tyl3k1l4Q9M",
-   "date": 1792215136487,
-   "img": "https://i.ytimg.com/vi/tyl3k1l4Q9M/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV - The Unending Journey - EU Community Stream",
-   "link": "https://www.youtube.com/watch?v=jLMMm83wwQ0",
-   "date": 1792215136487,
-   "img": "https://i.ytimg.com/vi/jLMMm83wwQ0/hqdefault.jpg"
+   "title": "FINAL FANTASY XIV: Evercold | Full Trailer | Launches February 23, 2027",
+   "link": "https://www.youtube.com/watch?v=8mN8N5O5ru0",
+   "date": 1793420750000,
+   "img": "https://i1.ytimg.com/vi/8mN8N5O5ru0/hqdefault.jpg"
   },
   {
    "src": "hikasen",
@@ -582,6 +476,20 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】FL「最前線から引いてるモンクをナ戦がやたら殴ってくる、そんなに怖い？」メテドラは起点潰しか遠隔へのトドメか",
+   "link": "https://yan-flash.com/articles/fl-monk-targeted-by-tanks-meteodrive-usage",
+   "date": 1794816176000,
+   "img": ""
+  },
+  {
+   "src": "yan",
+   "title": "【FF14】「メンターで上手い人いるのか？」零式も絶も未クリアのバトルメンターが教える基礎はあてになる？",
+   "link": "https://yan-flash.com/articles/are-there-skilled-mentors-raid-clear-required",
+   "date": 1794808969000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「このゲーム人に勧めるの難しすぎない？」→「そもそも普通のMMOを知ってる人どれくらい残ってる？」",
    "link": "https://yan-flash.com/articles/hard-to-recommend-ff14-and-who-still-knows-normal-mmo",
    "date": 1794715382000,
@@ -774,20 +682,6 @@
    "title": "【FF14】「やってない奴は『絶テマは簡単』を鵜呑みにするなよ」→「零式クリア者向けの“簡単”」「火力要求が低いだけで被ダメはちゃんと痛い」「簡単と言っていいのはヒラかMTでクリアした人だけ」",
    "link": "https://yan-flash.com/articles/is-ultimate-tema-easy-debate",
    "date": 1794369776000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「黄金IDより新生IDの方が難しいの？」→「新生は分からん殺し、黄金はフィジカル」「旧オーラムのコインカウンターは詠唱見て判断」「迷子難易度は今でも新生」",
-   "link": "https://yan-flash.com/articles/arr-dungeons-vs-dawntrail-dungeons-which-is-harder",
-   "date": 1794362571000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「蘇生されてすぐまた床舐めたらそいつのせいだよね」→「起きた時のカメラは常に南向き（豆知識）」「蘇生の仕様ってどこかで教えられたか？」「転がって覚えるもの、極までは学習の途中」",
-   "link": "https://yan-flash.com/articles/raise-etiquette-camera-faces-south-and-unlearned-mechanics",
-   "date": 1794355364000,
    "img": ""
   }
  ]
