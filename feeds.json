@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794824553963,
+ "updatedAt": 1794840726002,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "【FF14】ヒカセン「お前の名前は種族名だ」魔獣への扱いが冷たすぎる件",
+   "link": "https://ff14hikasensokuhou.com/e/29854",
+   "date": 1794834025000,
+   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20240107112228e41s.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】パッチ6.1から7.4までの「黄金の冒険録:白銀への道」が期間限定で販売中！",
    "link": "https://ff14hikasensokuhou.com/e/29853",
    "date": 1794823094000,
@@ -468,11 +475,11 @@
    "img": "https://blog-imgs-126.fc2.com/f/f/1/ff14hikasensokuhou/201903271951158f0.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインの召喚士は強いの？「与ダメージは出るけど役には立たない」と辛辣な評価も",
-   "link": "https://ff14hikasensokuhou.com/e/29824",
-   "date": 1794366014000,
-   "img": "https://blog-imgs-148.fc2.com/f/f/1/ff14hikasensokuhou/202109192120117f6s.png"
+   "src": "yan",
+   "title": "【FF14】「零式や絶に来てる時点でライトではない？」ライトとヘビーの線引きはどこにある",
+   "link": "https://yan-flash.com/articles/where-is-the-line-between-light-and-heavy-players",
+   "date": 1794830586000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "【FF14】「白銀からは新式買って装備おっけーはできなくなるのか」→「そんな変わらん。デイリー優遇が無くなって週制限が緩くなるだけ」「新式はシーズンギアとレイドギアの間を埋める（吉田談）」",
    "link": "https://yan-flash.com/articles/hakugin-gear-system-crafted-season-raid-gear-explained",
    "date": 1794384189000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「ノーマルで詰めムーブするな、床舐めたら無視できないヒラが面倒」vs「蘇生もヒラの仕事」「死んでそれで何秒変わるのさ」「詰めてる()奴のパーフは大体灰色」",
-   "link": "https://yan-flash.com/articles/pushing-limits-in-normal-content-vs-healer-burden-debate",
-   "date": 1794376981000,
    "img": ""
   }
  ]
