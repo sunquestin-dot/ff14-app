@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794840726002,
+ "updatedAt": 1794868852863,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "【FF14】結局フロントラインは遠隔ジョブが多いと勝ちにくいとかあるの？",
+   "link": "https://ff14hikasensokuhou.com/e/29856",
+   "date": 1794866425000,
+   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】ヒカセン「お前の名前は種族名だ」魔獣への扱いが冷たすぎる件",
    "link": "https://ff14hikasensokuhou.com/e/29854",
    "date": 1794834025000,
@@ -468,11 +475,11 @@
    "img": "https://blog-imgs-162.fc2.com/f/f/1/ff14hikasensokuhou/20250806063153e84s.png"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】フレ「○○に行きませんか？」ワイ「いいですよ」←これってダメなの？",
-   "link": "https://ff14hikasensokuhou.com/e/29825",
-   "date": 1794374426000,
-   "img": "https://blog-imgs-126.fc2.com/f/f/1/ff14hikasensokuhou/201903271951158f0.jpg"
+   "src": "yan",
+   "title": "【FF14】「新規って実際に増えてるの？」→「Switch2後は明らかに増えてる」「サチコメにSwitch2版から始めましたって書いてる人結構見る」",
+   "link": "https://yan-flash.com/articles/are-new-players-increasing-after-switch2",
+   "date": 1794866474000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "【FF14】「最近、黄金批判がトーンダウンしてる気がする」→「好きが削れた」「ストーリーが悪くても致命傷にならないと黄金が証明した」vs「十分重傷」「人が減ったのは難易度のせい、蒼天も減った」",
    "link": "https://yan-flash.com/articles/dawntrail-criticism-cooling-down-story-fatal-or-not",
    "date": 1794391394000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「白銀からは新式買って装備おっけーはできなくなるのか」→「そんな変わらん。デイリー優遇が無くなって週制限が緩くなるだけ」「新式はシーズンギアとレイドギアの間を埋める（吉田談）」",
-   "link": "https://yan-flash.com/articles/hakugin-gear-system-crafted-season-raid-gear-explained",
-   "date": 1794384189000,
    "img": ""
   }
  ]
