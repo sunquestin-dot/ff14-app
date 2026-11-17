@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794889569861,
+ "updatedAt": 1794903390561,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -19,6 +19,13 @@
   }
  },
  "items": [
+  {
+   "src": "lodestone",
+   "title": "闘獣練ランキング「シーズン1」は12月1日（火）13:59頃まで＆「シーズン2」開始日決定！",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/59e4b306e8d668117aa078ae14768bb4b89ada9a",
+   "date": 1794902400000,
+   "img": "https://img.finalfantasyxiv.com/t/59e4b306e8d668117aa078ae14768bb4b89ada9a.jpg?1794902463"
+  },
   {
    "src": "lodestone",
    "title": "第65回FFXIVプロデューサーレター：「白銀のワンダラーへの冒険準備キャンペーン」について",
@@ -153,13 +160,6 @@
    "img": "https://img.finalfantasyxiv.com/t/cd9f9f6616ede73ac0e760706ab0226062b7f246.png?1793347322"
   },
   {
-   "src": "lodestone",
-   "title": "オンラインでも遊べる！ 「ナインズ・キャッチャー」タイトーオンラインクレーンに登場",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/9dc8d8e56b5c44b5de650cd3f552053415700a45",
-   "date": 1793260860000,
-   "img": "https://img.finalfantasyxiv.com/t/9dc8d8e56b5c44b5de650cd3f552053415700a45.jpg?1793261182"
-  },
-  {
    "src": "yt-official",
    "title": "Duty Commenced - North American Community Team Stream (November 13, 2026)",
    "link": "https://www.youtube.com/watch?v=2JmHy4G6quM",
@@ -263,6 +263,13 @@
    "link": "https://www.youtube.com/watch?v=8mN8N5O5ru0",
    "date": 1793420750000,
    "img": "https://i1.ytimg.com/vi/8mN8N5O5ru0/hqdefault.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "ゲームハードってこれ以上進化しなくてもいい段階にきたんじゃね？",
+   "link": "https://ff14hikasensokuhou.com/e/29858",
+   "date": 1794898812000,
+   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251207122218b07.png"
   },
   {
    "src": "hikasen",
@@ -466,13 +473,6 @@
    "link": "https://ff14hikasensokuhou.com/e/29829",
    "date": 1794445204000,
    "img": "https://blog-imgs-117.fc2.com/f/f/1/ff14hikasensokuhou/20180526093138525.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインはタンクが多いほど有利？「多すぎても勝てない」と編成バランスを指摘する声",
-   "link": "https://ff14hikasensokuhou.com/e/29828",
-   "date": 1794405658000,
-   "img": "https://blog-imgs-119.fc2.com/f/f/1/ff14hikasensokuhou/201807261413112a2.jpg"
   },
   {
    "src": "yan",
