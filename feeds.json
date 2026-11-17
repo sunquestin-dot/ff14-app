@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794903390561,
+ "updatedAt": 1794907852464,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -19,6 +19,13 @@
   }
  },
  "items": [
+  {
+   "src": "lodestone",
+   "title": "マウント「初代でぶチョコボ」が当たる！Xフォロー＆RPキャンペーン 第1弾実施！",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/fe7427cabf032048c807a9376f34111b72efe8e8",
+   "date": 1794906000000,
+   "img": "https://img.finalfantasyxiv.com/t/fe7427cabf032048c807a9376f34111b72efe8e8.png?1794905877"
+  },
   {
    "src": "lodestone",
    "title": "闘獣練ランキング「シーズン1」は12月1日（火）13:59頃まで＆「シーズン2」開始日決定！",
@@ -151,13 +158,6 @@
    "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/6bac301229dca8c167092e402c1d6d04605f4faf",
    "date": 1793347260000,
    "img": "https://img.finalfantasyxiv.com/t/6bac301229dca8c167092e402c1d6d04605f4faf.jpg?1793347322"
-  },
-  {
-   "src": "lodestone",
-   "title": "チャットバッジがもらえるTwitch視聴キャンペーン第3弾！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/cd9f9f6616ede73ac0e760706ab0226062b7f246",
-   "date": 1793347200000,
-   "img": "https://img.finalfantasyxiv.com/t/cd9f9f6616ede73ac0e760706ab0226062b7f246.png?1793347322"
   },
   {
    "src": "yt-official",
