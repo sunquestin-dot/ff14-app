@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794868852863,
+ "updatedAt": 1794876629627,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】FL「内部レートで上から72人ピックしたら？」→「ガチガチになるほど窮屈」「遠隔を強化しろ」→「実は強いので強化したらあかん」",
+   "link": "https://yan-flash.com/articles/fl-internal-rating-and-ranged-balance",
+   "date": 1794873683000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「新規って実際に増えてるの？」→「Switch2後は明らかに増えてる」「サチコメにSwitch2版から始めましたって書いてる人結構見る」",
    "link": "https://yan-flash.com/articles/are-new-players-increasing-after-switch2",
    "date": 1794866474000,
@@ -675,13 +682,6 @@
    "title": "【FF14】ヒドゥンゴージ「歩兵の動き方の正解は？」→「戦線を押し上げて大砲を運ぶイメージ」「火力補正が緩いから竜召で前線破壊した方が勝てる」「ロボ別の相性表」",
    "link": "https://yan-flash.com/articles/hidden-gorge-infantry-role-and-machine-matchups",
    "date": 1794398597000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「最近、黄金批判がトーンダウンしてる気がする」→「好きが削れた」「ストーリーが悪くても致命傷にならないと黄金が証明した」vs「十分重傷」「人が減ったのは難易度のせい、蒼天も減った」",
-   "link": "https://yan-flash.com/articles/dawntrail-criticism-cooling-down-story-fatal-or-not",
-   "date": 1794391394000,
    "img": ""
   }
  ]
