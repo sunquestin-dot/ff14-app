@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795030084226,
+ "updatedAt": 1795040412285,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "【FF14】序盤の学者でまとめ進行されるときつくない？",
+   "link": "https://ff14hikasensokuhou.com/e/29865",
+   "date": 1795039243000,
+   "img": "https://blog-imgs-94.fc2.com/f/f/1/ff14hikasensokuhou/20160823020045915.jpg"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】黄金のストーリーってそんなに微妙なの？",
    "link": "https://ff14hikasensokuhou.com/e/29864",
    "date": 1794999654000,
@@ -466,13 +473,6 @@
    "link": "https://ff14hikasensokuhou.com/e/29836",
    "date": 1794542535000,
    "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251213072817d1d.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】FF11には「やりすぎ注意」の表示があるのにFF14にはない？MMORPGの設計思想の違い",
-   "link": "https://ff14hikasensokuhou.com/e/29835",
-   "date": 1794535223000,
-   "img": "https://blog-imgs-94.fc2.com/f/f/1/ff14hikasensokuhou/2016090815344385b.jpg"
   },
   {
    "src": "yan",
