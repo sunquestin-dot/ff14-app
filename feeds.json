@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795040412285,
+ "updatedAt": 1795043967201,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -161,6 +161,13 @@
   },
   {
    "src": "yt-official",
+   "title": "Rise of the Wolves - North American Community Team PvP Stream (November 2026)",
+   "link": "https://www.youtube.com/watch?v=cNVwIiILY3o",
+   "date": 1793844157000,
+   "img": "https://i4.ytimg.com/vi/cNVwIiILY3o/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
    "title": "Duty Commenced - North American Community Team Stream (November 13, 2026)",
    "link": "https://www.youtube.com/watch?v=2JmHy4G6quM",
    "date": 1794620108000,
@@ -193,13 +200,6 @@
    "link": "https://www.youtube.com/watch?v=v066mGOY8Tg",
    "date": 1794217381000,
    "img": "https://i3.ytimg.com/vi/v066mGOY8Tg/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "Rise of the Wolves - North American Community Team PvP Stream (November 2026)",
-   "link": "https://www.youtube.com/watch?v=cNVwIiILY3o",
-   "date": 1793844157000,
-   "img": "https://i4.ytimg.com/vi/cNVwIiILY3o/hqdefault.jpg"
   },
   {
    "src": "yt-official",
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】漆黒は今まで遊んできた人に最高だった話？「絶賛されてるって情報でやると肩透かしくらう」「水晶公の話がよくて、何故かラハへの好感度まで上がったわ」",
+   "link": "https://yan-flash.com/articles/shadowbringers-best-for-longtime-players-crystal-exarch",
+   "date": 1795042887000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】FL「内部レートで上から72人ピックしたら？」→「ガチガチになるほど窮屈」「遠隔を強化しろ」→「実は強いので強化したらあかん」",
    "link": "https://yan-flash.com/articles/fl-internal-rating-and-ranged-balance",
    "date": 1794873683000,
@@ -675,13 +682,6 @@
    "title": "【FF14】「白銀で零式やる気がない奴は解約しとけ、一生IL10差でデバフ扱い」→「零式人口は2割」「俺のFC9人で零式やってるの俺だけ」「ライトコンテンツで差が出るのはILより回し」",
    "link": "https://yan-flash.com/articles/hakugin-il-gap-for-non-savage-players-debate",
    "date": 1794434619000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】ヒドゥンゴージ「歩兵の動き方の正解は？」→「戦線を押し上げて大砲を運ぶイメージ」「火力補正が緩いから竜召で前線破壊した方が勝てる」「ロボ別の相性表」",
-   "link": "https://yan-flash.com/articles/hidden-gorge-infantry-role-and-machine-matchups",
-   "date": 1794398597000,
    "img": ""
   }
  ]
