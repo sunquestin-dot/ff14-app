@@ -1,5 +1,5 @@
 {
- "updatedAt": 1794968090354,
+ "updatedAt": 1794980027224,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "ゲームってなんで99とか999が最大値なの？",
+   "link": "https://ff14hikasensokuhou.com/e/29862",
+   "date": 1794978054000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/game_gamen.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】フロントラインの召喚士は初心者におすすめ？「練習ジョブとして最適」と擁護する声も",
    "link": "https://ff14hikasensokuhou.com/e/29861",
    "date": 1794967256000,
@@ -466,13 +473,6 @@
    "link": "https://ff14hikasensokuhou.com/e/29833",
    "date": 1794481255000,
    "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/game_gamens.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】8.0でスキルが減りすぎる？「色々合体させると誤爆しそう」とプレイヤーから不安の声",
-   "link": "https://ff14hikasensokuhou.com/e/29832",
-   "date": 1794470413000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260425061838fdbs.png"
   },
   {
    "src": "yan",
