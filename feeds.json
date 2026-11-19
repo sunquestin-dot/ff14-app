@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795077603551,
+ "updatedAt": 1795082151739,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -19,6 +19,13 @@
   }
  },
  "items": [
+  {
+   "src": "lodestone",
+   "title": "ファンフェスお土産セットなどのグッズが登場＆アルカディアくじ再販売決定！",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/4e00056d4ec4d881f2c2308743c693b9f0d82d84",
+   "date": 1795080600000,
+   "img": "https://img.finalfantasyxiv.com/t/4e00056d4ec4d881f2c2308743c693b9f0d82d84.jpg?1795080511"
+  },
   {
    "src": "lodestone",
    "title": "マウント「初代でぶチョコボ」が当たる！Xフォロー＆RPキャンペーン 第1弾実施！",
@@ -151,13 +158,6 @@
    "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/be396c78694558723d641c22474a18e56cd801fb",
    "date": 1793421600000,
    "img": "https://img.finalfantasyxiv.com/t/be396c78694558723d641c22474a18e56cd801fb.png?1793422363"
-  },
-  {
-   "src": "lodestone",
-   "title": "「ファンフェスティバル 2026 in 東京」の音楽ステージを配信で楽しもう！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/6bac301229dca8c167092e402c1d6d04605f4faf",
-   "date": 1793347260000,
-   "img": "https://img.finalfantasyxiv.com/t/6bac301229dca8c167092e402c1d6d04605f4faf.jpg?1793347322"
   },
   {
    "src": "yt-official",
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】「現行プレイヤーはストーリー至上主義過ぎる気もする」→「ネトゲのストーリー部分はオマケくらい」「多数派はストーリーやってねって向けとくのが安牌」",
+   "link": "https://yan-flash.com/articles/too-story-centric-skip-adventure-log-debate",
+   "date": 1795078917000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】継続感謝のギフトボックス「外れを引いた俺が泣いてるでしょ」→「その涙がお前を強くする」「ボックスで幻想薬出るってマジ？」",
    "link": "https://yan-flash.com/articles/loyalty-gift-box-gacha-reactions",
    "date": 1795068110000,
@@ -675,13 +682,6 @@
    "title": "【FF14】愚痴スレ「正直、一度ツールでウイルスが見つかってほしい」→「世間は『FF14に問題があった』としか見ない」「GShadeのマルウェア事件でも何も変わらなかった」「外部ツールが原因と気付かず運営を叩く人は出そう」",
    "link": "https://yan-flash.com/articles/wish-a-tool-virus-gets-found-debate-gshade-precedent",
    "date": 1794456053000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】FL「近接タンクが自分だけで毎回デス多い、味方の遠隔が…」→「タンクはデス数を気にしなくていい。引き換えにリスが取れたか、味方が逃げられたか」「タンクがフルボッコの時こそ攻め時なのに逃げる奴が多すぎる」",
-   "link": "https://yan-flash.com/articles/fl-tank-deaths-dont-matter-what-did-you-trade-for-it",
-   "date": 1794449039000,
    "img": ""
   }
  ]
