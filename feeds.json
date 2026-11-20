@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795163793090,
+ "updatedAt": 1795168391325,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -19,6 +19,13 @@
   }
  },
  "items": [
+  {
+   "src": "lodestone",
+   "title": "「第94回 FFXIV PLL」12月4日（金）放送決定！",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/24840cb713392c9615cf58fde06dbd8f940a16e8",
+   "date": 1795165200000,
+   "img": "https://img.finalfantasyxiv.com/t/24840cb713392c9615cf58fde06dbd8f940a16e8.png?1795165366"
+  },
   {
    "src": "lodestone",
    "title": "チョコボレースVRが「ティフォニウム 新宿」にも登場決定！",
@@ -153,18 +160,18 @@
    "img": "https://img.finalfantasyxiv.com/t/4ec4498b511cae986002f873da50951c31d251cb.png?1793605640"
   },
   {
-   "src": "lodestone",
-   "title": "オプションアイテム期間限定セール スタート！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/e69b69f86189928a6d2491c67890e350994d474c",
-   "date": 1793602800000,
-   "img": "https://img.finalfantasyxiv.com/t/e69b69f86189928a6d2491c67890e350994d474c.png?1793603013"
-  },
-  {
    "src": "yt-official",
    "title": "Rise of the Wolves - North American Community Team PvP Stream (November 2026)",
    "link": "https://www.youtube.com/watch?v=cNVwIiILY3o",
    "date": 1795058482000,
    "img": "https://i4.ytimg.com/vi/cNVwIiILY3o/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
+   "title": "FINAL FANTASY XIV Letter from the Producer LIVE Part XCIV",
+   "link": "https://www.youtube.com/watch?v=c00DlNKBQmU",
+   "date": 1794894714000,
+   "img": "https://i4.ytimg.com/vi/c00DlNKBQmU/hqdefault.jpg"
   },
   {
    "src": "yt-official",
@@ -256,13 +263,6 @@
    "link": "https://www.youtube.com/watch?v=lXK6Kcdfeew",
    "date": 1793420759000,
    "img": "https://i1.ytimg.com/vi/lXK6Kcdfeew/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: Evercold | Full Trailer | Launches February 23, 2027",
-   "link": "https://www.youtube.com/watch?v=8mN8N5O5ru0",
-   "date": 1793420750000,
-   "img": "https://i1.ytimg.com/vi/8mN8N5O5ru0/hqdefault.jpg"
   },
   {
    "src": "hikasen",
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】「8・9・12・13は発売直後は評価低かった」FF9のラスボス永遠の闇は意味不明だった？「エンディングが1億点で全部許される」",
+   "link": "https://yan-flash.com/articles/ff9-necron-final-boss-and-saga-frontier2",
+   "date": 1795165383000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】魔獣使いは需要を読み違えた？「真に求められてたのはFF11の獣使いみたいなペットジョブ」「連れて歩きたいモンスターが少なすぎ」",
    "link": "https://yan-flash.com/articles/beastmaster-misread-demand-pet-job",
    "date": 1795143772000,
@@ -675,13 +682,6 @@
    "title": "【FF14】「絶固定は面接で履歴書とVC面談、ゲームごときで」→「地雷を事前に弾かないと本当に大変になる、やってみたら分かる」「白銀からは固定の横幅が広がる」「未クリア同士で練習するメリットが消え傭兵PT乱立しそう」",
    "link": "https://yan-flash.com/articles/ultimate-static-interviews-and-hakugin-static-future",
    "date": 1794477671000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「ウクラマト、好きな国なのに知識が無さすぎる」→「トライヨラは建国80年、初代王がまだ治めてる段階で万人に教育がある国じゃない」「設定で補完できても『作中で分かりやすく描写しろ』は100%同意」",
-   "link": "https://yan-flash.com/articles/wuk-lamat-sheltered-ignorance-vs-tural-education-debate",
-   "date": 1794470465000,
    "img": ""
   }
  ]
