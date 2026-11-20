@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795140105768,
+ "updatedAt": 1795144452955,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】魔獣使いは需要を読み違えた？「真に求められてたのはFF11の獣使いみたいなペットジョブ」「連れて歩きたいモンスターが少なすぎ」",
+   "link": "https://yan-flash.com/articles/beastmaster-misread-demand-pet-job",
+   "date": 1795143772000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「エヴァコラボに2年つきあわされるのはちとキツイ」→「ニーアも似たようなもん」「11はファンサ、ニーアは何向けかわからん」",
    "link": "https://yan-flash.com/articles/eva-collab-two-years-nier-vs-ff11-raids",
    "date": 1795129353000,
@@ -675,13 +682,6 @@
    "title": "【FF14】「ウクラマト、好きな国なのに知識が無さすぎる」→「トライヨラは建国80年、初代王がまだ治めてる段階で万人に教育がある国じゃない」「設定で補完できても『作中で分かりやすく描写しろ』は100%同意」",
    "link": "https://yan-flash.com/articles/wuk-lamat-sheltered-ignorance-vs-tural-education-debate",
    "date": 1794470465000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「ゾラージャの描写が足りないとよく言われるけど、ウクラマトから見たゾラージャも語られてない」→「本人すら分かってない、描写すべき何かが無い」「民衆がどう思ってたかが死ぬほど欲しかった」「連王は偉大、の設定に縛られた」",
-   "link": "https://yan-flash.com/articles/zoraal-ja-underwritten-and-how-wuk-lamat-saw-him",
-   "date": 1794463257000,
    "img": ""
   }
  ]
