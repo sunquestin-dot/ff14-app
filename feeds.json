@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795246974015,
+ "updatedAt": 1795250691943,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】黄金のオブリビオンは素人くさい？「肩書や設定と行動がミスマッチ」「ジオードに感情移入できてなかったのが問題」",
+   "link": "https://yan-flash.com/articles/dawntrail-oblivion-amateurish-story",
+   "date": 1795248240000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】FL「天誅がスマイトの下位互換気味」→「仕様上キルになりにくい」拘束中に他人が削るとキルを持っていかれる天誅の仕組み",
    "link": "https://yan-flash.com/articles/frontline-ninja-tenchu-kill-credit",
    "date": 1795230227000,
@@ -465,13 +472,6 @@
    "title": "【FF14】「フェイス、クッソ弱いな」→「自分が頑張ると手を抜いて、サボると即死技を使い始める」「クリア時間に差が出ないよう逆方向の調整が入る」",
    "link": "https://yan-flash.com/articles/trust-npc-damage-scaling",
    "date": 1794535325000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「トロいタンクがいるから先釣りする」→「なら自分がタンク出せ」「上手いタンクほど先釣りされても気にしない」「初心者の館で先釣りすんなって言われてる」",
-   "link": "https://yan-flash.com/articles/sakizuri-vs-slow-tank",
-   "date": 1794528116000,
    "img": ""
   }
  ]
