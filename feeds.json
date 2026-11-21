@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795226715805,
+ "updatedAt": 1795230934485,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】FL「天誅がスマイトの下位互換気味」→「仕様上キルになりにくい」拘束中に他人が削るとキルを持っていかれる天誅の仕組み",
+   "link": "https://yan-flash.com/articles/frontline-ninja-tenchu-kill-credit",
+   "date": 1795230227000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】軽減表サイト「LoPo」が大型アップデート　スマホの軽減表を作り直し、ハウジングの制作依頼やDiscordで使える予定表も",
    "link": "https://yan-flash.com/articles/ff14-lopo-november-update",
    "date": 1795223021000,
@@ -675,13 +682,6 @@
    "title": "【FF14】「トロいタンクがいるから先釣りする」→「なら自分がタンク出せ」「上手いタンクほど先釣りされても気にしない」「初心者の館で先釣りすんなって言われてる」",
    "link": "https://yan-flash.com/articles/sakizuri-vs-slow-tank",
    "date": 1794528116000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「白銀は零式必須？改でなんとかなるんじゃ」→「+1強化は改、+2は零式。改は今の極より下」「滅や塔を見ると丁度いい難易度が出るとは…」",
-   "link": "https://yan-flash.com/articles/shirogane-kai-difficulty",
-   "date": 1794520907000,
    "img": ""
   }
  ]
