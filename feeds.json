@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795254107255,
+ "updatedAt": 1795261156496,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "ゲームのボイスってさ、ぶっちゃけ「うおりゃっ！」とか「やったね！」くらいの軽ボイスだけで良いよな",
+   "link": "https://ff14hikasensokuhou.com/e/29880",
+   "date": 1795258826000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/game_gamen.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】零式3層のCメテオ、無職の移動先は空気読み？明確な優先順位がないことに困惑",
    "link": "https://ff14hikasensokuhou.com/e/29879",
    "date": 1795248028000,
@@ -468,11 +475,11 @@
    "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/game_tetsuya_mans.png"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】真討滅戦で初見タンクがいた場合はMTを譲るべき？",
-   "link": "https://ff14hikasensokuhou.com/e/29850",
-   "date": 1794794443000,
-   "img": "https://blog-imgs-98.fc2.com/f/f/1/ff14hikasensokuhou/20161120002423ac2.jpg"
+   "src": "yan",
+   "title": "【FF14】レベルレで範囲攻撃を一切しないタンク→「スリプルやリポーズが選択肢に出てこないなんて」「寝かせてもどうせDPSの範囲で起きる」",
+   "link": "https://yan-flash.com/articles/leveling-roulette-tank-no-aoe-sleep",
+   "date": 1795259046000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "【FF14】FL「竜騎士のロールアクション何にする？」→「基本ずっとブラバス」「ゴージならスマイト一択」「スウィフト竜はLBも素早くて快適」",
    "link": "https://yan-flash.com/articles/fl-dragoon-role-action",
    "date": 1794542532000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「フェイス、クッソ弱いな」→「自分が頑張ると手を抜いて、サボると即死技を使い始める」「クリア時間に差が出ないよう逆方向の調整が入る」",
-   "link": "https://yan-flash.com/articles/trust-npc-damage-scaling",
-   "date": 1794535325000,
    "img": ""
   }
  ]
