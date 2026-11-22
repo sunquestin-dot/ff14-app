@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795328733737,
+ "updatedAt": 1795337080008,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】FLは「なんだかんだシルロが一番よくできたルール」→「新マップを作るとルールまで新しくなる」「コスモの惑星を戦場にして」",
+   "link": "https://yan-flash.com/articles/frontline-seal-rock-best-rules-new-map",
+   "date": 1795334426000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】初対面からタメ口はアリ？「ネトゲの敬語は深入りしないでくれの意思表示」「口調が統一された世界は勘弁」",
    "link": "https://yan-flash.com/articles/casual-speech-vs-keigo-party-finder",
    "date": 1795316414000,
@@ -675,13 +682,6 @@
    "title": "【FF14】ダメ出しスレ「クリアしたいと思えるストーリーを作れよ」→「せめて遊んでから批判しようね」「どの界隈でも運営を支えてるのはライト勢」",
    "link": "https://yan-flash.com/articles/golden-criticism-who-may-speak",
    "date": 1794564151000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「雑魚が最後の1体でHP半分以上なのに動き出すタンク」→「その1匹を放置したDPSも悪い」「大きめの敵が範囲から漏れてる」",
-   "link": "https://yan-flash.com/articles/last-mob-tank-moves-early",
-   "date": 1794556947000,
    "img": ""
   }
  ]
