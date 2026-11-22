@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795308457256,
+ "updatedAt": 1795317421549,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -476,6 +476,13 @@
   },
   {
    "src": "yan",
+   "title": "【FF14】初対面からタメ口はアリ？「ネトゲの敬語は深入りしないでくれの意思表示」「口調が統一された世界は勘弁」",
+   "link": "https://yan-flash.com/articles/casual-speech-vs-keigo-party-finder",
+   "date": 1795316414000,
+   "img": ""
+  },
+  {
+   "src": "yan",
    "title": "【FF14】「予習必須の文化がそもそもヤバい」→「協力型の高難易度で予習不要なゲームが思いつかない」「予習して失敗と予習せず失敗は全然違う」",
    "link": "https://yan-flash.com/articles/prep-culture-raids-vs-monster-hunter",
    "date": 1795302002000,
@@ -675,13 +682,6 @@
    "title": "【FF14】「雑魚が最後の1体でHP半分以上なのに動き出すタンク」→「その1匹を放置したDPSも悪い」「大きめの敵が範囲から漏れてる」",
    "link": "https://yan-flash.com/articles/last-mob-tank-moves-early",
    "date": 1794556947000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】FL「今の環境で遠隔を使う優位性は？」→「レベリング」「奥の敵を散らして味方への攻撃を薄くできる」「72人いれば玉石混交、最適解の強制は無理」",
-   "link": "https://yan-flash.com/articles/fl-ranged-advantage-debate",
-   "date": 1794549739000,
    "img": ""
   }
  ]
