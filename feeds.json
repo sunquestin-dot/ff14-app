@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795520023388,
+ "updatedAt": 1795557550225,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -10,8 +10,8 @@
    "count": 15
   },
   "hikasen": {
-   "ok": true,
-   "count": 30
+   "ok": false,
+   "error": "HTTP 403"
   },
   "yan": {
    "ok": true,
@@ -161,6 +161,13 @@
   },
   {
    "src": "yt-official",
+   "title": "THE PRIMALS Live at Download Festival 2026 | Full Set & Behind the Scenes",
+   "link": "https://www.youtube.com/watch?v=9go4pTuR1zI",
+   "date": 1795521582000,
+   "img": "https://i2.ytimg.com/vi/9go4pTuR1zI/hqdefault.jpg"
+  },
+  {
+   "src": "yt-official",
    "title": "Rise of the Wolves - North American Community Team PvP Stream (November 2026)",
    "link": "https://www.youtube.com/watch?v=cNVwIiILY3o",
    "date": 1795058482000,
@@ -256,223 +263,6 @@
    "link": "https://www.youtube.com/watch?v=1RawyqQLQ54",
    "date": 1793420763000,
    "img": "https://i2.ytimg.com/vi/1RawyqQLQ54/hqdefault.jpg"
-  },
-  {
-   "src": "yt-official",
-   "title": "FINAL FANTASY XIV: Evercold Full Trailer",
-   "link": "https://www.youtube.com/watch?v=lXK6Kcdfeew",
-   "date": 1793420759000,
-   "img": "https://i1.ytimg.com/vi/lXK6Kcdfeew/hqdefault.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】モグコレ天文Part2が12月1日から始まるわけだが",
-   "link": "https://ff14hikasensokuhou.com/e/29896",
-   "date": 1795515051000,
-   "img": "https://blog-imgs-98.fc2.com/f/f/1/ff14hikasensokuhou/2016122817553346c.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインで嫌味なチャットするやつｗｗｗｗｗｗ",
-   "link": "https://ff14hikasensokuhou.com/e/29895",
-   "date": 1795496452000,
-   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251213072817d1d.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "お前らが「うわぁこれもう実写じゃん」ってなったゲーム",
-   "link": "https://ff14hikasensokuhou.com/e/29894",
-   "date": 1795489242000,
-   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251129115229e44s.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】ハウスはもっと自由に配置できてもよくない？敷地内の建物配置やサイズを変更したいという要望",
-   "link": "https://ff14hikasensokuhou.com/e/29893",
-   "date": 1795478437000,
-   "img": "https://blog-imgs-117.fc2.com/f/f/1/ff14hikasensokuhou/20180526093138525.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインの侍にスウィフトは必要？斬鉄剣を決めて逃げる立ち回りに疑問",
-   "link": "https://ff14hikasensokuhou.com/e/29892",
-   "date": 1795438808000,
-   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】潜水艦目当てが多い？庭具を何も置かないハウスが多い件",
-   "link": "https://ff14hikasensokuhou.com/e/29891",
-   "date": 1795428002000,
-   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/20160713235624661.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "YouTube、ゲーム以外の趣味が欲しい",
-   "link": "https://ff14hikasensokuhou.com/e/29890",
-   "date": 1795417216000,
-   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/tasyumi_kiyoubinbous.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】紅蓮の登場人物で好き嫌いが分かれるのは誰？",
-   "link": "https://ff14hikasensokuhou.com/e/29889",
-   "date": 1795406425000,
-   "img": "https://blog-imgs-148.fc2.com/f/f/1/ff14hikasensokuhou/20210812224605780s.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】FLのPvPロールアクションってどれが強いの？",
-   "link": "https://ff14hikasensokuhou.com/e/29888",
-   "date": 1795395638000,
-   "img": "https://blog-imgs-117.fc2.com/f/f/1/ff14hikasensokuhou/20180506234609a12.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "ゲームで一番嫌な展開「お使いのお使い」に決まる",
-   "link": "https://ff14hikasensokuhou.com/e/29887",
-   "date": 1795384838000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260903181223cads.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】固定に一人はいる？一緒に攻略したくないメンバーの特徴がこちら",
-   "link": "https://ff14hikasensokuhou.com/e/29886",
-   "date": 1795348838000,
-   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/201607230020367fa.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】ハラタリ2ボスの大放電は無視して殴れる？「被弾しても大したダメージじゃない」との声",
-   "link": "https://ff14hikasensokuhou.com/e/29885",
-   "date": 1795338016000,
-   "img": "https://blog-imgs-112.fc2.com/f/f/1/ff14hikasensokuhou/20170711131714eae.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】課金マウントを持っているだけでサブキャラ扱い？新規プレイヤーがFCで疑われて困惑",
-   "link": "https://ff14hikasensokuhou.com/e/29884",
-   "date": 1795327203000,
-   "img": "https://blog-imgs-123.fc2.com/f/f/1/ff14hikasensokuhou/20181101151425416.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインは高揚が減らなくなってからおかしくなった？デスのリスクが軽視される現状に不満",
-   "link": "https://ff14hikasensokuhou.com/e/29883",
-   "date": 1795318243000,
-   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "ワイ「ゲーム配信やったろ！5人くらいは見に来てくれるかな？(ホントは10人くらいやろｗ)」",
-   "link": "https://ff14hikasensokuhou.com/e/29882",
-   "date": 1795305653000,
-   "img": "https://blog-imgs-162.fc2.com/f/f/1/ff14hikasensokuhou/20250902102036041s.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】月額無料にして拡張やシーズンパスで稼ぐ方式はアリ？課金形態を巡る声",
-   "link": "https://ff14hikasensokuhou.com/e/29881",
-   "date": 1795294828000,
-   "img": "https://blog-imgs-94.fc2.com/f/f/1/ff14hikasensokuhou/2016090815344385b.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "ゲームのボイスってさ、ぶっちゃけ「うおりゃっ！」とか「やったね！」くらいの軽ボイスだけで良いよな",
-   "link": "https://ff14hikasensokuhou.com/e/29880",
-   "date": 1795258826000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/game_gamen.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】零式3層のCメテオ、無職の移動先は空気読み？明確な優先順位がないことに困惑",
-   "link": "https://ff14hikasensokuhou.com/e/29879",
-   "date": 1795248028000,
-   "img": "https://blog-imgs-171.fc2.com/f/f/1/ff14hikasensokuhou/20240514184606c23s.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】キーバウンド・ブロウラーはソロでも遊べるようにしてほしかった",
-   "link": "https://ff14hikasensokuhou.com/e/29878",
-   "date": 1795235421000,
-   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/dJO06GAiSItDfzWRZ3JC0zsXlgs.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】タンクが多いフロントラインは本当に強いのか？火力不足やキルの取りにくさを指摘する声",
-   "link": "https://ff14hikasensokuhou.com/e/29877",
-   "date": 1795222817000,
-   "img": "https://blog-imgs-119.fc2.com/f/f/1/ff14hikasensokuhou/201807261413112a2.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "35歳俺「オートセーブ機能があるゲームは甘え」",
-   "link": "https://ff14hikasensokuhou.com/e/29876",
-   "date": 1795212040000,
-   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251129115229e44s.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインのDC統合で戦場の環境は変わった？マナ・ガイア・エレメンタルでプレイヤーの動きに違いがあるとの声",
-   "link": "https://ff14hikasensokuhou.com/e/29875",
-   "date": 1795172418000,
-   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/20160715235818ecc.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "たまにプレステ起動するけど、いつもオンラインの30代のフレンド達おるけど",
-   "link": "https://ff14hikasensokuhou.com/e/29873",
-   "date": 1795161649000,
-   "img": "https://blog-imgs-162.fc2.com/f/f/1/ff14hikasensokuhou/20250826075923d35s.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】お前らが一番好きなハウジングの土地はどこ？",
-   "link": "https://ff14hikasensokuhou.com/e/29874",
-   "date": 1795150858000,
-   "img": "https://blog-imgs-161.fc2.com/f/f/1/ff14hikasensokuhou/202303150017463b6s.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインのソロと固定を分離するとどうなる？「待ち時間が長くなるだけ」と反対意見も",
-   "link": "https://ff14hikasensokuhou.com/e/29872",
-   "date": 1795140040000,
-   "img": "https://blog-imgs-131.fc2.com/f/f/1/ff14hikasensokuhou/20191210191927330.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "ゲームの新作が出るって理由で有給取る奴",
-   "link": "https://ff14hikasensokuhou.com/e/29871",
-   "date": 1795132855000,
-   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251129115229e44s.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】闘獣練ランキングシーズン1は12月1日13:59頃に閉幕！",
-   "link": "https://ff14hikasensokuhou.com/e/29870",
-   "date": 1795125643000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/202603132117056a2s.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】クリコンの練習ってどこでやればいい？カジュアルは差がありすぎて練習にならないとの声",
-   "link": "https://ff14hikasensokuhou.com/e/29869",
-   "date": 1795086052000,
-   "img": "https://blog-imgs-151.fc2.com/f/f/1/ff14hikasensokuhou/20220416001812d0b.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】8.0の零式報酬の仕様変更で固定はどうなる？",
-   "link": "https://ff14hikasensokuhou.com/e/29868",
-   "date": 1795075221000,
-   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260425072801e0fs.png"
-  },
-  {
-   "src": "hikasen",
-   "title": "ゲームできるPCが欲しい",
-   "link": "https://ff14hikasensokuhou.com/e/29867",
-   "date": 1795064450000,
-   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/202611191333362a4s.png"
   },
   {
    "src": "yan",
