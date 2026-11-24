@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795483786590,
+ "updatedAt": 1795520023388,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -19,6 +19,20 @@
   }
  },
  "items": [
+  {
+   "src": "lodestone",
+   "title": "北米／欧州データセンター間のデータセンタートラベル開放について",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/86555b365a518238debcd3814c3eb0f81da40f3f",
+   "date": 1795510800000,
+   "img": "https://img.finalfantasyxiv.com/t/86555b365a518238debcd3814c3eb0f81da40f3f.png?1795510726"
+  },
+  {
+   "src": "lodestone",
+   "title": "「モグモグ★コレクション ～天文に至る路 Part2～」12月1日（火）スタート！",
+   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/479290132698ed3804031f11a016a46d516db018",
+   "date": 1795507200000,
+   "img": "https://img.finalfantasyxiv.com/t/479290132698ed3804031f11a016a46d516db018.png?1795507597"
+  },
   {
    "src": "lodestone",
    "title": "「第94回 FFXIV PLL」12月4日（金）放送決定！",
@@ -129,7 +143,7 @@
    "title": "11月9日（月）から全国のサントリー自販機に「至天の座アルカディア」のオリジナルラベル缶が登場！",
    "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/a0ee42e191405ee634ff173aa26625367fea4a30",
    "date": 1794214800000,
-   "img": "https://img.finalfantasyxiv.com/t/a0ee42e191405ee634ff173aa26625367fea4a30.png?1794214743"
+   "img": "https://img.finalfantasyxiv.com/t/a0ee42e191405ee634ff173aa26625367fea4a30.png?1795511542"
   },
   {
    "src": "lodestone",
@@ -144,20 +158,6 @@
    "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/c1863381795a3a0f35ba50cc2fa651b1a4572d3e",
    "date": 1793792700000,
    "img": "https://img.finalfantasyxiv.com/t/c1863381795a3a0f35ba50cc2fa651b1a4572d3e.png?1793930994"
-  },
-  {
-   "src": "lodestone",
-   "title": "「ファンフェスティバル 2026 in 東京」アンケート実施中！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/deb038f704ce46d3955eea754453971b8141dcf4",
-   "date": 1793610000000,
-   "img": "https://img.finalfantasyxiv.com/t/deb038f704ce46d3955eea754453971b8141dcf4.png?1793610058"
-  },
-  {
-   "src": "lodestone",
-   "title": "「リージョン内フリーマッチング」 北米／欧州データセンターに実装！",
-   "link": "https://jp.finalfantasyxiv.com/lodestone/topics/detail/4ec4498b511cae986002f873da50951c31d251cb",
-   "date": 1793606400000,
-   "img": "https://img.finalfantasyxiv.com/t/4ec4498b511cae986002f873da50951c31d251cb.png?1793605640"
   },
   {
    "src": "yt-official",
@@ -263,6 +263,27 @@
    "link": "https://www.youtube.com/watch?v=lXK6Kcdfeew",
    "date": 1793420759000,
    "img": "https://i1.ytimg.com/vi/lXK6Kcdfeew/hqdefault.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】モグコレ天文Part2が12月1日から始まるわけだが",
+   "link": "https://ff14hikasensokuhou.com/e/29896",
+   "date": 1795515051000,
+   "img": "https://blog-imgs-98.fc2.com/f/f/1/ff14hikasensokuhou/2016122817553346c.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】フロントラインで嫌味なチャットするやつｗｗｗｗｗｗ",
+   "link": "https://ff14hikasensokuhou.com/e/29895",
+   "date": 1795496452000,
+   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251213072817d1d.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "お前らが「うわぁこれもう実写じゃん」ってなったゲーム",
+   "link": "https://ff14hikasensokuhou.com/e/29894",
+   "date": 1795489242000,
+   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251129115229e44s.png"
   },
   {
    "src": "hikasen",
@@ -454,25 +475,18 @@
    "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/202611191333362a4s.png"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインに軍師は本当に必要？「マップ移動よりバーストのタイミングが大事」との意見",
-   "link": "https://ff14hikasensokuhou.com/e/29866",
-   "date": 1795053611000,
-   "img": "https://blog-imgs-112.fc2.com/f/f/1/ff14hikasensokuhou/20170604031320061.jpg"
+   "src": "yan",
+   "title": "【FF14】機工士クエのメリジ男爵夫人は竜の血を飲んだのになぜすぐ人間に戻れた？「竜因子が無ければ竜化しない」「常習すると戻れなくなる」",
+   "link": "https://yan-flash.com/articles/machinist-quest-dragon-blood-transformation",
+   "date": 1795510957000,
+   "img": ""
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】序盤の学者でまとめ進行されるときつくない？",
-   "link": "https://ff14hikasensokuhou.com/e/29865",
-   "date": 1795039243000,
-   "img": "https://blog-imgs-94.fc2.com/f/f/1/ff14hikasensokuhou/20160823020045915.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】黄金のストーリーってそんなに微妙なの？",
-   "link": "https://ff14hikasensokuhou.com/e/29864",
-   "date": 1794999654000,
-   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/202312122346519cbs.jpg"
+   "src": "yan",
+   "title": "【FF14】FL「負け濃厚になってから急に指揮しだす軍師、何をもってイケると判断するんだろう」→「途中から現れる軍師は伏龍と呼んでる」",
+   "link": "https://yan-flash.com/articles/frontline-late-commander-fukuryu",
+   "date": 1795489342000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -668,20 +682,6 @@
    "title": "【FF14】FL「デコイや暗黒を落とすのは敵の指揮能力を下げる意味があると思ってた」→「ないよ、無視していい」「ランパタンクと蛇鱗中のヴも無視」「召喚を倒せ」",
    "link": "https://yan-flash.com/articles/fl-ignore-decoy-dark-knight",
    "date": 1794629019000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】FL「軍師がいる時のゲームが非常につまらない、指示通りに動いて楽しい？」→「よほど変な指示でなければ居た方が楽しい」「軍師がいても単独行動は自由」「当たり外れが大きい」",
-   "link": "https://yan-flash.com/articles/fl-gunshi-commander-debate",
-   "date": 1794621815000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「予習だ効率だ言うくせに、興味のないコンテンツは適当でいいって人が苦手」→「FF14のバトルで手を抜くのは無理じゃね？2秒毎にボタン押すんだから」「“手を抜いてるだけ”を免罪符に放置するタイプが最悪」",
-   "link": "https://yan-flash.com/articles/half-assed-play-excuse",
-   "date": 1794614609000,
    "img": ""
   }
  ]
