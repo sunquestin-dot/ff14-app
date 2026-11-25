@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795620021776,
+ "updatedAt": 1795650225343,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,13 @@
   },
   {
    "src": "hikasen",
+   "title": "【FF14】ネトゲで中身の性別を気にする必要ある？「男でも女でもどうでもいい」と冷静な意見",
+   "link": "https://ff14hikasensokuhou.com/e/29905",
+   "date": 1795644037000,
+   "img": "https://blog-imgs-202.fc2.com/f/f/1/ff14hikasensokuhou/20170506164201641.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】メレーの方向指定って本当に必要？「なくてもいいけどヌルゲーになる」と賛否両論",
    "link": "https://ff14hikasensokuhou.com/e/29904",
    "date": 1795608002000,
@@ -468,11 +475,11 @@
    "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251129115229e44s.png"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】フロントラインのDC統合で戦場の環境は変わった？マナ・ガイア・エレメンタルでプレイヤーの動きに違いがあるとの声",
-   "link": "https://ff14hikasensokuhou.com/e/29875",
-   "date": 1795172418000,
-   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/20160715235818ecc.jpg"
+   "src": "yan",
+   "title": "【FF14】「14は時間と費用で見るとコスパ最強すぎる」→「ソシャゲと比べると勝てない気がする」「もうデイリーやウィークリーがあるゲーム自体嫌だ」",
+   "link": "https://yan-flash.com/articles/ff14-cost-performance-vs-gacha-games",
+   "date": 1795647879000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "【FF14】「入りたくなるパーティ募集文てある？」初見ポイント・締め時刻・募集主の目的、誤字がひとつまみ",
    "link": "https://yan-flash.com/articles/party-recruit-text-that-makes-people-join",
    "date": 1794693760000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】FL「デコイや暗黒を落とすのは敵の指揮能力を下げる意味があると思ってた」→「ないよ、無視していい」「ランパタンクと蛇鱗中のヴも無視」「召喚を倒せ」",
-   "link": "https://yan-flash.com/articles/fl-ignore-decoy-dark-knight",
-   "date": 1794629019000,
    "img": ""
   }
  ]
