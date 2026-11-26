@@ -1,5 +1,5 @@
 {
- "updatedAt": 1795650225343,
+ "updatedAt": 1795677114092,
  "sources": {
   "lodestone": {
    "ok": true,
@@ -266,6 +266,27 @@
   },
   {
    "src": "hikasen",
+   "title": "お前らは大丈夫？流出したパスワードの組み合わせランキングがこちら",
+   "link": "https://ff14hikasensokuhou.com/e/29908",
+   "date": 1795669258000,
+   "img": "https://blog-imgs-183.fc2.com/f/f/1/ff14hikasensokuhou/20260403081014437s.png"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】白銀のワンダラー実装後は木人が混雑！？エヴォルヴの操作練習に励むプレイヤーたち",
+   "link": "https://ff14hikasensokuhou.com/e/29907",
+   "date": 1795662038000,
+   "img": "https://blog-imgs-118.fc2.com/f/f/1/ff14hikasensokuhou/20180117155052aa4.jpg"
+  },
+  {
+   "src": "hikasen",
+   "title": "【FF14】もっとレアドロップや隠しボスが欲しい？100周に1回くらいの確率で特別な報酬を求める声も",
+   "link": "https://ff14hikasensokuhou.com/e/29906",
+   "date": 1795654859000,
+   "img": "https://blog-imgs-92.fc2.com/f/f/1/ff14hikasensokuhou/20160723215402ce6.png"
+  },
+  {
+   "src": "hikasen",
    "title": "【FF14】ネトゲで中身の性別を気にする必要ある？「男でも女でもどうでもいい」と冷静な意見",
    "link": "https://ff14hikasensokuhou.com/e/29905",
    "date": 1795644037000,
@@ -454,25 +475,11 @@
    "img": "https://blog-imgs-171.fc2.com/f/f/1/ff14hikasensokuhou/20240514184606c23s.jpg"
   },
   {
-   "src": "hikasen",
-   "title": "【FF14】キーバウンド・ブロウラーはソロでも遊べるようにしてほしかった",
-   "link": "https://ff14hikasensokuhou.com/e/29878",
-   "date": 1795235421000,
-   "img": "https://blog-imgs-187.fc2.com/f/f/1/ff14hikasensokuhou/dJO06GAiSItDfzWRZ3JC0zsXlgs.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "【FF14】タンクが多いフロントラインは本当に強いのか？火力不足やキルの取りにくさを指摘する声",
-   "link": "https://ff14hikasensokuhou.com/e/29877",
-   "date": 1795222817000,
-   "img": "https://blog-imgs-119.fc2.com/f/f/1/ff14hikasensokuhou/201807261413112a2.jpg"
-  },
-  {
-   "src": "hikasen",
-   "title": "35歳俺「オートセーブ機能があるゲームは甘え」",
-   "link": "https://ff14hikasensokuhou.com/e/29876",
-   "date": 1795212040000,
-   "img": "https://blog-imgs-166.fc2.com/f/f/1/ff14hikasensokuhou/20251129115229e44s.png"
+   "src": "yan",
+   "title": "【FF14】モグコレ景品「なんでブラックペガサス飛ばしてドードーにしたんだろ」→「目玉はマウント・ミニオン・見た目装備ってゲームとしてどうなんだ？」「性能を報酬にすると義務になる」",
+   "link": "https://yan-flash.com/articles/mogcolle-dodo-mount-cosmetic-rewards",
+   "date": 1795662292000,
+   "img": ""
   },
   {
    "src": "yan",
@@ -675,13 +682,6 @@
    "title": "【FF14】「ライトがミスるとネチネチ叩くのにレジェンドだと擁護が湧く」絶武器持ちに夢見すぎ？",
    "link": "https://yan-flash.com/articles/legend-mistakes-vs-light-players-double-standard",
    "date": 1794700972000,
-   "img": ""
-  },
-  {
-   "src": "yan",
-   "title": "【FF14】「入りたくなるパーティ募集文てある？」初見ポイント・締め時刻・募集主の目的、誤字がひとつまみ",
-   "link": "https://yan-flash.com/articles/party-recruit-text-that-makes-people-join",
-   "date": 1794693760000,
    "img": ""
   }
  ]
